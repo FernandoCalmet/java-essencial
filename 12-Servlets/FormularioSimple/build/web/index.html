@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formulario Simple</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">        
+        <link href="floating-labels.css" rel="stylesheet">
+        <style>
+            .bd-placeholder-img {
+              font-size: 1.125rem;
+              text-anchor: middle;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+            }
+            @media (min-width: 768px) {
+              .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+              }
+            }
+        </style>
+    </head>
+    <body>
+        <form class="form-signin" action="ServletControlDatos">
+            <div class="text-center mb-4">
+                <h1 class="mb-3"><span class="text-primary">Formulario con</span><br><span class="bg-primary text-light">JSP + SERVLET</span></h1>
+              <p><a href="https://www.khanakat.com"><code>fcalmetr1@upao.edu.pe</code></a></p>
+            </div>
+            <hr>
+            
+            <div class="form-label-group">
+              <input type="text" id="inputNombre" name="inputNombre" class="form-control" placeholder="Nombre" required>
+              <label for="inputNombre">Nombre</label>
+            </div>
+            
+            <div class="form-label-group">
+              <input type="text" id="inputApellidoPaterno" name="inputApellidoPaterno" class="form-control" placeholder="Apellido Paterno" required>
+              <label for="inputApellidoPaterno">Apellido Paterno</label>
+            </div>
+            
+            <div class="form-label-group">
+              <input type="text" id="inputApellidoMaterno" name="inputApellidoMaterno" class="form-control" placeholder="Apellido Materno" required>
+              <label for="inputApellidoMaterno">Apellido Materno</label>
+            </div>
+            
+            <div class="form-label-group">
+              <input type="email" id="inputCorreo" name="inputCorreo" class="form-control" placeholder="Correo eletrónico" required autofocus>
+              <label for="inputCorreo">Correo eletrónico</label>
+            </div>
+
+            <div class="form-label-group">
+              <input type="password" id="inputClave" name="inputClave" class="form-control" placeholder="Clave" required>
+              <label for="inputClave">Clave</label>
+            </div>
+            
+            <div class="form-label-group">
+                <label for="inputComentario"><h5>Comentario</h5></label><br><br>
+                <textarea class="form-control" id="inputComentario" name="inputComentario" rows="3"></textarea>
+            </div>
+            
+            <div class="form-label-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="inputSexo" id="inputSexoH" value="Hombre" checked>
+                    <label class="form-check-label" for="inputSexoH">Hombre</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="inputSexo" id="inputSexoM" value="Mujer">
+                    <label class="form-check-label" for="inputSexoM">Mujer</label>
+                </div>
+            </div>
+            
+            <div class="form-label-group">
+                <label for="inputInteres"><h5>Area de interés</h5></label><br><br>
+                <select class="custom-select" id="inputInteres" name="inputInteres">
+                  <option selected>Escoger...</option>
+                  <option value="1">Informatica</option>
+                  <option value="2">Derecho</option>
+                  <option value="3">Matematicas</option>
+                  <option value="4">Fisica</option>
+                </select>
+            </div>
+         
+            <button class="btn btn-lg btn-primary btn-block" type="submit" name="submitEnviar">Enviar</button>
+            <p class="mt-5 mb-3 text-muted text-center">&copy; 2019, Fernando Calmet</p>
+        </form>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
