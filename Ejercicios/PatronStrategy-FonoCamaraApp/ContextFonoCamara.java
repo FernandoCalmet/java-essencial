@@ -8,10 +8,10 @@ public class ContextFonoCamara {
         return "Se tomo una foto";
     }
     public String compartir(){
-        return "Se compartio la foto";
+        return this.camara.compartir();
     }
     public String editar(){
-        return "Se edito la foto";
+        return this.camara.editar();
     }
     public String guardar(){
         return "Se guardo la foto";
