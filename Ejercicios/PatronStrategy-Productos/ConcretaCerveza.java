@@ -22,6 +22,7 @@ public class ConcretaCerveza implements IProductoCerveza {
         this.producto.add("Red Luger");
         this.producto.add("Blue Moon");
         this.producto.add("Pilsen");
+        this.producto.add("Callao");
         return this.producto;
     }
 }

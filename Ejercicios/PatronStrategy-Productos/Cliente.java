@@ -29,7 +29,7 @@ public class Cliente {
                     break;
                 case "roja":
                     System.out.println(strategyB.getRoja());
-                    break;
+                    break;                    
                 case "pantalon":
                     System.out.println(strategyA.getPantalon());
                     break;
