@@ -1,4 +1,9 @@
 public interface IFonoCamara {
-    public String compartir();
+    public String compartirPorSMS();
+
+    public String compartirPorEmail();
+
+    public String compartirPorRedSocial();
+
     public String editar();
 }
