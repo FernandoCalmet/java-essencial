@@ -4,12 +4,12 @@ Programming my own examples for fundamental Java learning.
 > Author: [@FernandoCalmet](https://github.com/FernandoCalmet)  
   
 ## Introducción a la programación  
-> - [Estructuras principales](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/EstructurasPrincipales/src)
-> - [Manipulación de cadenas](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/ManipulacionCadenas/src)
-> - [Entradas y salidas de datos](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/EntradasSalidasDatos/src/)
-> - [Flujos de control](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/FlujoControl/src/)
-> - [Arreglos](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/Arreglos/src/)
-> - [Metodos](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/Metodos/src/)
+> - [Estructuras principales](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/EstructurasPrincipales)
+> - [Manipulación de cadenas](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/ManipulacionCadenas)
+> - [Entradas y salidas de datos](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/EntradasSalidasDatos)
+> - [Flujos de control](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/FlujoControl)
+> - [Arreglos](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/Arreglos)
+> - [Metodos](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/Metodos)
   
 ## Programación orientada a objetos  
 > - [Clases y Objetos](https://github.com/FernandoCalmet/Learning-Java/tree/master/02-POO/ClasesObjetos/src)
@@ -123,6 +123,8 @@ Programming my own examples for fundamental Java learning.
 > - Java Web Start
 > - Generar documentación
 
+## Practicas de aprendizaje
+> - [Ejercicios resueltos](https://github.com/FernandoCalmet/Learning-JAVA/tree/master/Ejercicios)
 
 ## SUPPORT ME :-)
 <a href='https://ko-fi.com/fernandocalmet' target='_blank'>
