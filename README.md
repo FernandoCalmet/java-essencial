@@ -4,12 +4,12 @@ Programming my own examples for fundamental Java learning.
 > Author: [@FernandoCalmet](https://github.com/FernandoCalmet)  
   
 ## Introducción a la programación  
-> - [Estructuras principales](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/EstructurasPrincipales)
-> - [Manipulación de cadenas](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/ManipulacionCadenas)
-> - [Entradas y salidas de datos](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/EntradasSalidasDatos)
-> - [Flujos de control](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/FlujoControl)
-> - [Arreglos](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/Arreglos)
-> - [Metodos](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/Metodos)
+> - [Estructuras principales](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/01_EstructurasPrincipales)
+> - [Manipulación de cadenas](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/02_ManipulacionCadenas)
+> - [Entradas y salidas de datos](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/03_EntradasSalidasDatos)
+> - [Flujos de control](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/04_FlujoControl)
+> - [Arreglos](https://github.com/FernandoCalmet/Learning-JAVA/tree/master/01-Introduccion/05_Arreglos)
+> - [Metodos](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/06_Metodos)
   
 ## Programación orientada a objetos  
 > - [Clases y Objetos](https://github.com/FernandoCalmet/Learning-Java/tree/master/02-POO/ClasesObjetos/src)
