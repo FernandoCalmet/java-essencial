@@ -31,8 +31,27 @@ JAVA programming fundamentals.
 > - TreeSet
 > - Maps
 > - Generic Classes and Methods
+
+## Data Structures :bridge_at_night:
+> - Abstract Data Types (ADT)
+> - Modularity
+> - ADT Sphere
+> - Static memory with arrays class
+> - Dinamic memory with arraylists class
+> - Recursion
+> - Linkedlist
+> - Nodes and pointers
+> - Doubly linked lists
+> - Circular lists
+> - Stacks
+> - Queues
+> - Trees
+> - Binary Trees
+> - Graphs
+> - Sorting algorithms
+> - Search algorithms
   
-## Threads
+## Threads :traffic_light:
 > - Programming
 > - Interruption
 > - Synchronization
