@@ -2,26 +2,25 @@
 > :octocat: Author: [@FernandoCalmet](https://github.com/FernandoCalmet)  
 Programming my own examples for fundamental Java learning.
   
-  
 ## Introduction
 > - [Main structures](01-Introduccion/01_EstructurasPrincipales)
-> - [Strings manipulation](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/02_ManipulacionCadenas)
-> - [Data inputs and outputs](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/03_EntradasSalidasDatos)
-> - [Control flows](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/04_FlujoControl)
-> - [Arrays](https://github.com/FernandoCalmet/Learning-JAVA/tree/master/01-Introduccion/05_Arreglos)
-> - [Methods](https://github.com/FernandoCalmet/Learning-Java/tree/master/01-Introduccion/06_Metodos)
+> - [Strings manipulation](01-Introduccion/02_ManipulacionCadenas)
+> - [Data inputs and outputs](01-Introduccion/03_EntradasSalidasDatos)
+> - [Control flows](01-Introduccion/04_FlujoControl)
+> - [Arrays](01-Introduccion/05_Arreglos)
+> - [Methods/Functions](01-Introduccion/06_Metodos)
   
 ## Object Oriented Programming (OOP)
-> - [Objects and Classes](https://github.com/FernandoCalmet/Learning-Java/tree/master/02-POO/ClasesObjetos/src)
-> - [Encapsulation](https://github.com/FernandoCalmet/Learning-Java/tree/master/02-POO/Encapsulamiento/src)
-> - [Constants](https://github.com/FernandoCalmet/Learning-Java/tree/master/02-POO/Constantes/src)
-> - [Overload](https://github.com/FernandoCalmet/Learning-Java/tree/master/02-POO/Sobrecarga/src)
-> - [Inheritance](https://github.com/FernandoCalmet/Learning-Java/tree/master/02-POO/Herencia/src)
-> - [Polymorphism](https://github.com/FernandoCalmet/Learning-Java/tree/master/02-POO/Polimorfismo/src)
-> - [Objects Casting](https://github.com/FernandoCalmet/Learning-Java/tree/master/02-POO/CastingObjetos/src)
-> - [Abstract Classes and Methods](https://github.com/FernandoCalmet/Learning-Java/tree/master/02-POO/ClasesMetodosAbstractos/src)
-> - [Enum Types](https://github.com/FernandoCalmet/Learning-Java/tree/master/02-POO/TiposEnumerados/src)
-> - [Exceptions](https://github.com/FernandoCalmet/Learning-Java/tree/master/02-POO/Excepciones/src)
+> - [Objects and Classes](02-POO/ClasesObjetos/src)
+> - [Encapsulation](02-POO/Encapsulamiento/src)
+> - [Constants](02-POO/Constantes/src)
+> - [Overload](02-POO/Sobrecarga/src)
+> - [Inheritance](02-POO/Herencia/src)
+> - [Polymorphism](02-POO/Polimorfismo/src)
+> - [Objects Casting](02-POO/CastingObjetos/src)
+> - [Abstract Classes and Methods](02-POO/ClasesMetodosAbstractos/src)
+> - [Enum Types](02-POO/TiposEnumerados/src)
+> - [Exceptions](02-POO/Excepciones/src)
   
 ## Generic programming
 > - Arraylist
@@ -88,8 +87,8 @@ Programming my own examples for fundamental Java learning.
 > - Socket Application
   
 ## BBDD JDBC
-> - [Database access](https://github.com/FernandoCalmet/Learning-Java/tree/master/10-BBDD-JDBC/BBDD_JDBC/src/Acceso)
-> - [Queries prepared](https://github.com/FernandoCalmet/Learning-Java/tree/master/10-BBDD-JDBC/BBDD_JDBC/src/ConsultasPreparadas)
+> - [Database access](10-BBDD-JDBC/BBDD_JDBC/src/Acceso)
+> - [Queries prepared](10-BBDD-JDBC/BBDD_JDBC/src/ConsultasPreparadas)
 > - Controller view model
 > - Stored procedures
 > - Transactions
@@ -102,12 +101,12 @@ Programming my own examples for fundamental Java learning.
 > - Tags
   
 ## Servlets
-> - [Fundamentals](https://github.com/FernandoCalmet/Learning-Java/tree/master/12-Servlets)
+> - [Fundamentals](12-Servlets)
 
-## Reports
-> - [Jasper Reports](https://github.com/FernandoCalmet/Learning-Java/tree/master/14-Reportes)
+## Reports :bar_chart:
+> - [Jasper Reports](14-Reportes)
   
-## Deployment
+## Deployment :rocket:
 > - Debugging
 > - Applets
 > - Archivos JAR
@@ -115,7 +114,7 @@ Programming my own examples for fundamental Java learning.
 > - Generar documentación
 
 ## Homework :scroll:
-> - [Excercises solved](https://github.com/FernandoCalmet/Learning-JAVA/tree/master/Ejercicios)
+> - [Excercises solved](Ejercicios)
   
   
 ## SUPPORT ME :sparkling_heart:
