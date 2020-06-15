@@ -2,7 +2,7 @@
 > :octocat: Author: [@FernandoCalmet](https://github.com/FernandoCalmet)  
 Programming my own examples for fundamental Java learning.
   
-## Introduction
+## Introduction :abc:
 > - [Main structures](01-Introduccion/01_EstructurasPrincipales)
 > - [Strings manipulation](01-Introduccion/02_ManipulacionCadenas)
 > - [Data inputs and outputs](01-Introduccion/03_EntradasSalidasDatos)
@@ -10,7 +10,7 @@ Programming my own examples for fundamental Java learning.
 > - [Arrays](01-Introduccion/05_Arreglos)
 > - [Methods/Functions](01-Introduccion/06_Metodos)
   
-## Object Oriented Programming (OOP)
+## Object Oriented Programming (OOP) :books:
 > - [Objects and Classes](02-POO/ClasesObjetos/src)
 > - [Encapsulation](02-POO/Encapsulamiento/src)
 > - [Constants](02-POO/Constantes/src)
