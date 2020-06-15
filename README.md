@@ -107,7 +107,7 @@ JAVA programming fundamentals.
   
 ## BBDD JDBC
 > - [Database access](09-BBDD-JDBC/BBDD_JDBC/src/Acceso)
-> - [Queries prepared](09-BBDD-JDBC/BBDD_JDBC/src/ConsultasPreparadas)
+> - [Queries](09-BBDD-JDBC/BBDD_JDBC/src/ConsultasPreparadas)
 > - Controller view model
 > - Stored procedures
 > - Transactions
