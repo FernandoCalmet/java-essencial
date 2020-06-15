@@ -1,6 +1,6 @@
 # JAVA :coffee:
 > :octocat: Author: [@FernandoCalmet](https://github.com/FernandoCalmet)  
-Programming my own examples for fundamental Java learning.
+JAVA programming fundamentals.
   
 ## Introduction :abc:
 > - [Main structures](01-Introduccion/01_EstructurasPrincipales)
@@ -22,8 +22,8 @@ Programming my own examples for fundamental Java learning.
 > - [Enum Types](02-POO/TiposEnumerados/src)
 > - [Exceptions](02-POO/Excepciones/src)
   
-## Generic programming
-> - Arraylist
+## Generic programming :zap:
+> - [Arraylist](03-GenericProgramming/ArrayList)
 > - Linkedlist
 > - HashMap
 > - HashSet
@@ -37,7 +37,7 @@ Programming my own examples for fundamental Java learning.
 > - Interruption
 > - Synchronization
   
-## Events
+## Events :tada:
 > - Frame events
 > - Frame events with Adaptive Classes
 > - Frame events to monitor status
@@ -47,13 +47,13 @@ Programming my own examples for fundamental Java learning.
 > - Multiple sources
 > - Multiple listeners
   
-## Streams
+## Streams :radio:
 > - Access file
 > - Using buffer
 > - Read file
 > - Write file
   
-## Graphic Interfaces with Swing
+## Swing (Graphic Interfaces) :black_joker:
 > - Interfaces and inner classes
 > - Graphic application
 > - Placing a Frame
@@ -83,12 +83,12 @@ Programming my own examples for fundamental Java learning.
 > - JTree
 > - JTable
   
-## Socket
+## Socket :speech_balloon:
 > - Socket Application
   
 ## BBDD JDBC
-> - [Database access](10-BBDD-JDBC/BBDD_JDBC/src/Acceso)
-> - [Queries prepared](10-BBDD-JDBC/BBDD_JDBC/src/ConsultasPreparadas)
+> - [Database access](09-BBDD-JDBC/BBDD_JDBC/src/Acceso)
+> - [Queries prepared](09-BBDD-JDBC/BBDD_JDBC/src/ConsultasPreparadas)
 > - Controller view model
 > - Stored procedures
 > - Transactions
@@ -101,10 +101,10 @@ Programming my own examples for fundamental Java learning.
 > - Tags
   
 ## Servlets
-> - [Fundamentals](12-Servlets)
+> - [Fundamentals](11-Servlets)
 
 ## Reports :bar_chart:
-> - [Jasper Reports](14-Reportes)
+> - [Jasper Reports](12-Reports)
   
 ## Deployment :rocket:
 > - Debugging
@@ -114,7 +114,7 @@ Programming my own examples for fundamental Java learning.
 > - Generar documentación
 
 ## Homework :scroll:
-> - [Excercises solved](Ejercicios)
+> - [Excercises solved](00-Homeworks)
   
   
 ## SUPPORT ME :sparkling_heart:
