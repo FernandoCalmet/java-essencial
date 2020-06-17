@@ -5,25 +5,25 @@ JAVA programming fundamentals.
   
 ## Introduction :abc:
 
-> - [Main structures](01-Introduccion/01_EstructurasPrincipales)
-> - [Strings manipulation](01-Introduccion/02_ManipulacionCadenas)
-> - [Data inputs and outputs](01-Introduccion/03_EntradasSalidasDatos)
-> - [Control flows](01-Introduccion/04_FlujoControl)
-> - [Arrays](01-Introduccion/05_Arreglos)
-> - [Methods/Functions](01-Introduccion/06_Metodos)
+> - [Main structures](01-Introduction/01_EstructurasPrincipales)
+> - [Strings manipulation](01-Introduction/02_ManipulacionCadenas)
+> - [Data inputs and outputs](01-Introduction/03_EntradasSalidasDatos)
+> - [Control flows](01-Introduction/04_FlujoControl)
+> - [Arrays](01-Introduction/05_Arreglos)
+> - [Methods/Functions](01-Introduction/06_Metodos)
   
 ## Object Oriented Programming (OOP) :books:
 
-> - [Objects and Classes](02-POO/ClasesObjetos/src)
-> - [Encapsulation](02-POO/Encapsulamiento/src)
-> - [Constants](02-POO/Constantes/src)
-> - [Overload](02-POO/Sobrecarga/src)
-> - [Inheritance](02-POO/Herencia/src)
-> - [Polymorphism](02-POO/Polimorfismo/src)
-> - [Objects Casting](02-POO/CastingObjetos/src)
-> - [Abstracts](02-POO/Abstractos)
-> - [Enum Types](02-POO/TiposEnumerados/src)
-> - [Exceptions](02-POO/Excepciones/src)
+> - [Objects and Classes](02-ObjectOrientedProgramming/ClasesObjetos/src)
+> - [Encapsulation](02-ObjectOrientedProgramming/Encapsulamiento/src)
+> - [Constants](02-ObjectOrientedProgramming/Constantes/src)
+> - [Overload](02-ObjectOrientedProgramming/Sobrecarga/src)
+> - [Inheritance](02-ObjectOrientedProgramming/Herencia/src)
+> - [Polymorphism](02-ObjectOrientedProgramming/Polimorfismo/src)
+> - [Objects Casting](02-ObjectOrientedProgramming/CastingObjetos/src)
+> - [Abstracts](02-ObjectOrientedProgramming/Abstractos)
+> - [Enum Types](02-ObjectOrientedProgramming/TiposEnumerados/src)
+> - [Exceptions](02-ObjectOrientedProgramming/Excepciones/src)
   
 ## Generic programming :zap:
 
