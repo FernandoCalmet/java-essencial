@@ -28,13 +28,13 @@ JAVA programming fundamentals.
 ## Generic programming :zap:
 
 > - [Arraylist](03-GenericProgramming/ArrayList)
-> - Linkedlist
-> - HashMap
-> - HashSet
-> - Iterator
-> - TreeSet
-> - Maps
-> - Generic Classes and Methods
+> - [Linkedlist](03-GenericProgramming/LinkedList)
+> - [HashMap](03-GenericProgramming/HashMap)
+> - [HashSet](03-GenericProgramming/HashSet)
+> - [Iterator](03-GenericProgramming/Iterators)
+> - [TreeSet](03-GenericProgramming/TreeSets)
+> - [Maps](03-GenericProgramming/Maps)
+> - [Generic Classes and Methods](03-GenericProgramming/Generics)
 
 ## Data Structures :bridge_at_night:
 
