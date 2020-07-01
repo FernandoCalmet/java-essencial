@@ -12,7 +12,7 @@ public class Orden {
     public float OrdenTotal() {
         float cartTotal = 0;
         for (int i = 0; i < this.carrito.items.length; i++) {
-            cartTotal += carrito.items[i].precio * carrito.items[i].cantidad;
+            cartTotal += carrito.items[i].getPrecio() * carrito.items[i].getCantidad();
         }
         cartTotal += cartTotal * igv;
         return cartTotal;
