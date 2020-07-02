@@ -40,7 +40,7 @@
 
 > - [Abstract Data Types (ADT)](04-DataEstructures/ADT)
 > - [Memory](04-DataEstructures/Memory)
-> - Recursion
+> - [Recursion](04-DataEstructures/Recursion)
 > - Linkedlist
 > - Nodes and pointers
 > - Doubly linked lists
