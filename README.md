@@ -1,9 +1,9 @@
-# JAVA :coffee:
+# JAVA ♨️
 
 > :octocat: Author: [@FernandoCalmet](https://github.com/FernandoCalmet)  
-JAVA programming fundamentals.
-  
-## Introduction :abc:
+> JAVA programming fundamentals.
+
+## Introduction 🔤
 
 > - [Main structures](01-Introduction/01_EstructurasPrincipales)
 > - [Strings manipulation](01-Introduction/02_ManipulacionCadenas)
@@ -11,8 +11,8 @@ JAVA programming fundamentals.
 > - [Control flows](01-Introduction/04_FlujoControl)
 > - [Arrays](01-Introduction/05_Arreglos)
 > - [Methods/Functions](01-Introduction/06_Metodos)
-  
-## Object Oriented Programming (OOP) :books:
+
+## Object Oriented Programming (OOP) 🪐
 
 > - [Objects and Classes](02-ObjectOrientedProgramming/ClasesObjetos/src)
 > - [Encapsulation](02-ObjectOrientedProgramming/Encapsulamiento/src)
@@ -24,8 +24,8 @@ JAVA programming fundamentals.
 > - [Abstracts](02-ObjectOrientedProgramming/Abstractos)
 > - [Enum Types](02-ObjectOrientedProgramming/TiposEnumerados/src)
 > - [Exceptions](02-ObjectOrientedProgramming/Excepciones/src)
-  
-## Generic programming :zap:
+
+## Generic programming ⚡
 
 > - [Arraylist](03-GenericProgramming/ArrayList)
 > - [Linkedlist](03-GenericProgramming/LinkedList)
@@ -36,13 +36,10 @@ JAVA programming fundamentals.
 > - [Maps](03-GenericProgramming/Maps)
 > - [Generic Classes and Methods](03-GenericProgramming/Generics)
 
-## Data Structures :bridge_at_night:
+## Data Structures 🗼
 
-> - Abstract Data Types (ADT)
-> - Modularity
-> - ADT Sphere
-> - Static memory with arrays class
-> - Dinamic memory with arraylists class
+> - [Abstract Data Types (ADT)](04-DataEstructures/ADT)
+> - [Memory](04-DataEstructures/Memory)
 > - Recursion
 > - Linkedlist
 > - Nodes and pointers
@@ -55,14 +52,14 @@ JAVA programming fundamentals.
 > - Graphs
 > - Sorting algorithms
 > - Search algorithms
-  
-## Threads :traffic_light:
+
+## Threads 🚦
 
 > - Programming
 > - Interruption
 > - Synchronization
-  
-## Events :tada:
+
+## Events 🔥
 
 > - Frame events
 > - Frame events with Adaptive Classes
@@ -72,15 +69,15 @@ JAVA programming fundamentals.
 > - Focus events
 > - Multiple sources
 > - Multiple listeners
-  
-## Streams :radio:
+
+## Streams 📡
 
 > - Access file
 > - Using buffer
 > - Read file
 > - Write file
-  
-## Swing (Graphic Interfaces) :black_joker:
+
+## Swing (Graphic Interfaces) 🦄
 
 > - Interfaces and inner classes
 > - Graphic application
@@ -110,12 +107,12 @@ JAVA programming fundamentals.
 > - JList
 > - JTree
 > - JTable
-  
-## Socket :speech_balloon:
+
+## Socket 💬
 
 > - Socket Application
-  
-## BBDD JDBC
+
+## BBDD JDBC 💽
 
 > - [Database access](09-BBDD-JDBC/BBDD_JDBC/src/Acceso)
 > - [Queries](09-BBDD-JDBC/BBDD_JDBC/src/ConsultasPreparadas)
@@ -123,23 +120,23 @@ JAVA programming fundamentals.
 > - Stored procedures
 > - Transactions
 > - Metadata
-  
-## JSP
+
+## JSP 🌐
 
 > - Fundamentals
 > - Sessions
 > - Cookies
 > - Tags
-  
-## Servlets
+
+## Servlets 🕸️
 
 > - [Fundamentals](11-Servlets)
 
-## Reports :bar_chart:
+## Reports 📊
 
 > - [Jasper Reports](12-Reports)
-  
-## Deployment :rocket:
+
+## Deployment 🚀
 
 > - Debugging
 > - Applets
@@ -147,12 +144,11 @@ JAVA programming fundamentals.
 > - Java Web Start
 > - Generar documentación
 
-## Homework :scroll:
+## Homework 📜
 
 > - [Excercises solved](00-Homeworks)
-  
 
-## SUPPORT ME :sparkling_heart:
+## SUPPORT ME 💖
 
 <a href='https://ko-fi.com/fernandocalmet' target='_blank'>
   <img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' />
