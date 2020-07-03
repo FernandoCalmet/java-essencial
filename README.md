@@ -41,10 +41,7 @@
 > - [Abstract Data Types (ADT)](04-DataEstructures/ADT)
 > - [Memory](04-DataEstructures/Memory)
 > - [Recursion](04-DataEstructures/Recursion)
-> - Linkedlist
-> - Nodes and pointers
-> - Doubly linked lists
-> - Circular lists
+> - [Lists](04-DataEstructures/Lists)
 > - Stacks
 > - Queues
 > - Trees
