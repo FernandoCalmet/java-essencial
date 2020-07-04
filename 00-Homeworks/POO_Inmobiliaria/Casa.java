@@ -1,8 +1,6 @@
-package Inmobiliaria;
-
 /**
  *
- * @author fernandocalmet
+ * @author FernandoCalmet
  */
 public class Casa extends Inmueble
 {
