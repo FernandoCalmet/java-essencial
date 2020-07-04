@@ -1,6 +1,9 @@
-/*
- *   https://github.com/FernandoCalmet
-*/
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class ClienteJuridico extends Cliente{
     private String nombreDelContacto;
     private String telefonoDelContacto;

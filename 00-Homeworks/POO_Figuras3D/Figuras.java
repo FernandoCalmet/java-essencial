@@ -1,3 +1,9 @@
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public abstract class Figuras {
     
     protected double lado;

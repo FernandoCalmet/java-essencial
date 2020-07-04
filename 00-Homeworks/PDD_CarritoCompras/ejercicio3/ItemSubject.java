@@ -3,6 +3,12 @@ package ejercicio3;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class ItemSubject {
     private List<ItemObserver> observers = new ArrayList<ItemObserver>();
     private int state;

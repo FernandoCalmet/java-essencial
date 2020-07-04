@@ -1,3 +1,4 @@
+
 public class PatitoDeGoma implements IPato {   
 
     public String cuaquear(){

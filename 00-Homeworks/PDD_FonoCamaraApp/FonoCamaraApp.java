@@ -1,9 +1,15 @@
-public class FonoCamaraApp{
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
+public class FonoCamaraApp {
     public static void main(String[] args) {
 
         ConcretCamaraSimple camaraA = new ConcretCamaraSimple();
         ConcretCamaraPro camaraB = new ConcretCamaraPro();
-              
+
         ContextFonoCamara strategyA = new ContextFonoCamara();
         strategyA.setStrategy(camaraA);
         System.out.println(strategyA.editar());
@@ -19,7 +25,7 @@ public class FonoCamaraApp{
         System.out.println(strategyB.tomar());
         System.out.println(strategyB.compartir("sms"));
         System.out.println(strategyB.compartir("email"));
-        System.out.println(strategyB.compartir("redsocial"));       
+        System.out.println(strategyB.compartir("redsocial"));
         System.out.println(strategyB.guardar());
     }
 }

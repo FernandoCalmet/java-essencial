@@ -1,5 +1,11 @@
 package ejercicio3;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class ItemA extends ItemObserver {
     public ItemA(float price, int quantity) {
         this.price = price;

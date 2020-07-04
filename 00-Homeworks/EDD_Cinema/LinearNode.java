@@ -1,3 +1,9 @@
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class LinearNode<E> {
     private LinearNode<E> next;
     private E element;

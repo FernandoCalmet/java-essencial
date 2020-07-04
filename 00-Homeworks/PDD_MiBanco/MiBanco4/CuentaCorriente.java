@@ -1,3 +1,11 @@
+package MiBanco4;
+
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class CuentaCorriente implements ICuentaBancaria {
     protected int numeroCuenta;
     protected int balance = 0;

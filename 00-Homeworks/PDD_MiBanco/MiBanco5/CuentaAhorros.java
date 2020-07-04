@@ -1,7 +1,13 @@
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class CuentaAhorros extends CuentaBancaria {
     private double tasa = 0.01;
 
-    public CuentaAhorros(int numeroCuenta) {     
+    public CuentaAhorros(int numeroCuenta) {
         super.numeroCuenta = numeroCuenta;
     }
 

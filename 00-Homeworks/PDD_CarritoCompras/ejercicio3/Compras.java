@@ -1,9 +1,15 @@
 package ejercicio3;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Compras {
     public static void main(String[] args) {
 
-        //TODO: Falta terminar
+        // TODO: Falta terminar
 
         ItemSubject subject = new ItemSubject();
 

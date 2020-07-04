@@ -1,3 +1,9 @@
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Cilindro extends Figuras {
 
     public Cilindro(double r, double h) {

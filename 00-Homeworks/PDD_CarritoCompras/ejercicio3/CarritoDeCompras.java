@@ -2,6 +2,12 @@ package ejercicio3;
 
 import java.util.ArrayList;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class CarritoDeCompras {
     protected ArrayList<ItemObserver> items = new ArrayList<ItemObserver>();
 

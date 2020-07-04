@@ -1,5 +1,10 @@
 import java.util.Scanner;
-
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class BancoCliente {
     private int numeroCuenta;
     private int opcion;

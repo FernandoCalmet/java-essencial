@@ -1,6 +1,12 @@
 import java.util.Scanner;
 import java.util.HashMap;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class MiBanco {
     private static Scanner scanner = new Scanner(System.in);
     private static HashMap<Integer, CuentaBancaria> cuentas = new HashMap<>();

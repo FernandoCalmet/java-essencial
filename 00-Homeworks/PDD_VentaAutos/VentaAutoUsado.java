@@ -1,6 +1,9 @@
-/*
- *   https://github.com/FernandoCalmet
-*/
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class VentaAutoUsado extends Venta{
     private int anioDelModelo;
     private String descripcion;

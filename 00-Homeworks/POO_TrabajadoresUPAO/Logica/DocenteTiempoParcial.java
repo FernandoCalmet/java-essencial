@@ -2,20 +2,21 @@ package Logica;
 
 /**
  *
- * @author fernandocalmet
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
  */
-public class DocenteTiempoParcial extends Docente
-{    
+public class DocenteTiempoParcial extends Docente {
     private int horas;
     private double tarifa;
-    
-    public DocenteTiempoParcial(String tipo, String nombre, String dni, String dptoAcademico, int horas, double tarifa) 
-    {
+
+    public DocenteTiempoParcial(String tipo, String nombre, String dni, String dptoAcademico, int horas,
+            double tarifa) {
         super(tipo, nombre, dni, dptoAcademico);
         this.horas = horas;
         this.tarifa = tarifa;
     }
-        
+
     public int getHoras() {
         return horas;
     }
@@ -30,10 +31,10 @@ public class DocenteTiempoParcial extends Docente
 
     public void setTarifa(double tarifa) {
         this.tarifa = tarifa;
-    }   
-    
+    }
+
     @Override
-    public double getSalario(){
+    public double getSalario() {
         return (getHoras() * getTarifa()) * 4;
     }
 }

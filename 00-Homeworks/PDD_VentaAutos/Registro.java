@@ -1,6 +1,9 @@
-/*
- *   https://github.com/FernandoCalmet
-*/
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 import java.util.ArrayList;
 
 public class Registro {

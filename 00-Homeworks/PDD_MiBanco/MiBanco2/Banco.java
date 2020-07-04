@@ -1,3 +1,10 @@
+package MiBanco2;
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Banco {
     private Cuenta cuenta = new Cuenta();
 

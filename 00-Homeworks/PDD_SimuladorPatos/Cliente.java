@@ -1,3 +1,9 @@
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Cliente {
 
     public static void main(String[] args) {
@@ -6,7 +12,7 @@ public class Cliente {
         PatitoDeGoma patoB = new PatitoDeGoma();
         PatoSenuelo patoC = new PatoSenuelo();
         PatoCabezaRoja patoD = new PatoCabezaRoja();
-        
+
         Contexto strategyA = new Contexto();
         strategyA.setStrategy(patoA);
         System.out.println(strategyA.cuaquear());

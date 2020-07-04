@@ -2,23 +2,23 @@ package Logica;
 
 /**
  *
- * @author fernandocalmet
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
  */
-public abstract class Docente extends Trabajador
-{
-    private String tipo;    
+public abstract class Docente extends Trabajador {
+    private String tipo;
     private String nombre;
     private String dni;
-    private String dptoAcademico;  
-       
-    public Docente(String tipo, String nombre, String dni, String dptoAcademico) 
-    {
+    private String dptoAcademico;
+
+    public Docente(String tipo, String nombre, String dni, String dptoAcademico) {
         this.tipo = tipo;
         this.nombre = nombre;
         this.dni = dni;
         this.dptoAcademico = dptoAcademico;
     }
-      
+
     @Override
     public String getTipo() {
         return tipo;
@@ -28,7 +28,7 @@ public abstract class Docente extends Trabajador
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
-   
+
     @Override
     public String getNombre() {
         return nombre;
@@ -48,20 +48,21 @@ public abstract class Docente extends Trabajador
     public void setDni(String dni) {
         this.dni = dni;
     }
-    
+
     public String getDptoAcademico() {
         return dptoAcademico;
     }
 
     public void setDptoAcademico(String dptoAcademico) {
         this.dptoAcademico = dptoAcademico;
-    } 
-    
-    @Override
-    public String toString(){
-        return "\nTipo: "+getTipo()+"\nNombre: "+getNombre()+"\nDNI: "+getDni()+"\nDpto. Academico: "+getDptoAcademico()+"\nSalario: "+getSalario();
     }
-  
+
+    @Override
+    public String toString() {
+        return "\nTipo: " + getTipo() + "\nNombre: " + getNombre() + "\nDNI: " + getDni() + "\nDpto. Academico: "
+                + getDptoAcademico() + "\nSalario: " + getSalario();
+    }
+
     @Override
     public abstract double getSalario();
 }

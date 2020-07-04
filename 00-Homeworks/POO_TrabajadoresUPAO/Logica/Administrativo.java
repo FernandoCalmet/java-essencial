@@ -2,19 +2,19 @@ package Logica;
 
 /**
  *
- * @author fernandocalmet
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
  */
-public class Administrativo extends Trabajador
-{
-    private String tipo; 
+public class Administrativo extends Trabajador {
+    private String tipo;
     private String nombre;
     private String dni;
     private String oficina;
     private String cargo;
     private double sueldoBasico;
 
-    public Administrativo(String tipo, String nombre, String dni, String oficina, String cargo, double sueldoBasico) 
-    {
+    public Administrativo(String tipo, String nombre, String dni, String oficina, String cargo, double sueldoBasico) {
         this.tipo = tipo;
         this.nombre = nombre;
         this.dni = dni;
@@ -22,7 +22,7 @@ public class Administrativo extends Trabajador
         this.cargo = cargo;
         this.sueldoBasico = sueldoBasico;
     }
-      
+
     @Override
     public String getTipo() {
         return tipo;
@@ -75,15 +75,16 @@ public class Administrativo extends Trabajador
 
     public void setSueldoBasico(double sueldoBasico) {
         this.sueldoBasico = sueldoBasico;
-    }     
+    }
 
     @Override
     public double getSalario() {
         return getSueldoBasico() - ((getSueldoBasico() * 12) / 100);
     }
-    
+
     @Override
-    public String toString(){
-        return "\nTipo: "+getTipo()+"\nNombre: "+getNombre()+"\nDNI: "+getDni()+"\nOficina: "+getOficina()+"\nCargo: "+getCargo()+"\nSalario: "+getSalario();
+    public String toString() {
+        return "\nTipo: " + getTipo() + "\nNombre: " + getNombre() + "\nDNI: " + getDni() + "\nOficina: " + getOficina()
+                + "\nCargo: " + getCargo() + "\nSalario: " + getSalario();
     }
 }

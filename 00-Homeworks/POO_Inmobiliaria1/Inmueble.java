@@ -1,18 +1,20 @@
 /**
  *
- * @author FernandoCalmet
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
  */
-public class Inmueble 
-{
+public class Inmueble {
     protected String tipoInmueble;
     protected String ubicacion;
     protected int area;
     protected String dormitorios;
     protected double precio;
-    
-    public Inmueble(){}
-    
-    public Inmueble(String tipo, double precio){
+
+    public Inmueble() {
+    }
+
+    public Inmueble(String tipo, double precio) {
         this.tipoInmueble = tipo;
         this.precio = precio;
     }
@@ -56,20 +58,20 @@ public class Inmueble
     public void setPrecio(double precio) {
         this.precio = precio;
     }
-    
-    protected void Registrar(){
-        System.out.println(this.tipoInmueble+" a sido registrado por el precio de "+this.precio);
+
+    protected void Registrar() {
+        System.out.println(this.tipoInmueble + " a sido registrado correctamente");
     }
-    
-    protected void Vender(){
-        System.out.println(this.tipoInmueble+" a sido vendido por el precio de "+this.precio);
+
+    protected void Vender() {
+        System.out.println(this.tipoInmueble + " a sido vendido por el precio de " + this.precio);
     }
-    
-    protected void Alquilar(){
-        System.out.println(this.tipoInmueble + " a sido alquilada por el precio de "+this.precio);
+
+    protected void Alquilar() {
+        System.out.println(this.tipoInmueble + " a sido alquilada por el precio de " + this.precio);
     }
-    
-    protected void VerDatos(){
-        System.out.println(this.tipoInmueble+"\n"+this.area+"\n"+this.ubicacion+"\n");
+
+    protected void VerDatos() {
+        System.out.println(this.tipoInmueble + "\n" + this.area + "\n" + this.ubicacion + "\n");
     }
 }

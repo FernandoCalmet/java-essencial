@@ -1,5 +1,11 @@
 package ejercicio2;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public abstract class Item {
     protected float price;
     protected int quantity;

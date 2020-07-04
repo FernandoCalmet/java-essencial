@@ -1,16 +1,16 @@
 package Presentacion;
 
-import Logica.*;
 import java.io.IOException;
+import Logica.Universidad;
 
 /**
  *
- * @author fernandocalmet
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
  */
-public class Programa2
-{
-    public static void main(String[]args)throws IOException
-    {        
+public class Programa2 {
+    public static void main(String[] args) throws IOException {
         new Universidad();
     }
 }

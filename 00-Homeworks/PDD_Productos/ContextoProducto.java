@@ -1,5 +1,11 @@
 import java.util.List;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class ContextoProducto {
     public IProductoRopa productoA;
     public IProductoCerveza productoB;
@@ -10,7 +16,7 @@ public class ContextoProducto {
 
     public void setStrategyB(IProductoCerveza productoB) {
         this.productoB = productoB;
-    }  
+    }
 
     public List<String> getPantalon() {
         return this.productoA.getPantalon();

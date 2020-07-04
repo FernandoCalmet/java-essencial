@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Cliente {
     private static Scanner scanner;
     private static String opcion;
@@ -17,7 +23,8 @@ public class Cliente {
         scanner = new Scanner(System.in);
 
         do {
-            System.out.println("\n[CATALOGO DE PRODUCTOS]:\nCERVEZAS: Negra, Rubia, Roja\nROPA: Pantalon, Camisa, Zapatos\nSALIR: Terminar programa");
+            System.out.println(
+                    "\n[CATALOGO DE PRODUCTOS]:\nCERVEZAS: Negra, Rubia, Roja\nROPA: Pantalon, Camisa, Zapatos\nSALIR: Terminar programa");
             System.out.println("\nIngresar el producto que desea consultar: ");
             opcion = scanner.next();
             switch (opcion.toLowerCase()) {
@@ -29,7 +36,7 @@ public class Cliente {
                     break;
                 case "roja":
                     System.out.println(strategyB.getRoja());
-                    break;                    
+                    break;
                 case "pantalon":
                     System.out.println(strategyA.getPantalon());
                     break;

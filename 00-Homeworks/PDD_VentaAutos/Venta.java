@@ -1,6 +1,9 @@
-/*
- *   https://github.com/FernandoCalmet
-*/
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public abstract class Venta {
     public String marcaYModelo;
     public float precio;

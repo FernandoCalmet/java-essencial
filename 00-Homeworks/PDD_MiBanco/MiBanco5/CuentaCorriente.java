@@ -1,5 +1,11 @@
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class CuentaCorriente extends CuentaBancaria {
-    public CuentaCorriente(int numeroCuenta) {   
+    public CuentaCorriente(int numeroCuenta) {
         super.numeroCuenta = numeroCuenta;
     }
 

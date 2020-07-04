@@ -1,11 +1,17 @@
 import java.util.Scanner;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Prueba {
 
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        GestorFiguras figuras = new GestorFiguras();        
+        GestorFiguras figuras = new GestorFiguras();
         int opcion = 0;
         String pregunta;
         double radio, altura, generatriz, lado;

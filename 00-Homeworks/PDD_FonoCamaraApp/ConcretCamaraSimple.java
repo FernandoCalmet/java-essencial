@@ -1,3 +1,9 @@
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class ConcretCamaraSimple extends BaseEditar implements IFonoCamara {
     public String compartirPorSMS() {
         return "Se compartio la foto por SMS.";

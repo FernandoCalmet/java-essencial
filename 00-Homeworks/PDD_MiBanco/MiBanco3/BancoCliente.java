@@ -1,5 +1,13 @@
+package MiBanco3;
+
 import java.util.Scanner;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class BancoCliente {
     private static Banco banco = new Banco();
     private static Scanner scanner = new Scanner(System.in);

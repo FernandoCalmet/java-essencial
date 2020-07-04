@@ -1,5 +1,13 @@
+package MiBanco2;
+
 import java.util.*;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Cuenta {
     private HashMap<Integer, Integer> cuentas = new HashMap<>();
     private double tasa = 0.01;

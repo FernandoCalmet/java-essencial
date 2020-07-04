@@ -1,5 +1,11 @@
 package ejercicio2;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class ItemB extends Item {
     public ItemB(float price, int quantity) {
         this.price = price;
@@ -27,7 +33,7 @@ public class ItemB extends Item {
     }
 
     @Override
-    public String toString(){
-        return "ITEM B => \nCantidad: "+getQuantity()+"\nPrecio: "+getPrice();
+    public String toString() {
+        return "ITEM B => \nCantidad: " + getQuantity() + "\nPrecio: " + getPrice();
     }
 }

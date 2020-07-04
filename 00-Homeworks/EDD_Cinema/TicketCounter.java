@@ -1,3 +1,9 @@
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class TicketCounter {
     final static int PROCESS = 120;
     final static int MAX_CASHIERS = 10;

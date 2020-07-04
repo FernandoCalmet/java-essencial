@@ -1,5 +1,11 @@
 package ejercicio3;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Orden {
     private CarritoDeCompras cart;
     private float igv;

@@ -1,3 +1,9 @@
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public abstract class CuentaBancaria {
     protected int numeroCuenta;
     protected int balance = 0;

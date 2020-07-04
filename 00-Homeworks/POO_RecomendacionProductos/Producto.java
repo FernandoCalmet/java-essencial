@@ -1,5 +1,11 @@
 import java.util.*;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Producto {
     private String color;
     private List<String> marcas = new ArrayList<String>();

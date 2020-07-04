@@ -1,5 +1,13 @@
+package MiBanco4;
+
 import java.util.*;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Banco {
     private HashMap<Integer, ICuentaBancaria> cuentas = new HashMap<>();
     private CuentaCorriente ctaCorriente;
