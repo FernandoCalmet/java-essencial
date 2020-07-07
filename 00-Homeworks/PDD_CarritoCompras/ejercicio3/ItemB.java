@@ -6,39 +6,31 @@ package ejercicio3;
  * @email fercalmet@gmail.com
  * @homepage https://github.com/FernandoCalmet
  */
-public class ItemB extends ItemObserver {
-    public ItemB(float price, int quantity) {
-        this.price = price;
-        this.quantity = quantity;
+public class ItemB implements IItemElement {
+    private int pricePerKg;
+    private int weight;
+    private String name;
+
+    public ItemB(int pricePerKg, int weight, String name) {
+        this.pricePerKg = pricePerKg;
+        this.weight = weight;
+        this.name = name;
     }
 
-    public ItemB(ItemSubject item) {
-        this.itemSubject = item;
-        this.itemSubject.attachItem(this);
+    public String getName() {
+        return this.name;
     }
 
-    @Override
-    public float getPrice() {
-        return this.price;
+    public int getPricePerKg() {
+        return this.pricePerKg;
     }
 
-    @Override
-    public void setPrice(float price) {
-        this.price = price;
-    }
-
-    @Override
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
+    public int getWeight() {
+        return this.weight;
     }
 
     @Override
-    public int getQuantity() {
-        return this.quantity;
-    }
-
-    @Override
-    public void update() {
-        System.out.println("ItemB: " + this.itemSubject.getState());
+    public int accept(ShoppingCartVisitor cart) {
+        return cart.visit(this);
     }
 }
