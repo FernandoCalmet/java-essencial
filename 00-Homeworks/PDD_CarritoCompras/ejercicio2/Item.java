@@ -1,5 +1,3 @@
-package ejercicio2;
-
 /**
  *
  * @author Fernando Calmet
