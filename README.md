@@ -1,151 +1,69 @@
 # JAVA ♨️
 
-> :octocat: Author: [@FernandoCalmet](https://github.com/FernandoCalmet)  
-> JAVA programming fundamentals.
+Java is a high-level programming language originally developed by Sun Microsystems and released in 1995. Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX. This tutorial gives a complete understanding of Java. This reference will take you through simple and practical approaches while learning Java Programming language.
 
-## Introduction 🔤
+## Why to Learn java Programming?
 
-> - [Main structures](01-Introduction/01_EstructurasPrincipales)
-> - [Strings manipulation](01-Introduction/02_ManipulacionCadenas)
-> - [Data inputs and outputs](01-Introduction/03_EntradasSalidasDatos)
-> - [Control flows](01-Introduction/04_FlujoControl)
-> - [Arrays](01-Introduction/05_Arreglos)
-> - [Methods/Functions](01-Introduction/06_Metodos)
+Java is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Software Development Domain. I will list down some of the key advantages of learning Java Programming:
 
-## Object Oriented Programming (OOP) 🪐
+- **Object Oriented** − In Java, everything is an Object. Java can be easily extended since it is based on the Object model.
 
-> - [Objects and Classes](02-ObjectOrientedProgramming/ClasesObjetos/src)
-> - [Encapsulation](02-ObjectOrientedProgramming/Encapsulamiento/src)
-> - [Constants](02-ObjectOrientedProgramming/Constantes/src)
-> - [Overload](02-ObjectOrientedProgramming/Sobrecarga/src)
-> - [Inheritance](02-ObjectOrientedProgramming/Herencia/src)
-> - [Polymorphism](02-ObjectOrientedProgramming/Polimorfismo/src)
-> - [Objects Casting](02-ObjectOrientedProgramming/CastingObjetos/src)
-> - [Abstracts](02-ObjectOrientedProgramming/Abstractos)
-> - [Enum Types](02-ObjectOrientedProgramming/TiposEnumerados/src)
-> - [Exceptions](02-ObjectOrientedProgramming/Excepciones/src)
+- **Platform Independent** − Unlike many other programming languages including C and C++, when Java is compiled, it is not compiled into platform specific machine, rather into platform independent byte code. This byte code is distributed over the web and interpreted by the Virtual Machine (JVM) on whichever platform it is being run on.
 
-## Generic programming ⚡
+- **Simple** − Java is designed to be easy to learn. If you understand the basic concept of OOP Java, it would be easy to master.
 
-> - [Arraylist](03-GenericProgramming/ArrayList)
-> - [Linkedlist](03-GenericProgramming/LinkedList)
-> - [HashMap](03-GenericProgramming/HashMap)
-> - [HashSet](03-GenericProgramming/HashSet)
-> - [Iterator](03-GenericProgramming/Iterators)
-> - [TreeSet](03-GenericProgramming/TreeSets)
-> - [Maps](03-GenericProgramming/Maps)
-> - [Generic Classes and Methods](03-GenericProgramming/Generics)
+- **Secure** − With Java's secure feature it enables to develop virus-free, tamper-free systems. Authentication techniques are based on public-key encryption.
 
-## Data Structures 🗼
+- **Architecture-neutral** − Java compiler generates an architecture-neutral object file format, which makes the compiled code executable on many processors, with the presence of Java runtime system.
 
-> - [Abstract Data Types (ADT)](04-DataEstructures/ADT)
-> - [Memory](04-DataEstructures/Memory)
-> - [Recursion](04-DataEstructures/Recursion)
-> - [Lists](04-DataEstructures/Lists)
-> - Stacks
-> - Queues
-> - Trees
-> - Binary Trees
-> - Graphs
-> - Sorting algorithms
-> - Search algorithms
+- **Portable** − Being architecture-neutral and having no implementation dependent aspects of the specification makes Java portable. Compiler in Java is written in ANSI C with a clean portability boundary, which is a POSIX subset.
 
-## Threads 🚦
+- **Robust** − Java makes an effort to eliminate error prone situations by emphasizing mainly on compile time error checking and runtime checking.
 
-> - Programming
-> - Interruption
-> - Synchronization
+## Hello World using Java Programming
 
-## Events 🔥
+Just to give you a little excitement about Java programming, I'm going to give you a small conventional C Programming Hello World program, You can try it using Demo link.
 
-> - Frame events
-> - Frame events with Adaptive Classes
-> - Frame events to monitor status
-> - Keyboard events
-> - Mouse events
-> - Focus events
-> - Multiple sources
-> - Multiple listeners
+```java
+public class MyFirstJavaProgram {
 
-## Streams 📡
+   /* This is my first java program.
+    * This will print 'Hello World' as the output
+    */
 
-> - Access file
-> - Using buffer
-> - Read file
-> - Write file
+   public static void main(String []args) {
+      System.out.println("Hello World"); // prints Hello World
+   }
+}
+```
 
-## Swing (Graphic Interfaces) 🦄
+## Applications of Java Programming
 
-> - Interfaces and inner classes
-> - Graphic application
-> - Placing a Frame
-> - Writing to the Frame
-> - Drawing in the Frame
-> - Color management
-> - Change letter
-> - Add images
-> - Layouts
-> - Text boxes
-> - Text areas
-> - Checkbox
-> - Radio buttons
-> - ComboBox
-> - JSlider
-> - JSpinner
-> - Menu creation
-> - Creation of word processor
-> - Menus with images
-> - Menus with components
-> - Pop-up menus
-> - Keyboard shortcuts
-> - Toolbars
-> - Advanced provisions
-> - Pop-up windows
-> - JList
-> - JTree
-> - JTable
+The latest release of the Java Standard Edition is Java SE 8. With the advancement of Java and its widespread popularity, multiple configurations were built to suit various types of platforms. For example: J2EE for Enterprise Applications, J2ME for Mobile Applications.
 
-## Socket 💬
+The new J2 versions were renamed as Java SE, Java EE, and Java ME respectively. Java is guaranteed to be Write Once, Run Anywhere.
 
-> - Socket Application
+- **Multithreaded** − With Java's multithreaded feature it is possible to write programs that can perform many tasks simultaneously. This design feature allows the developers to construct interactive applications that can run smoothly.
 
-## BBDD JDBC 💽
+- **Interpreted** − Java byte code is translated on the fly to native machine instructions and is not stored anywhere. The development process is more rapid and analytical since the linking is an incremental and light-weight process.
 
-> - [Database access](09-BBDD-JDBC/BBDD_JDBC/src/Acceso)
-> - [Queries](09-BBDD-JDBC/BBDD_JDBC/src/ConsultasPreparadas)
-> - Controller view model
-> - Stored procedures
-> - Transactions
-> - Metadata
+- **High Performance** − With the use of Just-In-Time compilers, Java enables high performance.
 
-## JSP 🌐
+- **Distributed** − Java is designed for the distributed environment of the internet.
 
-> - Fundamentals
-> - Sessions
-> - Cookies
-> - Tags
+- **Dynamic** − Java is considered to be more dynamic than C or C++ since it is designed to adapt to an evolving environment. Java programs can carry extensive amount of run-time information that can be used to verify and resolve accesses to objects on run-time.
 
-## Servlets 🕸️
+## Audience
 
-> - [Fundamentals](11-Servlets)
+This tutorial has been prepared for the beginners to help them understand the basic to advanced concepts related to Java Programming language.
 
-## Reports 📊
+## Prerequisites
 
-> - [Jasper Reports](12-Reports)
+Before you start practicing various types of examples given in this reference, we assume that you are already aware about computer programs and computer programming languages.
 
-## Deployment 🚀
+:octocat: [Check more about Design Patterns in my repository.](https://github.com/FernandoCalmet/Java)
 
-> - Debugging
-> - Applets
-> - Archivos JAR
-> - Java Web Start
-> - Generar documentación
-
-## Homework 📜
-
-> - [Excercises solved](00-Homeworks)
-
-## SUPPORT ME 💖
+## Support me ☕💖
 
 <a href='https://ko-fi.com/fernandocalmet' target='_blank'>
   <img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' />
