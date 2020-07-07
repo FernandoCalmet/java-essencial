@@ -1,4 +1,3 @@
-package ejercicio2;
 
 /**
  *
@@ -9,25 +8,31 @@ package ejercicio2;
 import java.util.ArrayList;
 
 public class CarritoDeCompras {
-    protected ArrayList<Item> items = new ArrayList<Item>();
+    protected ArrayList<IProducto> items = new ArrayList<IProducto>();
 
-    public CarritoDeCompras(ArrayList<Item> items) {
+    public CarritoDeCompras(ArrayList<IProducto> items) {
         this.items = items;
     }
 
-    public void attachItem(Item item) {
+    public void attachItem(IProducto item) {
         this.items.add(item);
     }
 
-    public void removeItem(Item item) {
+    public void removeItem(IProducto item) {
         this.items.remove(item);
     }
 
-    public int calculateTotalItem() {
+    public int calcularTotalProductos() {
         int sum = 0;
-        for (Item item : this.items) {
-            sum += item.getPrice();
+        for (IProducto item : this.items) {
+            sum += item.getPrecio();
         }
         return sum;
+    }
+
+    public void mostrarDetalles() {
+        for (IProducto item : this.items) {
+            System.out.println(item.toString());
+        }
     }
 }

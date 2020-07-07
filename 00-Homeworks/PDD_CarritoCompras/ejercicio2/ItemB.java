@@ -1,39 +1,34 @@
-package ejercicio2;
-
 /**
  *
  * @author Fernando Calmet
  * @email fercalmet@gmail.com
  * @homepage https://github.com/FernandoCalmet
  */
-public class ItemB extends Item {
-    public ItemB(float price, int quantity) {
-        this.price = price;
-        this.quantity = quantity;
+public class ItemB implements IProducto {
+    private float precio;
+    private int cantidad;
+    private double peso;
+
+    public ItemB(float precio, int cantidad, double peso) {
+        this.precio = precio;
+        this.cantidad = cantidad;
+        this.peso = peso;
     }
 
-    @Override
-    public float getPrice() {
-        return this.price;
+    public float getPrecio() {
+        return this.precio;
     }
 
-    @Override
-    public void setPrice(float price) {
-        this.price = price;
+    public int getCantidad() {
+        return this.cantidad;
     }
 
-    @Override
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
-    }
-
-    @Override
-    public int getQuantity() {
-        return this.quantity;
+    public double getPeso() {
+        return this.peso;
     }
 
     @Override
     public String toString() {
-        return "ITEM B => \nCantidad: " + getQuantity() + "\nPrecio: " + getPrice();
+        return "ITEM B: Cantidad = " + getCantidad() + ", Precio = " + getPrecio() + " Peso = " + getPeso();
     }
 }

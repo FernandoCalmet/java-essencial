@@ -1,5 +1,3 @@
-package ejercicio2;
-
 /**
  *
  * @author Fernando Calmet
@@ -15,10 +13,10 @@ public class Orden {
         this.igv = salesTax;
     }
 
-    public float totalOrder() {
+    public float calcularTotalOrden() {
         float cartTotal = 0;
-        for (Item item : this.cart.items) {
-            cartTotal += item.getPrice() * item.getQuantity();
+        for (IProducto item : this.cart.items) {
+            cartTotal += item.getPrecio() * item.getCantidad();
         }
         cartTotal += cartTotal * igv;
         return cartTotal;
