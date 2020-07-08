@@ -61,7 +61,11 @@ This tutorial has been prepared for the beginners to help them understand the ba
 
 Before you start practicing various types of examples given in this reference, we assume that you are already aware about computer programs and computer programming languages.
 
-:octocat: [Check more about Design Patterns in my repository.](https://github.com/FernandoCalmet/Java)
+👓 Check about [Overview](Overview.md)
+
+💻 Check about [Environment Setup](EnvironmentSetup.md)
+
+:octocat: [Check more about Java in my repository.](https://github.com/FernandoCalmet/Java)
 
 ## Support me ☕💖
 
