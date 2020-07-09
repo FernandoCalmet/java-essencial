@@ -1,3 +1,5 @@
+package Ejercicio1;
+
 /**
  *
  * @author Fernando Calmet
