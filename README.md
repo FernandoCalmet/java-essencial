@@ -61,11 +61,13 @@ This tutorial has been prepared for the beginners to help them understand the ba
 
 Before you start practicing various types of examples given in this reference, we assume that you are already aware about computer programs and computer programming languages.
 
-👓 Check about [Overview](Overview.md)
+## Java Introduction Tutorials
 
-💻 Check about [Environment Setup](EnvironmentSetup.md)
+👓 Check about [Overview](Introduction/README.md)
 
-📕 Check about [Basic Sintax](BasicSintax.md)
+💻 Check about [Environment Setup](Introduction/EnvironmentSetup.md)
+
+📕 Check about [Basic Sintax](Introduction/BasicSintax.md)
 
 :octocat: [Check more about Java in my repository.](https://github.com/FernandoCalmet/Java)
 
