@@ -65,6 +65,8 @@ Before you start practicing various types of examples given in this reference, w
 
 💻 Check about [Environment Setup](EnvironmentSetup.md)
 
+📕 Check about [Basic Sintax](BasicSintax.md)
+
 :octocat: [Check more about Java in my repository.](https://github.com/FernandoCalmet/Java)
 
 ## Support me ☕💖
