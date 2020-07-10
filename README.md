@@ -63,7 +63,7 @@ Before you start practicing various types of examples given in this reference, w
 
 ## Java Introduction Tutorials
 
-👓 Check about [Overview](Introduction/README.md)
+👓 Check about [Overview](Introduction/)
 
 💻 Check about [Environment Setup](Introduction/EnvironmentSetup.md)
 
