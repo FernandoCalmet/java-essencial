@@ -1,3 +1,5 @@
+package Productos;
+
 import java.util.Scanner;
 
 /**

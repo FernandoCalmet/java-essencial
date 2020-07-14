@@ -1,3 +1,5 @@
+package CarritoCompras.ejercicio2;
+
 /**
  *
  * @author Fernando Calmet

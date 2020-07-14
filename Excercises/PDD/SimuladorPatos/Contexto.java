@@ -1,3 +1,5 @@
+package SimuladorPatos;
+
 /**
  *
  * @author Fernando Calmet

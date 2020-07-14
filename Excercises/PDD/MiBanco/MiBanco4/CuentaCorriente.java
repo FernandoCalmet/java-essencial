@@ -1,4 +1,4 @@
-package MiBanco4;
+package MiBanco.MiBanco4;
 
 /**
  *
@@ -27,7 +27,7 @@ public class CuentaCorriente implements ICuentaBancaria {
     }
 
     public boolean tieneFondosSuficientes(int montoPrestamo) {
-        return super.balance >= ((montoPrestamo * 2) / 3);
+        return this.balance >= ((montoPrestamo * 2) / 3);
     }
 
     @Override

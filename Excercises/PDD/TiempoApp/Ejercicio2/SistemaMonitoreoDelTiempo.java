@@ -1,5 +1,4 @@
-package Ejercicio2;
-
+package TiempoApp.Ejercicio2;
 /**
  *
  * @author Fernando Calmet

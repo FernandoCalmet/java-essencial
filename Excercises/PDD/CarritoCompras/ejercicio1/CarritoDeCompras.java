@@ -1,4 +1,4 @@
-package ejercicio1;
+package CarritoCompras.ejercicio1;
 
 /**
  *

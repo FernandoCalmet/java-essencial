@@ -1,3 +1,5 @@
+package VentaAutos;
+
 /**
  *
  * @author Fernando Calmet
@@ -8,7 +10,7 @@ public abstract class Venta {
     public String marcaYModelo;
     public float precio;
 
-    protected Venta(String m, float p) {      
+    protected Venta(String m, float p) {
         this.marcaYModelo = m;
         this.precio = p;
     }
@@ -25,6 +27,6 @@ public abstract class Venta {
 
     @Override
     public String toString() {
-        return "\nMarca y Modelo: "+getMarcaYModelo()+"\nPrecio: "+getPrecio();
+        return "\nMarca y Modelo: " + getMarcaYModelo() + "\nPrecio: " + getPrecio();
     }
 }

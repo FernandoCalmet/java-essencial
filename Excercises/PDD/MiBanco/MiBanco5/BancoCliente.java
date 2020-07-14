@@ -1,4 +1,7 @@
+package MiBanco.MiBanco5;
+
 import java.util.Scanner;
+
 /**
  *
  * @author Fernando Calmet
