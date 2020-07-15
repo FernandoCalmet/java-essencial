@@ -1,0 +1,18 @@
+package Cafeteria.ejercicio2;
+
+/**
+ *
+ * @author Fernando Calmet
+ * @email fercalmet@gmail.com
+ * @homepage https://github.com/FernandoCalmet
+ */
+public class CafeBatido extends Cafe {
+    public CafeBatido() {
+        this.descripcion = "Cafe Descafeinado";
+    }
+
+    @Override
+    public double getCosto() {
+        return 0.89;
+    }
+}

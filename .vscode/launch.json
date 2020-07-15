@@ -1,0 +1,168 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CafeteriaNegrito",
+            "request": "launch",
+            "mainClass": "Cafeteria.ejercicio2.CafeteriaNegrito",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Puppy<Java_47a9e3b>",
+            "request": "launch",
+            "mainClass": "AccessingInstance.Puppy",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CoffeeShop<Java_47a9e3b>",
+            "request": "launch",
+            "mainClass": "Cafeteria.ejercicio1.CoffeeShop",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Compras<Java_47a9e3b>",
+            "request": "launch",
+            "mainClass": "CarritoCompras.ejercicio1.Compras",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Compras<Java_47a9e3b>(1)",
+            "request": "launch",
+            "mainClass": "CarritoCompras.ejercicio2.Compras",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ShoppingClient<Java_47a9e3b>",
+            "request": "launch",
+            "mainClass": "CarritoCompras.ejercicio3.ShoppingClient",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MyFirstJavaProgram<Java_47a9e3b>",
+            "request": "launch",
+            "mainClass": "Comments.MyFirstJavaProgram",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Puppy<Java_47a9e3b>(1)",
+            "request": "launch",
+            "mainClass": "CreatingAnObject.Puppy",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FreshJuiceTest<Java_47a9e3b>",
+            "request": "launch",
+            "mainClass": "Enum.FreshJuiceTest",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FonoCamaraApp<Java_47a9e3b>",
+            "request": "launch",
+            "mainClass": "FonoCamaraApp.FonoCamaraApp",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MiBanco<Java_47a9e3b>",
+            "request": "launch",
+            "mainClass": "MiBanco.MiBanco1.MiBanco",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BancoCliente<Java_47a9e3b>",
+            "request": "launch",
+            "mainClass": "MiBanco.MiBanco2.BancoCliente",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BancoCliente<Java_47a9e3b>(1)",
+            "request": "launch",
+            "mainClass": "MiBanco.MiBanco3.BancoCliente",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MiBanco<Java_47a9e3b>(1)",
+            "request": "launch",
+            "mainClass": "MiBanco.MiBanco4.MiBanco",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MiBanco<Java_47a9e3b>(2)",
+            "request": "launch",
+            "mainClass": "MiBanco.MiBanco5.MiBanco",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MyFirstJavaProgram<Java_47a9e3b>(1)",
+            "request": "launch",
+            "mainClass": "MyFirstJavaProgram",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Cliente<Java_47a9e3b>",
+            "request": "launch",
+            "mainClass": "Productos.Cliente",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Cliente<Java_47a9e3b>(1)",
+            "request": "launch",
+            "mainClass": "SimuladorPatos.Cliente",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TiempoApp<Java_47a9e3b>",
+            "request": "launch",
+            "mainClass": "TiempoApp.Ejercicio1.TiempoApp",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SistemaMonitoreoDelTiempo<Java_47a9e3b>",
+            "request": "launch",
+            "mainClass": "TiempoApp.Ejercicio2.SistemaMonitoreoDelTiempo",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-VentaAutos<Java_47a9e3b>",
+            "request": "launch",
+            "mainClass": "VentaAutos.VentaAutos",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Principal<ReporteUsuarios>",
+            "request": "launch",
+            "mainClass": "app.Principal",
+            "projectName": "ReporteUsuarios"
+        }
+    ]
+}
