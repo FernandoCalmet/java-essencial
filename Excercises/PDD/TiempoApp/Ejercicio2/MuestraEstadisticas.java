@@ -10,7 +10,7 @@ public class MuestraEstadisticas implements Observer, ElementoDespliegue {
     private float maxTemp;
     private float minTemp;
     private float tempSum;
-    private int numReadings;
+    /* private int numReadings; */
     private DatoDelTiempo datoTiempo;
 
     public MuestraEstadisticas(DatoDelTiempo datoTiempo) {
@@ -18,6 +18,7 @@ public class MuestraEstadisticas implements Observer, ElementoDespliegue {
         this.datoTiempo.registerObserver(this);
     }
 
+    @Override
     public void update(float temp, float humidity, float pressure) {
         this.maxTemp = temp + 2;
         this.minTemp = temp - 2;
@@ -25,6 +26,7 @@ public class MuestraEstadisticas implements Observer, ElementoDespliegue {
         mostrar();
     }
 
+    @Override
     public void mostrar() {
         System.out.println("Estadisticas del tiempo: \nTemperatura promedio: " + this.tempSum + "\nTemperatura maxima: "
                 + this.maxTemp + "\nTemperatura minima: " + this.minTemp);

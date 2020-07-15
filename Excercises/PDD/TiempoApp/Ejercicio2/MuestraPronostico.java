@@ -16,12 +16,14 @@ public class MuestraPronostico implements Observer, ElementoDespliegue {
         this.datoTiempo.registerObserver(this);
     }
 
+    @Override
     public void update(float temp, float humidity, float pressure) {
         this.ultimaPresion = this.presionActual;
         this.presionActual = pressure;
         mostrar();
     }
 
+    @Override
     public void mostrar() {
         System.out.print("Pronostico del tiempo: ");
         if (this.presionActual > this.ultimaPresion) {
