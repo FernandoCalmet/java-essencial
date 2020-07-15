@@ -8,7 +8,7 @@ package Cafeteria.ejercicio2;
  */
 public class CafeBatido extends Cafe {
     public CafeBatido() {
-        this.descripcion = "Cafe Descafeinado";
+        this.descripcion = "Cafe Batido";
     }
 
     @Override
