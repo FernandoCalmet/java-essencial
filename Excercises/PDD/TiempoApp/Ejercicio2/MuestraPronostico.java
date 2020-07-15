@@ -7,7 +7,7 @@ package TiempoApp.Ejercicio2;
  * @homepage https://github.com/FernandoCalmet
  */
 public class MuestraPronostico implements Observer, ElementoDespliegue {
-    private float presionActual = 29.92f;
+    private float presionActual;
     private float ultimaPresion;
     private DatoDelTiempo datoTiempo;
 
@@ -18,8 +18,13 @@ public class MuestraPronostico implements Observer, ElementoDespliegue {
 
     @Override
     public void update(float temp, float humidity, float pressure) {
-        this.ultimaPresion = this.presionActual;
-        this.presionActual = pressure;
+        if (this.datoTiempo.getPresion() > pressure) {
+            this.presionActual = this.datoTiempo.getPresion();
+            this.ultimaPresion = pressure;
+        } else {
+            this.presionActual = pressure;
+            this.ultimaPresion = this.datoTiempo.getPresion();
+        }
         mostrar();
     }
 

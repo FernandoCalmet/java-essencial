@@ -10,7 +10,7 @@ public class MuestraEstadisticas implements Observer, ElementoDespliegue {
     private float maxTemp;
     private float minTemp;
     private float tempSum;
-    /* private int numReadings; */
+    private int numReadings;
     private DatoDelTiempo datoTiempo;
 
     public MuestraEstadisticas(DatoDelTiempo datoTiempo) {
@@ -20,9 +20,15 @@ public class MuestraEstadisticas implements Observer, ElementoDespliegue {
 
     @Override
     public void update(float temp, float humidity, float pressure) {
-        this.maxTemp = temp + 2;
-        this.minTemp = temp - 2;
+        if (this.datoTiempo.getTemperatura() > temp) {
+            this.maxTemp = this.datoTiempo.getTemperatura();
+            this.minTemp = temp;
+        } else {
+            this.maxTemp = temp;
+            this.minTemp = this.datoTiempo.getTemperatura();
+        }
         this.tempSum = (this.maxTemp + this.minTemp) / 2;
+        this.numReadings++;
         mostrar();
     }
 

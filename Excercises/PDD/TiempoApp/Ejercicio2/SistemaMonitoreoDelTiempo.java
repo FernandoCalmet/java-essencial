@@ -16,8 +16,14 @@ public class SistemaMonitoreoDelTiempo {
         new MuestraPronostico(tiempo);
         // Agregar valores para medidas de monitoreo en el objeto Subject
         System.out.println("SISTEMA DE MONITOREO DEL TIEMPO");
-        tiempo.setMedidas(28, 65, 28);
-        tiempo.setMedidas(32, 70, 30);
-        tiempo.setMedidas(30, 90, 30);
+        tiempo.setMedidas(28, 65, 14);
+        // Actualizar estados
+        new MuestraCondicionesActuales(tiempo).update(32, 70, 16);
+        new MuestraEstadisticas(tiempo).update(32, 70, 16);
+        new MuestraPronostico(tiempo).update(32, 70, 16);
+        // Actualizar estados
+        new MuestraCondicionesActuales(tiempo).update(30, 90, 15);
+        new MuestraEstadisticas(tiempo).update(32, 90, 16);
+        new MuestraPronostico(tiempo).update(30, 90, 15);
     }
 }
