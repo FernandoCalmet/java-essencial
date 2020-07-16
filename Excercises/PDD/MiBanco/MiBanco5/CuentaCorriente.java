@@ -3,7 +3,6 @@ package MiBanco.MiBanco5;
 /**
  *
  * @author Fernando Calmet
- * @email fercalmet@gmail.com
  * @homepage https://github.com/FernandoCalmet
  */
 public class CuentaCorriente extends CuentaBancaria {

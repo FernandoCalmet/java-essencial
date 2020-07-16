@@ -3,7 +3,6 @@ package TiempoApp.Ejercicio2;
 /**
  *
  * @author Fernando Calmet
- * @email fercalmet@gmail.com
  * @homepage https://github.com/FernandoCalmet
  */
 public class MuestraPronostico implements Observer, ElementoDespliegue {
@@ -31,12 +30,12 @@ public class MuestraPronostico implements Observer, ElementoDespliegue {
     @Override
     public void mostrar() {
         System.out.print("Pronostico del tiempo: ");
-        if (this.presionActual > this.ultimaPresion) {
+        if (this.presionActual == 14) {
             System.out.print("Mejorando el tiempo a pasar el dia!");
-        } else if (this.presionActual == this.ultimaPresion) {
-            System.out.print("Todo el dia se mantendra equilibrado.");
-        } else if (this.presionActual < this.ultimaPresion) {
+        } else if (this.presionActual == 16) {
             System.out.print("Tenga cuidado, dia frio y lluvioso.");
+        } else {
+            System.out.print("Todo el dia se mantendra equilibrado.");
         }
     }
 }

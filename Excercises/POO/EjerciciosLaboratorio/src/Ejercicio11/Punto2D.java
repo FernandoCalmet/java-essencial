@@ -3,7 +3,6 @@ package Ejercicio11;
 /**
  *
  * @author Fernando Calmet
- * @email fercalmet@gmail.com
  * @homepage https://github.com/FernandoCalmet
  */
 public class Punto2D {

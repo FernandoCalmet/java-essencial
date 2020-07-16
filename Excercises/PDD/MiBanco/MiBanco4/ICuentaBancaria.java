@@ -3,7 +3,6 @@ package MiBanco.MiBanco4;
 /**
  *
  * @author Fernando Calmet
- * @email fercalmet@gmail.com
  * @homepage https://github.com/FernandoCalmet
  */
 public interface ICuentaBancaria {

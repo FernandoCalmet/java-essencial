@@ -3,7 +3,6 @@ package Ejercicio2;
 /**
  *
  * @author Fernando Calmet
- * @email fercalmet@gmail.com
  * @homepage https://github.com/FernandoCalmet
  */
 import java.io.BufferedReader;

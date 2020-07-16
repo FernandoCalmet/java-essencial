@@ -7,7 +7,6 @@ import java.io.InputStreamReader;
 /**
  *
  * @author Fernando Calmet
- * @email fercalmet@gmail.com
  * @homepage https://github.com/FernandoCalmet
  */
 public class ClasePrincipal {

@@ -3,7 +3,6 @@ import java.util.Scanner;
 /**
  *
  * @author Fernando Calmet
- * @email fercalmet@gmail.com
  * @homepage https://github.com/FernandoCalmet
  */
 public class Prueba {

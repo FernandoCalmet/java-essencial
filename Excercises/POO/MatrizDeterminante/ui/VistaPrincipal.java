@@ -3,7 +3,6 @@ package ui;
 /**
  *
  * @author Fernando Calmet
- * @email fercalmet@gmail.com
  * @homepage https://github.com/FernandoCalmet
  */
 public class VistaPrincipal extends javax.swing.JFrame {

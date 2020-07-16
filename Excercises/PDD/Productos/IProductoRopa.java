@@ -5,7 +5,6 @@ import java.util.List;
 /**
  *
  * @author Fernando Calmet
- * @email fercalmet@gmail.com
  * @homepage https://github.com/FernandoCalmet
  */
 public interface IProductoRopa {

@@ -6,7 +6,6 @@ import java.util.*;
 /**
  *
  * @author Fernando Calmet
- * @email fercalmet@gmail.com
  * @homepage https://github.com/FernandoCalmet
  */
 public class MatrizControlador {
