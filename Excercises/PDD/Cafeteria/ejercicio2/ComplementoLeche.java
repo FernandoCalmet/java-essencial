@@ -14,6 +14,11 @@ public class ComplementoLeche extends CafeDecorator {
     }
 
     @Override
+    public String getDescripcion() {
+        return this.descripcion;
+    }
+
+    @Override
     public double getCosto() {
         return 0.10 + this.wrappedCoffee.getCosto();
     }

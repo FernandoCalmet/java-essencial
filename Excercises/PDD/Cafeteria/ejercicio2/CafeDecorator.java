@@ -6,5 +6,5 @@ package Cafeteria.ejercicio2;
  * @homepage https://github.com/FernandoCalmet
  */
 public abstract class CafeDecorator extends Cafe {
-
+    public abstract String getDescripcion();
 }

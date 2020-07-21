@@ -14,6 +14,11 @@ public class ComplementoSoya extends CafeDecorator {
     }
 
     @Override
+    public String getDescripcion() {
+        return this.descripcion;
+    }
+
+    @Override
     public double getCosto() {
         return 0.15 + this.wrappedCoffee.getCosto();
     }

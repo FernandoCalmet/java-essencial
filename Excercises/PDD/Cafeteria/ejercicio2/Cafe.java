@@ -6,7 +6,7 @@ package Cafeteria.ejercicio2;
  * @homepage https://github.com/FernandoCalmet
  */
 public abstract class Cafe {
-    protected String descripcion;
+    protected String descripcion = "Bebida aromática.";
 
     public String getDescripcion() {
         return this.descripcion;
