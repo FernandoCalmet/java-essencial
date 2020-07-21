@@ -30,11 +30,14 @@ public class MuestraPronostico implements Observer, ElementoDespliegue {
     @Override
     public void mostrar() {
         System.out.print("Pronostico del tiempo: ");
-        if (this.presionActual == 14) {
+        // opcional: this.presionActual == 14
+        if (this.presionActual > this.ultimaPresion) {
             System.out.print("Mejorando el tiempo a pasar el dia!");
-        } else if (this.presionActual == 16) {
+        }
+        // opcional: this.presionActual == 16
+        else if (this.presionActual < this.ultimaPresion) {
             System.out.print("Tenga cuidado, dia frio y lluvioso.");
-        } else {
+        } else if (this.presionActual == this.ultimaPresion) {
             System.out.print("Todo el dia se mantendra equilibrado.");
         }
     }

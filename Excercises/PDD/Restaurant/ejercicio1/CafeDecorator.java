@@ -1,9 +1,0 @@
-package Restaurant.ejercicio1;
-
-/**
- *
- * @author Fernando Calmet
- * @homepage https://github.com/FernandoCalmet
- */
-public abstract class CafeDecorator extends Cafe {
-}

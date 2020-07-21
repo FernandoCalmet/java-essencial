@@ -18,7 +18,7 @@ public class Registro {
         return this.clientes.get(index);
     }
 
-    public ArrayList getVenta(int index) {
+    public ArrayList<Venta> getVenta(int index) {
         return this.clientes.get(index).getVentas();
     }
 
