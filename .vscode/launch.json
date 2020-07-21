@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PizzeriaItalia",
+            "request": "launch",
+            "mainClass": "Pizzeria.Ejercicio1.PizzeriaItalia",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CafeteriaNegrito",
             "request": "launch",
             "mainClass": "Cafeteria.ejercicio2.CafeteriaNegrito",
