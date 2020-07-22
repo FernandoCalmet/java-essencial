@@ -1,4 +1,4 @@
-package Restaurant.ejercicio1.Menu.Drinks.Types;
+package Restaurant.ejercicio1.Menu.Drinks.Fresh;
 
 import Restaurant.ejercicio1.Menu.Drinks.Drink;
 
@@ -7,14 +7,14 @@ import Restaurant.ejercicio1.Menu.Drinks.Drink;
  * @author Fernando Calmet
  * @homepage https://github.com/FernandoCalmet
  */
-public class Lemonade extends Drink {
-    public Lemonade(String size) {        
-        this.description = "Lemonade";
+public class DrinkWater extends Drink {
+    public DrinkWater(String size) {
+        this.description = "Water";
         super.setSize(size);
     }
 
     @Override
-    public String getSize(){
+    public String getSize() {
         return super.getSize();
     }
 
