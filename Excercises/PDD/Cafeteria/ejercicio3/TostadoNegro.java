@@ -19,6 +19,6 @@ public class TostadoNegro implements ICoffee {
 
     @Override
     public double getCost() {
-        return 1.99;
+        return 0.99;
     }
 }
