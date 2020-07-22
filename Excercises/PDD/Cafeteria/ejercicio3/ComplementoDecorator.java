@@ -5,7 +5,7 @@ package Cafeteria.ejercicio3;
  * @author Fernando Calmet
  * @homepage https://github.com/FernandoCalmet
  */
-public class ComplementoDecorator extends CoffeeDecorator {
+public abstract class ComplementoDecorator extends CoffeeDecorator {
     public ComplementoDecorator(ICoffee wrappedCoffee) {
         super(wrappedCoffee);
     }
