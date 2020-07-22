@@ -5,7 +5,7 @@ package Pizzeria.Ejercicio2;
  * @author Fernando Calmet
  * @homepage https://github.com/FernandoCalmet
  */
-public class PizzaSizeDecorator extends PizzaDecorator {
+public abstract class PizzaSizeDecorator extends PizzaDecorator {
     public PizzaSizeDecorator(IPizza wrappedPizza) {
         super(wrappedPizza);
     }
