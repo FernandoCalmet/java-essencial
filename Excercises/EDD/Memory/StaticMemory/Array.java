@@ -1,5 +1,10 @@
-package StaticMemory;
+package Memory.StaticMemory;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 import java.util.Arrays;
 
 public class Array {

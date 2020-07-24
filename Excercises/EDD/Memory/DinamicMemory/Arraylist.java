@@ -1,5 +1,10 @@
-package DinamicMemory;
+package Memory.DinamicMemory;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 

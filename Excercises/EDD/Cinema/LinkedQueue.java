@@ -1,4 +1,6 @@
-import exceptions.*;
+package Cinema;
+
+import Cinema.exceptions.*;
 
 /**
  *

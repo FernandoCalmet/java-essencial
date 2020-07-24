@@ -1,3 +1,10 @@
+package HashMap;
+
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 import java.util.HashMap;
 import java.util.Map;
 
@@ -21,7 +28,7 @@ class loopItems {
 
         /* FOR-EACH LOOP : KEYS-VALUES */
         for (String i : alumnos.keySet()) {
-            System.out.println("Key: "+i+ " Value: "+alumnos.get(i));
+            System.out.println("Key: " + i + " Value: " + alumnos.get(i));
         }
 
         /* FOR-EACH LOOP : KEYS-VALUES */

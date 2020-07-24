@@ -1,3 +1,10 @@
+package Generics;
+
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 class genericMethod {
     // generic method printArray
     public static <E> void printArray(E[] inputArray) {

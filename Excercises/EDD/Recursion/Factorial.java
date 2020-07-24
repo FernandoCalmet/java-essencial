@@ -1,3 +1,10 @@
+package Recursion;
+
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 import javax.swing.JOptionPane;
 
 public class Factorial {

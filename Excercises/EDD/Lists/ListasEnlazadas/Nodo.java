@@ -1,5 +1,10 @@
-package ListasEnlazadas;
+package Lists.ListasEnlazadas;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Nodo {
     public int dato;
     public Nodo siguiente; // Puntero

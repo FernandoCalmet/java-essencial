@@ -1,3 +1,10 @@
+package Generics;
+
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 class genericClass<T> {
     private T t;
 

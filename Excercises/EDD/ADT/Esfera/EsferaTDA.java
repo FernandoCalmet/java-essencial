@@ -1,5 +1,10 @@
-package Esfera;
+package ADT.Esfera;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class EsferaTDA {
     private double radio;
 

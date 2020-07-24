@@ -1,5 +1,10 @@
-package ListasEnlazadas;
+package Lists.ListasEnlazadas;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 import javax.swing.JOptionPane;
 
 public class Prueba {

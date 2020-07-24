@@ -1,3 +1,10 @@
+package Maps;
+
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;

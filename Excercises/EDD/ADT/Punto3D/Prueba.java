@@ -1,5 +1,10 @@
-package Punto3D;
+package ADT.Punto3D;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Prueba {
     public static void main(String[] args) {
         Punto objPunto = new Punto();

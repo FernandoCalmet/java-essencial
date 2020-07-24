@@ -1,3 +1,10 @@
+package HashSet;
+
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 import java.util.HashSet;
 
 class removeItems {

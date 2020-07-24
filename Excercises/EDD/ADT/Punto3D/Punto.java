@@ -1,5 +1,10 @@
-package Punto3D;
+package ADT.Punto3D;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Punto {
     private int x, y, z;
     private String dimension;

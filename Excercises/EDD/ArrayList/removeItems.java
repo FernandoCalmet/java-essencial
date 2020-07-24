@@ -1,3 +1,10 @@
+package ArrayList;
+
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 import java.util.ArrayList;
 
 public class removeItems {

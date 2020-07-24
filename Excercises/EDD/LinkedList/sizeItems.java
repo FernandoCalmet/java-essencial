@@ -1,7 +1,14 @@
+package LinkedList;
+
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 import java.util.LinkedList;
 
 class sizeItems {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         LinkedList<String> colores = new LinkedList<String>();
         colores.add(0, "Rojo");
         colores.add(1, "Amarillo");
@@ -11,5 +18,5 @@ class sizeItems {
 
         int size = colores.size();
         System.out.println(size);
-    }    
+    }
 }

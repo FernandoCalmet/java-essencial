@@ -1,3 +1,10 @@
+package Recursion;
+
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Escalera {
     public static void main(String[] args) {
         bajarEscalera(5);

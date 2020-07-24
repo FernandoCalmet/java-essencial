@@ -1,3 +1,5 @@
+package Cinema;
+
 /**
  *
  * @author Fernando Calmet

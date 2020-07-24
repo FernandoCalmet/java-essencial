@@ -1,3 +1,10 @@
+package HashMap;
+
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 import java.util.HashMap;
 
 class accessItems {

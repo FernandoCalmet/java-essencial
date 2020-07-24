@@ -1,3 +1,10 @@
+package HashSet;
+
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 import java.util.HashSet;
 
 class loopItems {
@@ -9,7 +16,7 @@ class loopItems {
         dni.add("82650189");
         dni.add("83494701");
 
-        for(String i : dni)
+        for (String i : dni)
             System.out.println(i);
     }
 }

@@ -1,7 +1,14 @@
+package LinkedList;
+
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 import java.util.LinkedList;
 
 class accessItems {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         LinkedList<String> colores = new LinkedList<String>();
         colores.add(0, "Rojo");
         colores.add(1, "Amarillo");
@@ -12,5 +19,5 @@ class accessItems {
 
         colores.set(3, "Blanco");
         System.out.println(colores.get(3));
-    }  
+    }
 }

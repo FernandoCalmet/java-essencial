@@ -1,3 +1,10 @@
+package Generics;
+
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 class maximum {
     // determines the largest of three Comparable objects
 
