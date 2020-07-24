@@ -32,14 +32,10 @@ To write your Java programs, you will need a text editor. There are even more so
 
 - *Notepad* − On Windows machine, you can use any simple text editor like Notepad (Recommended for this tutorial), TextPad.
 
-- *Netbeans* − A Java IDE that is open-source and free which can be downloaded from https://www.netbeans.org/index.html.
+- *Netbeans* − A Java IDE that is open-source and free which can be downloaded from <https://www.netbeans.org/index.html>.
 
-- *Eclipse* − A Java IDE developed by the eclipse open-source community and can be downloaded from https://www.eclipse.org/.
+- *Eclipse* − A Java IDE developed by the eclipse open-source community and can be downloaded from <https://www.eclipse.org/>.
 
 :octocat: [Check more about Java in my repository.](https://github.com/FernandoCalmet/Java)
 
-## Support me ☕💖
-
-<a href='https://ko-fi.com/fernandocalmet' target='_blank'>
-  <img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' />
-</a>
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T41JKMI)

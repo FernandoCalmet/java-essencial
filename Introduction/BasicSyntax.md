@@ -14,7 +14,7 @@ When we consider a Java program, it can be defined as a collection of objects th
 
 Let us look at a simple code that will print the words *Hello World*.
 
-_Example_
+### Example 1
 
 ```java
 public class MyFirstJavaProgram {
@@ -43,11 +43,11 @@ Let's look at how to save the file, compile, and run the program. Please follow 
 
 - You will be able to see ' Hello World ' printed on the window.
 
-_Output_
+Output:
 
-```
+```bash
 C:\> javac MyFirstJavaProgram.java
-C:\> java MyFirstJavaProgram 
+C:\> java MyFirstJavaProgram
 Hello World
 ```
 
@@ -123,7 +123,7 @@ With the use of enums it is possible to reduce the number of bugs in your code.
 
 For example, if we consider an application for a fresh juice shop, it would be possible to restrict the glass size to small, medium, and large. This would make sure that it would not allow anyone to order any size other than small, medium, or large.
 
-_Example_
+### Example 2
 
 ```java
 class FreshJuice {
@@ -143,9 +143,9 @@ public class FreshJuiceTest {
 
 The above example will produce the following result −
 
-_Output_
+Output:
 
-```
+```bash
 Size: MEDIUM
 ```
 
@@ -174,7 +174,7 @@ volatile | while |   |  
 
 Java supports single-line and multi-line comments very similar to C and C++. All characters available inside any comment are ignored by Java compiler.
 
-_Example_
+### Example 3
 
 ```java
 public class MyFirstJavaProgram {
@@ -192,9 +192,9 @@ public class MyFirstJavaProgram {
 }
 ```
 
-_Output_
+Output:
 
-```
+```bash
 Hello World
 ```
 
@@ -216,8 +216,4 @@ An interface defines the methods, a deriving class (subclass) should use. But th
 
 :octocat: [Check more about Java in my repository.](https://github.com/FernandoCalmet/Java)
 
-## Support me ☕💖
-
-<a href='https://ko-fi.com/fernandocalmet' target='_blank'>
-  <img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' />
-</a>
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T41JKMI)

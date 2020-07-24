@@ -5,9 +5,7 @@ import Restaurant.ejercicio1.Menu.Drinks.Fresh.*;
 import Restaurant.ejercicio1.Menu.Drinks.Complements.*;
 
 public class MyRestaurant {
-    public static void main(String[] args) {
-        //TODO: add more menu items and order process
-
+    public static void main(String[] args) {        
         // Order a Drink
         Drink lemonade = new DrinkLemonade("single");
         // Add complements to the order

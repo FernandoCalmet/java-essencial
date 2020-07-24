@@ -2,7 +2,7 @@
 
 Java is a high-level programming language originally developed by Sun Microsystems and released in 1995. Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX. This tutorial gives a complete understanding of Java. This reference will take you through simple and practical approaches while learning Java Programming language.
 
-## Why to Learn java Programming?
+## Why to Learn java Programming
 
 Java is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Software Development Domain. I will list down some of the key advantages of learning Java Programming:
 
@@ -71,8 +71,4 @@ Before you start practicing various types of examples given in this reference, w
 
 :octocat: [Check more about Java in my repository.](https://github.com/FernandoCalmet/Java)
 
-## Support me ☕💖
-
-<a href='https://ko-fi.com/fernandocalmet' target='_blank'>
-  <img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' />
-</a>
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T41JKMI)

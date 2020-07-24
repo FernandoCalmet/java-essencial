@@ -36,7 +36,7 @@ A class is a blueprint from which individual objects are created.
 
 Following is a sample of a class.
 
-_Example_
+### Example 1
 
 ```java
 public class Dog {
@@ -75,7 +75,7 @@ Each time a new object is created, at least one constructor will be invoked. The
 
 Following is an example of a constructor −
 
-_Example_
+### Example 2
 
 ```java
 public class Puppy {
@@ -93,6 +93,7 @@ Java also supports Singleton Classes where you would be able to create only one 
 *Note* − We have two different types of constructors. We are going to discuss constructors in detail in the subsequent chapters.
 
 ## Creating an Object
+
 As mentioned previously, a class provides the blueprints for objects. So basically, an object is created from a class. In Java, the new keyword is used to create new objects.
 
 There are three steps when creating an object from a class −
@@ -105,7 +106,7 @@ There are three steps when creating an object from a class −
 
 Following is an example of creating an object −
 
-_Example_
+### Example 3
 
 ```java
 public class Puppy {
@@ -123,9 +124,9 @@ public class Puppy {
 
 If we compile and run the above program, then it will produce the following result −
 
-_Output_
+Output:
 
-```
+```bash
 Passed Name is :tommy
 ```
 
@@ -133,7 +134,7 @@ Passed Name is :tommy
 
 Instance variables and methods are accessed via created objects. To access an instance variable, following is the fully qualified path −
 
-```
+```java
 /* First create an object */
 ObjectReference = new Constructor();
 
@@ -144,7 +145,7 @@ ObjectReference.variableName;
 ObjectReference.MethodName();
 ```
 
-_Example_
+### Example 4
 
 This example explains how to access instance variables and methods of a class.
 
@@ -184,9 +185,9 @@ public class Puppy {
 
 If we compile and run the above program, then it will produce the following result −
 
-_Output_
+Output:
 
-```
+```bash
 Name chosen is :tommy
 Puppy's age is :2
 Variable Value :2
@@ -222,7 +223,7 @@ In Java if a fully qualified name, which includes the package and the class name
 
 For example, the following line would ask the compiler to load all the classes available in directory java_installation/java/io −
 
-```
+```java
 import java.io.*;
 ```
 
@@ -234,7 +235,7 @@ First open notepad and add the following code. Remember this is the Employee cla
 
 The Employee class has four instance variables - name, age, designation and salary. The class has one explicitly defined constructor, which takes a parameter.
 
-_Example_
+### Example
 
 ```java
 import java.io.*;
@@ -260,7 +261,7 @@ public class Employee {
       designation = empDesig;
    }
 
-   /* Assign the salary to the variable	salary.*/
+   /* Assign the salary to the variable salary.*/
    public void empSalary(double empSalary) {
       salary = empSalary;
    }
@@ -283,9 +284,9 @@ Save the following code in EmployeeTest.java file.
 
 Now, compile both the classes and then run EmployeeTest to see the result as follows −
 
-_Output_
+Output:
 
-```
+```bash
 C:\> javac Employee.java
 C:\> javac EmployeeTest.java
 C:\> java EmployeeTest
@@ -301,8 +302,4 @@ Salary:500.0
 
 :octocat: [Check more about Java in my repository.](https://github.com/FernandoCalmet/Java)
 
-## Support me ☕💖
-
-<a href='https://ko-fi.com/fernandocalmet' target='_blank'>
-  <img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' />
-</a>
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T41JKMI)
