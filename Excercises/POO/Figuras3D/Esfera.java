@@ -1,3 +1,5 @@
+package Figuras3D;
+
 /**
  *
  * @author Fernando Calmet
@@ -33,6 +35,7 @@ public class Esfera extends Figuras {
 
     @Override
     public String toString() {
-        return "ESFERA: \nCircunferencia: " + getCircunferencia() + "\nDiametro: " + getDiametro() + "\nArea: " + getArea() + "\nVolumen: " + getVolumen();
+        return "ESFERA: \nCircunferencia: " + getCircunferencia() + "\nDiametro: " + getDiametro() + "\nArea: "
+                + getArea() + "\nVolumen: " + getVolumen();
     }
 }

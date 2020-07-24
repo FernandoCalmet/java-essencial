@@ -1,4 +1,4 @@
-package Ejercicio12;
+package EjerciciosLaboratorio.src.Ejercicio12;
 
 import java.util.ArrayList;
 
@@ -9,7 +9,7 @@ import java.util.ArrayList;
  */
 public class Agenda {
 
-    private static ArrayList<Contacto> contacto;
+    private ArrayList<Contacto> contacto;
     private int numero;
     private String propietario;
 

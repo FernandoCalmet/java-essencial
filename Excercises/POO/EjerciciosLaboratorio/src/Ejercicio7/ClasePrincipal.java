@@ -1,4 +1,4 @@
-package Ejercicio7;
+package EjerciciosLaboratorio.src.Ejercicio7;
 
 import java.io.BufferedReader;
 import java.io.IOException;

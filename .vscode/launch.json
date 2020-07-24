@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ClasePrincipal",
+            "request": "launch",
+            "mainClass": "EjerciciosLaboratorio.src.Ejercicio2.ClasePrincipal",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EjemploEmpleados",
+            "request": "launch",
+            "mainClass": "Abstractos.Abstracts.EjemploEmpleados",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CafeteriaNegritoDemo",
             "request": "launch",
             "mainClass": "Cafeteria.ejercicio3.CafeteriaNegritoDemo",

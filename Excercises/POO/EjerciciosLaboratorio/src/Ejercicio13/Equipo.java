@@ -1,4 +1,4 @@
-package Ejercicio13;
+package EjerciciosLaboratorio.src.Ejercicio13;
 
 import java.util.ArrayList;
 
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class Equipo {
 
     private String pais;
-    private static ArrayList<Jugador> jugadores;
+    private ArrayList<Jugador> jugadores;
 
     public Equipo(String pais, ArrayList<Jugador> jugadores) {
         this.pais = pais;

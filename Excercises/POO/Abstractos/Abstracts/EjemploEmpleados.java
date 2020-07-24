@@ -1,3 +1,10 @@
+package Abstractos.Abstracts;
+
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class EjemploEmpleados {
     public static void main(String[] args) {
         Empleado empleado1 = new Gerente();
@@ -67,7 +74,7 @@ class Supervisor extends Empleado {
         super.setNombre(nombre);
     }
 
-    public String getDNI(){
+    public String getDNI() {
         return super.getDNI();
     }
 

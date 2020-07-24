@@ -1,4 +1,4 @@
-package Ejercicio12;
+package EjerciciosLaboratorio.src.Ejercicio12;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -48,9 +48,9 @@ public class PruebaBanco {
         String direccion3 = br.readLine();
         /* CREAR LISTA DE CONTACTOS */
         Contacto contacto1 = new Contacto(dni1, nombres1, telefono1, direccion1);
-        Contacto contacto2 = new Contacto(dni3, nombres2, telefono2, direccion2);
+        Contacto contacto2 = new Contacto(dni2, nombres2, telefono2, direccion2);
         Contacto contacto3 = new Contacto(dni3, nombres3, telefono3, direccion3);
-        ArrayList<Contacto> listaContactos = new ArrayList();
+        ArrayList<Contacto> listaContactos = new ArrayList<Contacto>();
         listaContactos.add(contacto1);
         listaContactos.add(contacto2);
         listaContactos.add(contacto3);

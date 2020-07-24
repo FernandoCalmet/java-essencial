@@ -1,11 +1,19 @@
+package ClasesObjetos;
+
 import javax.swing.JOptionPane;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Vehiculos {
     public static void main(String[] args) {
         Moto moto = new Moto();
         Automovil auto = new Automovil();
         JOptionPane.showMessageDialog(null, "La Motocicleta tiene " + moto.ruedas + " ruedas y pesa " + moto.peso);
-        JOptionPane.showMessageDialog(null,"El Automovil tiene " + auto.ruedas + " ruedas y es de color " + auto.color);
+        JOptionPane.showMessageDialog(null,
+                "El Automovil tiene " + auto.ruedas + " ruedas y es de color " + auto.color);
     }
 }
 

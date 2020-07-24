@@ -1,3 +1,5 @@
+package Figuras3D;
+
 /**
  *
  * @author Fernando Calmet

@@ -1,10 +1,17 @@
+package Abstractos.Interfaces;
+
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class EjemploUsuarios {
     private static IUsuario usuario;
 
     public static void main(String[] args) {
         usuario = new Usuario();
         usuario.setNombre("Fernando");
-        usuario.setCorreo("fercalmet@gmail.com");   
+        usuario.setCorreo("fercalmet@gmail.com");
         System.out.println(usuario.toString());
     }
 }
@@ -13,7 +20,7 @@ class Usuario implements IUsuario {
     private String nombre;
     private String correo;
 
-    public Usuario(){
+    public Usuario() {
 
     }
 

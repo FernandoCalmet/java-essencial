@@ -1,3 +1,10 @@
+package Encapsulamiento;
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
+
 /* Private : Acceso solo para la misma clase */
 import javax.swing.JOptionPane;
 

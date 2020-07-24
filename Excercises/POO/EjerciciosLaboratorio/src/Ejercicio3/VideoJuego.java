@@ -1,4 +1,4 @@
-package Ejercicio3;
+package EjerciciosLaboratorio.src.Ejercicio3;
 
 /**
  *
@@ -8,7 +8,7 @@ package Ejercicio3;
 public class VideoJuego {
     private String titulo;
     private int horasEstimadas;
-    private boolean entregado = false;
+    // private boolean entregado = false;
     private String genero;
     private String compania;
 

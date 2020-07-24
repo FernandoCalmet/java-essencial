@@ -1,3 +1,5 @@
+package Inmobiliaria1;
+
 /**
  *
  * @author Fernando Calmet

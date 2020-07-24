@@ -1,4 +1,4 @@
-package Ejercicio15;
+package EjerciciosLaboratorio.src.Ejercicio15;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -45,7 +45,7 @@ public class PruebaUniversidad {
         Alumno alumno1 = new Alumno(nombre1);
         Alumno alumno2 = new Alumno(nombre2);
         Alumno alumno3 = new Alumno(nombre3);
-        ArrayList<Alumno> listaAlumnos = new ArrayList();
+        ArrayList<Alumno> listaAlumnos = new ArrayList<Alumno>();
         listaAlumnos.add(alumno1);
         listaAlumnos.add(alumno2);
         listaAlumnos.add(alumno3);
@@ -73,12 +73,12 @@ public class PruebaUniversidad {
         Examen examen5 = new Examen(asignatura2, alumno2, 9);
         Examen examen6 = new Examen(asignatura2, alumno3, 10);
 
-        ArrayList<Examen> listaExamenes1 = new ArrayList();
+        ArrayList<Examen> listaExamenes1 = new ArrayList<Examen>();
         listaExamenes1.add(examen1);
         listaExamenes1.add(examen2);
         listaExamenes1.add(examen3);
 
-        ArrayList<Examen> listaExamenes2 = new ArrayList();
+        ArrayList<Examen> listaExamenes2 = new ArrayList<Examen>();
         listaExamenes2.add(examen4);
         listaExamenes2.add(examen5);
         listaExamenes2.add(examen6);

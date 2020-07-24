@@ -1,3 +1,5 @@
+package RecomendacionProductos;
+
 import java.util.Scanner;
 
 /**

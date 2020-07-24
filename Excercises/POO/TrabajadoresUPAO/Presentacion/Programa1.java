@@ -1,6 +1,6 @@
-package Presentacion;
+package TrabajadoresUPAO.Presentacion;
 
-import Logica.*;
+import TrabajadoresUPAO.Logica.*;
 
 /**
  *

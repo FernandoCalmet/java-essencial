@@ -1,4 +1,4 @@
-package Ejercicio9;
+package EjerciciosLaboratorio.src.Ejercicio9;
 
 /**
  *

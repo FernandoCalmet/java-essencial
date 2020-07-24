@@ -1,12 +1,17 @@
-package Figuras;
+package Herencia.Figuras;
 
-public class Rectangulo extends Figura{
-    
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
+public class Rectangulo extends Figura {
+
     private double largo;
     private double ancho;
-    
-    public Rectangulo(int x,int y,double largo,double ancho){
-        super(x,y);
+
+    public Rectangulo(int x, int y, double largo, double ancho) {
+        super(x, y);
         this.largo = largo;
         this.ancho = ancho;
     }
@@ -26,20 +31,17 @@ public class Rectangulo extends Figura{
     public void setAncho(double ancho) {
         this.ancho = ancho;
     }
-    
-    public double calcularArea(){
-        return largo*ancho;
+
+    public double calcularArea() {
+        return largo * ancho;
     }
-    
-    public double calcularPerimetro(){
+
+    public double calcularPerimetro() {
         return 2 * (largo + ancho);
     }
-    
+
     @Override
-    public String toString(){
-        return "\nX: "+super.getX()+
-                "\nY: "+super.getY()+
-                "\nAncho: "+ancho+
-                "\nLargo: "+largo;
+    public String toString() {
+        return "\nX: " + super.getX() + "\nY: " + super.getY() + "\nAncho: " + ancho + "\nLargo: " + largo;
     }
 }

@@ -1,7 +1,7 @@
-package Presentacion;
+package TrabajadoresUPAO.Presentacion;
 
 import java.io.IOException;
-import Logica.Universidad;
+import TrabajadoresUPAO.Logica.*;
 
 /**
  *

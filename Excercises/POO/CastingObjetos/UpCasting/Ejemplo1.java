@@ -1,5 +1,10 @@
-package UpCasting;
+package CastingObjetos.UpCasting;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Ejemplo1 {
     public static void main(String[] args) {
         // Crear objeto Capa1 con instancia de clase hija Capa2

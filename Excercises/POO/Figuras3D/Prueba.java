@@ -1,3 +1,5 @@
+package Figuras3D;
+
 import java.util.Scanner;
 
 /**

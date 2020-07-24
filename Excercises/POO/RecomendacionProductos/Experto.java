@@ -1,3 +1,5 @@
+package RecomendacionProductos;
+
 /**
  *
  * @author Fernando Calmet
