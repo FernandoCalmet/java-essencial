@@ -20,7 +20,7 @@ class genericClass<T> {
         genericClass<Integer> integerBox = new genericClass<Integer>();
         genericClass<String> stringBox = new genericClass<String>();
 
-        integerBox.add(new Integer(10));
+        integerBox.add(10);
         stringBox.add(new String("Hello World"));
 
         System.out.printf("Integer Value :%d\n\n", integerBox.get());
