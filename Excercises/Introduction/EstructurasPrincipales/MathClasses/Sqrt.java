@@ -1,5 +1,10 @@
-package MathClasses;
+package EstructurasPrincipales.MathClasses;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Sqrt {
   public static void main(String[] args) {
     int numero = 8;

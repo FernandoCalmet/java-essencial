@@ -1,5 +1,10 @@
-package Conditionals;
+package FlujoControl.Conditionals;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class SubCondiciones {
     public static void main(String[] args) {
         char opcion1 = 'a';

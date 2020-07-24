@@ -1,5 +1,10 @@
-package HelloWorld;
+package EstructurasPrincipales.HelloWorld;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class HolaMundo {
 
     public static void main(String[] args) {

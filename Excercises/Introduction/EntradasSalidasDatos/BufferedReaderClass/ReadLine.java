@@ -1,5 +1,10 @@
-package BufferedReaderClass;
+package EntradasSalidasDatos.BufferedReaderClass;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

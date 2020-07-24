@@ -1,3 +1,9 @@
+package Practica;
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 
 /*
     ============================================================================
@@ -22,15 +28,8 @@
  */
 import javax.swing.*;
 
-/**
- *
- * @author Fernando Calmet
- * @homepage https://github.com/FernandoCalmet
- */
 public class GestionMatriculas {
-
     public static void main(String[] args) {
-
         String[] idCurso = new String[50];
         String[] nombreCurso = new String[50];
         int[] numeroCreditos = new int[50];

@@ -1,11 +1,16 @@
-package BasicSwitch;
+package FlujoControl.BasicSwitch;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 import java.util.Scanner;
 
 public class NumericSwitch {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    static Scanner scanner = new Scanner(System.in);
 
+    public static void main(String[] args) {
         System.out.print("Ingresar un numero entre 0,1,2,3: ");
         int menu = Integer.parseInt(scanner.nextLine());
 

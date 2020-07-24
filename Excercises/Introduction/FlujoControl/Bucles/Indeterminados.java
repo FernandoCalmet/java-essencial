@@ -1,5 +1,10 @@
-package Bucles;
+package FlujoControl.Bucles;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Indeterminados {
     public static void main(String[] args) {
         // Ejemplo con While

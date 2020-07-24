@@ -1,5 +1,10 @@
-package Conditionals;
+package FlujoControl.Conditionals;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class CondicionSimple {
     public static void main(String[] args) {
         int edad = 18;

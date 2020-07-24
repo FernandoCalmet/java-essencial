@@ -1,11 +1,16 @@
-package ScannerClass;
+package EntradasSalidasDatos.ScannerClass;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 import java.util.Scanner;
 
 public class NextInt {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    static Scanner scanner = new Scanner(System.in);
 
+    public static void main(String[] args) {
         System.out.println("Enter your age: ");
         int age = scanner.nextInt();
 

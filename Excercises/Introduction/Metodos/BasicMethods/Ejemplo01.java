@@ -1,5 +1,10 @@
-package BasicMethods;
+package Metodos.BasicMethods;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Ejemplo01 {
     public static void main(String[] args) {
 

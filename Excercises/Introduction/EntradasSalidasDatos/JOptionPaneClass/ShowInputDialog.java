@@ -1,5 +1,10 @@
-package JOptionPaneClass;
+package EntradasSalidasDatos.JOptionPaneClass;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 import javax.swing.*;
 
 public class ShowInputDialog {
@@ -9,6 +14,6 @@ public class ShowInputDialog {
 
         int parseAge = Integer.parseInt(age);
 
-        System.out.println("Hi " + nombre + ", next year you will be " + (parseAge + 1));
+        System.out.println("Hi " + name + ", next year you will be " + (parseAge + 1));
     }
 }

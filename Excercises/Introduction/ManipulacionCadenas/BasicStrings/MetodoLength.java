@@ -1,5 +1,10 @@
-package BasicStrings;
+package ManipulacionCadenas.BasicStrings;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class MetodoLength {
     public static void main(String[] args) {
         /*

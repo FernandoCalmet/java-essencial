@@ -1,5 +1,10 @@
-package DataTypes;
+package EstructurasPrincipales.DataTypes;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Enteros {
 
     public static void main(String[] args) {

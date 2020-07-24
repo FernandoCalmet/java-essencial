@@ -1,5 +1,10 @@
-package Unidimensional;
+package Arreglos.Unidimensional;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Ejemplo03 {
     public static void main(String[] args) {
         int[] dados = new int[5];

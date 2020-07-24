@@ -1,11 +1,16 @@
-package BasicSwitch;
+package FlujoControl.BasicSwitch;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 import java.util.Scanner;
 
 public class StringSwitch {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    static Scanner scanner = new Scanner(System.in);
 
+    public static void main(String[] args) {
         System.out.print("Ingresar una letra entre A, B, C, D: ");
         String menu = scanner.nextLine();
 

@@ -1,5 +1,10 @@
-package LogicalOperators;
+package EstructurasPrincipales.LogicalOperators;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class IncrementoDecremento {
 
     public static void main(String[] args) {

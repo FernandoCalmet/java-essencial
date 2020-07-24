@@ -1,5 +1,10 @@
-package MathClasses;
+package EstructurasPrincipales.MathClasses;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Floor {
     public static void main(String[] args) {
 

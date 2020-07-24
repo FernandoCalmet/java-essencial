@@ -1,5 +1,10 @@
-package Bidimensional;
+package Arreglos.Bidimensional;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Ejemplo02 {
     public static void main(String[] args) {
         String[][] empleados = { { "Fernando", "Andres", "Jose", "Mario" }, { "Maria", "Juliana", "Rocio", "Stefani" },

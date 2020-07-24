@@ -1,5 +1,10 @@
-package Bidimensional;
+package Arreglos.Bidimensional;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Ejemplo01 {
     public static void main(String[] args) {
         int[][] matriz = new int[2][3];
