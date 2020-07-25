@@ -76,6 +76,8 @@ This tutorial will provide the necessary skills to create GUI, networking, and w
 
 📗 [Loop Control](LoopControl.md)
 
+📗 [Decision Making](DecisionMaking.md)
+
 :octocat: [Check more about Java in my repository.](https://github.com/FernandoCalmet/Java)
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T41JKMI)
