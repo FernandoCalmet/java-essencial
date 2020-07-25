@@ -20,6 +20,7 @@ class ClassName {
 Java allows two types of constructors namely −
 
 - No argument Constructors
+
 - Parameterized Constructors
 
 ## No argument Constructors

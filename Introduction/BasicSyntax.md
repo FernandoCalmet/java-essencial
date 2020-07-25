@@ -108,7 +108,9 @@ We will be looking into more details about modifiers in the next section.
 Following are the types of variables in Java −
 
 - Local Variables
+
 - Class Variables (Static Variables)
+
 - Instance Variables (Non-static Variables)
 
 ## Java Arrays
