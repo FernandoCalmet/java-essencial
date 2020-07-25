@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TestExp",
+            "request": "launch",
+            "mainClass": "NumbersClass.TestExp",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Tree",
             "request": "launch",
             "mainClass": "BST.ejercicio3.Tree",
