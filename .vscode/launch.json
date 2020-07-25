@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Tree",
+            "request": "launch",
+            "mainClass": "BST.ejercicio3.Tree",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BinarySearchTree",
+            "request": "launch",
+            "mainClass": "BST.ejercicio1.BinarySearchTree",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BST",
+            "request": "launch",
+            "mainClass": "BST.ejercicio1.BST",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BinarySearchTree",
+            "request": "launch",
+            "mainClass": "BST.ejercicio2.BinarySearchTree",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Prueba",
+            "request": "launch",
+            "mainClass": "Lists.ListasEnlazadas.Prueba",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Arraylist",
+            "request": "launch",
+            "mainClass": "Memory.DinamicMemory.Arraylist",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ConsDemo",
             "request": "launch",
             "mainClass": "Constructors.ConsDemo",
