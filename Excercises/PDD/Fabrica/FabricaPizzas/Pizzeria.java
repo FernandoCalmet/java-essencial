@@ -5,16 +5,12 @@ package Fabrica.FabricaPizzas;
  * @author Fernando Calmet
  * @homepage https://github.com/FernandoCalmet
  */
-public class Pizzeria {
-    SimplePizzaFactory factory;
-
-    public Pizzeria(SimplePizzaFactory factory) {
-        this.factory = factory;
-    }
+public abstract class Pizzeria {
+    protected abstract Pizza crearPizza(String tipo);
 
     public Pizza ordenarPizza(String tipo) {
-        Pizza pizza;
-        pizza = factory.crearPizza(tipo);
+        Pizza pizza = crearPizza(tipo);
+
         pizza.preparar();
         pizza.hornear();
         pizza.cortar();
