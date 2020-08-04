@@ -1,16 +1,19 @@
 package Restaurant.ejercicio1;
 
-import Restaurant.ejercicio1.Menu.Drinks.Drink;
-import Restaurant.ejercicio1.Menu.Drinks.Fresh.*;
-import Restaurant.ejercicio1.Menu.Drinks.Complements.*;
+import Restaurant.ejercicio1.Menu.Drinks.IDrink;
+import Restaurant.ejercicio1.Menu.Drinks.Complements.IceCubes;
+import Restaurant.ejercicio1.Menu.Drinks.Size.Small;
+import Restaurant.ejercicio1.Menu.Drinks.Type.Fresh.Lemonade;
 
 public class MyRestaurant {
-    public static void main(String[] args) {        
+    public static void main(String[] args) {
         // Order a Drink
-        Drink lemonade = new DrinkLemonade("single");
+        IDrink lemonade = new Lemonade();
+        // Choose size to the order
+        IDrink lemonadeSmall = new Small(lemonade);
         // Add complements to the order
-        Drink lemonadeIceCube = new IceCubes(lemonade);
+        IDrink lemonadeSmallIceCube = new IceCubes(lemonadeSmall);
 
-        System.out.println(lemonade.getSize() + lemonadeIceCube.getDescription() + ", Cost: " + lemonadeIceCube.getCost());
+        System.out.println(lemonadeSmallIceCube.getDescription() + ", Cost: " + lemonadeSmallIceCube.getCost());
     }
 }

@@ -6,7 +6,6 @@ package Pizzeria.Ejercicio2;
  * @homepage https://github.com/FernandoCalmet
  */
 public class Personal extends PizzaSizeDecorator {
-
     public Personal(IPizza wrappedPizza) {
         super(wrappedPizza);
         super.description = this.wrappedPizza.getDescription() + " Tamaño Personal";
