@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PruebaPizzeria",
+            "request": "launch",
+            "mainClass": "Fabrica.FabricaPizzas.PruebaPizzeria",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TestExp",
             "request": "launch",
             "mainClass": "NumbersClass.TestExp",
