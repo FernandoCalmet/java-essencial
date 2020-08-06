@@ -1,5 +1,10 @@
 package Fabrica.FabricaSimplePizzas;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class DemoSimPizzeria {
     public static void main(String[] args) {
         SimplePizzaFactory factory = new SimplePizzaFactory();

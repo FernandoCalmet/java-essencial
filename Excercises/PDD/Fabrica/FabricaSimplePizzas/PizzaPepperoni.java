@@ -1,5 +1,10 @@
 package Fabrica.FabricaSimplePizzas;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class PizzaPepperoni extends Pizza {
     public PizzaPepperoni() {
         this.nombre = "Pizza de Pepperoni";

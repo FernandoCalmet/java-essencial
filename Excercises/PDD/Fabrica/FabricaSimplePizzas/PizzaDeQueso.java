@@ -1,5 +1,10 @@
 package Fabrica.FabricaSimplePizzas;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class PizzaDeQueso extends Pizza {
     public PizzaDeQueso() {
         this.nombre = "Pizza de Queso";

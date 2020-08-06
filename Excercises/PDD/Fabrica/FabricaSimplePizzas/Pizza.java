@@ -2,6 +2,11 @@ package Fabrica.FabricaSimplePizzas;
 
 import java.util.ArrayList;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public abstract class Pizza {
     public String nombre;
     public String masa;
