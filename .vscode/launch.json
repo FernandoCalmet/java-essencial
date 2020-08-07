@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PruebaEstudiante",
+            "request": "launch",
+            "mainClass": "AccesoDatosEstudiante.presentacion.PruebaEstudiante",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PruebaEstudiante",
+            "request": "launch",
+            "mainClass": "PruebaEstudiante",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DemoSimPizzeria",
             "request": "launch",
             "mainClass": "Fabrica.FabricaSimplePizzas.DemoSimPizzeria",
