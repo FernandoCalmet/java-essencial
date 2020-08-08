@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Ejercicio5",
+            "request": "launch",
+            "mainClass": "OrdenamientoBusqueda.Lab13.Ejercicio5",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ejercicio4",
+            "request": "launch",
+            "mainClass": "OrdenamientoBusqueda.Lab13.Ejercicio4",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ejercicio3",
+            "request": "launch",
+            "mainClass": "OrdenamientoBusqueda.Lab13.Ejercicio3",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ejercicio2",
+            "request": "launch",
+            "mainClass": "OrdenamientoBusqueda.Lab13.Ejercicio2",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ejercicio1",
+            "request": "launch",
+            "mainClass": "OrdenamientoBusqueda.Lab13.Ejercicio1",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PruebaEstudiante",
             "request": "launch",
             "mainClass": "AccesoDatosEstudiante.presentacion.PruebaEstudiante",
