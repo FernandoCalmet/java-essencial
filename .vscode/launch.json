@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PizzaFactoryMethod",
+            "request": "launch",
+            "mainClass": "Pizzeria.Examen.PizzaFactoryMethod",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Ejercicio5",
             "request": "launch",
             "mainClass": "OrdenamientoBusqueda.Lab13.Ejercicio5",
