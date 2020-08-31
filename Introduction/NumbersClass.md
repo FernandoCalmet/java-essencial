@@ -935,39 +935,392 @@ The sine of 45.0 degrees is 0.7071
 
 ### cos() Method
 
-...
+**Description**
+The method returns the cosine of the specified double value.
+
+**Syntax** :
+
+```java
+double cos(double d)
+```
+
+**Parameters**
+Here is the detail of parameters −
+
+- **d** − This method accepts a value of double data type.
+
+**Return Value**
+This method returns the cosine of the specified double value.
+
+Example
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      double degrees = 45.0;
+      double radians = Math.toRadians(degrees);
+
+      System.out.format("The value of pi is %.4f%n", Math.PI);
+      System.out.format("The cosine of %.1f degrees is %.4f%n", degrees, Math.cos(radians));
+   }
+}
+```
+
+This will produce the following result −
+
+Output
+
+```bash
+The value of pi is 3.1416
+The cosine of 45.0 degrees is 0.7071
+```
 
 ### tan() Method
 
-...
+**Description**
+The method returns the tangent of the specified double value.
+
+**Syntax** :
+
+```bash
+double tan(double d)
+```
+
+**Parameters**
+Here is the detail of parameters −
+
+- **d** − A double data type.
+
+**Return Value**
+This method returns the tangent of the specified double value.
+
+Example
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      double degrees = 45.0;
+      double radians = Math.toRadians(degrees);
+
+      System.out.format("The value of pi is %.4f%n", Math.PI);
+      System.out.format("The tangent of %.1f degrees is %.4f%n", degrees, Math.tan(radians));
+   }
+}
+```
+
+This will produce the following result −
+
+Output
+
+```bash
+The value of pi is 3.1416
+The tangent of 45.0 degrees is 1.0000
+```
 
 ### asin() Method
 
-...
+**Description**
+The method returns the arcsine of the specified double value.
+
+**Syntax** :
+
+```java
+double asin(double d)
+```
+
+**Parameters**
+Here is the detail of parameters −
+
+- **d** − A double data types.
+
+**Return Value**
+This method returns the arcsine of the specified double value.
+
+Example
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      double degrees = 45.0;
+      double radians = Math.toRadians(degrees);
+
+      System.out.format("The value of pi is %.4f%n", Math.PI);
+      System.out.format("The arcsine of %.4f is %.4f degrees %n", Math.sin(radians),
+         Math.toDegrees(Math.asin(Math.sin(radians))));
+   }
+}
+```
+
+This will produce the following result −
+
+Output
+
+```bash
+The value of pi is 3.1416
+The arcsine of 0.7071 is 45.0000 degrees
+```
 
 ### acos() Method
 
-...
+**Description**
+The method returns the arccosine of the specified double value.
+
+**Syntax** :
+
+```java
+double acos(double d)
+```
+
+**Parameters**
+Here is the detail of parameters −
+
+- **d** − A double data type.
+
+**Return Value**
+This method returns the arccosine of the specified double value.
+
+Example
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      double degrees = 45.0;
+      double radians = Math.toRadians(degrees);
+
+      System.out.format("The value of pi is %.4f%n", Math.PI);
+      System.out.format("The arccosine of %.4f is %.4f degrees %n", Math.cos(radians),
+         Math.toDegrees(Math.acos(Math.cos(radians))));
+   }
+}
+```
+
+This will produce the following result −
+
+Output
+
+```bash
+The value of pi is 3.1416
+The arccosine of 0.7071 is 45.0000 degrees
+```
 
 ### atan() Method
 
-...
+**Description**
+The method returns the arctangent of the specified double value.
+
+**Syntax** :
+
+```java
+double atan(double d)
+```
+
+**Parameters**
+Here is the detail of parameters −
+
+- **d** − A double data type.
+
+**Return Value**
+This method returns the arctangent of the specified double value.
+
+Example
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      double degrees = 45.0;
+      double radians = Math.toRadians(degrees);
+
+      System.out.format("The value of pi is very very very approximately %.4f%n", Math.PI);
+      System.out.format("The arctangent of %.4f is %.4f degrees %n", Math.cos(radians),
+         Math.toDegrees(Math.atan(Math.sin(radians))));
+   }
+}
+```
+
+This will produce the following result −
+
+Output
+
+```bash
+The value of pi is very very very approximately 3.1416
+The arctangent of 0.7071 is 35.2644 degrees
+```
 
 ### atan2() Method
 
-...
+**Description**
+The method converts rectangular coordinates (x, y) to polar coordinate (r, theta) and returns theta.
+
+**Syntax** :
+
+```java
+double atan2(double y, double x)
+```
+
+**Parameters**
+Here is the detail of parameters −
+
+- **X** − X co-ordinate in double data type.
+
+- **Y** − Y co-ordinate in double data type.
+
+**Return Value**
+This method returns theta from polar coordinate (r, theta).
+
+Example
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      double x = 45.0;
+      double y = 30.0;
+
+      System.out.println( Math.atan2(x, y) );
+   }
+}
+```
+
+This will produce the following result −
+
+Output
+
+```bash
+0.982793723247329
+```
 
 ### toDegree() Method
 
-...
+**Description**
+The method converts the argument value to degrees.
+
+**Syntax** :
+
+```java
+double toDegrees(double d)
+```
+
+**Parameters**
+Here is the detail of parameters −
+
+- **d** − A double data type.
+
+**Return Value**
+This method returns a double value.
+
+Example
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      double x = 45.0;
+      double y = 30.0;
+
+      System.out.println( Math.toDegrees(x) );
+      System.out.println( Math.toDegrees(y) );
+   }
+}
+```
+
+This will produce the following result −
+
+Output
+
+```bash
+2578.3100780887044
+1718.8733853924698
+```
 
 ### toRadians() Method
 
-...
+**Description**
+The method converts the argument value to radians.
+
+**Syntax** :
+
+```java
+double toRadians(double d)
+```
+
+**Parameters**
+Here is the detail of parameters −
+
+- **d** − A double data type.
+
+**Return Value**
+This method returns a double value.
+
+Example
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      double x = 45.0;
+      double y = 30.0;
+
+      System.out.println( Math.toRadians(x) );
+      System.out.println( Math.toRadians(y) );
+   }
+}
+```
+
+This will produce the following result −
+
+Output
+
+```bash
+0.7853981633974483
+0.5235987755982988
+```
 
 ### random() Method
 
-...
+**Description**
+The method is used to generate a random number between 0.0 and 1.0. The range is: 0.0 =< Math.random < 1.0. Different ranges can be achieved by using arithmetic operations.
+
+**Syntax** :
+
+```java
+static double random()
+```
+
+**Parameters**
+Here is the detail of parameters −
+
+This is a default method and accepts no parameter.
+
+**Return Value**
+This method returns a double.
+
+Example
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      System.out.println( Math.random() );
+      System.out.println( Math.random() );
+   }
+}
+```
+
+This will produce the following result −
+
+Output
+
+```bash
+0.16763945061451657
+0.400551253762343
+```
+
+> Note − The above result will vary every time you call random() method.
 
 :octocat: [Check more about Java in my repository.](https://github.com/FernandoCalmet/Java)
 
