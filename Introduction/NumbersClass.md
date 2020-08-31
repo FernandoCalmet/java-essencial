@@ -382,23 +382,251 @@ Output
 
 ### abs() Method
 
-...
+**Description**
+The method gives the absolute value of the argument. The argument can be int, float, long, double, short, byte.
+
+**Syntax**
+Following are all the variants of this method −
+
+```java
+double abs(double d)
+float abs(float f)
+int abs(int i)
+long abs(long lng)
+```
+
+**Parameters**
+Here is the detail of parameters −
+
+- Any primitive data type.
+
+**Return Value** :
+
+- This method Returns the absolute value of the argument.
+Example
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      Integer a = -8;
+      double d = -100;
+      float f = -90;
+
+      System.out.println(Math.abs(a));
+      System.out.println(Math.abs(d));
+      System.out.println(Math.abs(f));
+   }
+}
+```
+
+This will produce the following result −
+
+Output
+
+```bash
+8
+100.0
+90.0
+```
 
 ### ceil() Method
 
-...
+**Description**
+The method ceil gives the smallest integer that is greater than or equal to the argument.
+
+**Syntax**
+This method has the following variants −
+
+```java
+double ceil(double d)
+double ceil(float f)
+```
+
+**Parameters**
+Here is the detail of parameters −
+
+- A double or float primitive data type.
+
+**Return Value**
+This method returns the smallest integer that is greater than or equal to the argument. Returned as a double.
+
+Example
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      double d = -100.675;
+      float f = -90;
+
+      System.out.println(Math.ceil(d));
+      System.out.println(Math.ceil(f));
+
+      System.out.println(Math.floor(d));
+      System.out.println(Math.floor(f));
+   }
+}
+```
+
+This will produce the following result −
+
+Output
+
+```bash
+-100.0
+-90.0
+-101.0
+-90.0
+```
 
 ### floor() Method
 
-...
+**Description**
+The method floor gives the largest integer that is less than or equal to the argument.
+
+**Syntax**
+This method has the following variants −
+
+```java
+double floor(double d)
+double floor(float f)
+```
+
+**Parameters**
+Here is the detail of parameters −
+
+- A double or float primitive data type.
+
+**Return Value**
+This method returns the largest integer that is less than or equal to the argument. Returned as a double.
+
+Example
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      double d = -100.675;
+      float f = -90;
+
+      System.out.println(Math.floor(d));
+      System.out.println(Math.floor(f));
+
+      System.out.println(Math.ceil(d));
+      System.out.println(Math.ceil(f));
+   }
+}
+```
+
+This will produce the following result −
+
+Output
+
+```bash
+-101.0
+-90.0
+-100.0
+-90.0
+```
 
 ### rint() Method
 
-...
+**Description**
+The method rint returns the integer that is closest in value to the argument.
+
+**Syntax** :
+
+```java
+double rint(double d)
+```
+
+**Parameters**
+Here is the detail of parameters −
+
+- **d** − it accepts a double value as parameter.
+
+**Return Value**
+This method returns the integer that is closest in value to the argument. Returned as a double.
+
+Example
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      double d = 100.675;
+      double e = 100.500;
+      double f = 100.200;
+      System.out.println(Math.rint(d));
+      System.out.println(Math.rint(e));
+      System.out.println(Math.rint(f));
+   }
+}
+```
+
+This will produce the following result −
+
+Output
+
+```bash
+101.0
+100.0
+100.0
+```
 
 ### round() Method
 
-...
+**Description**
+The method round returns the closest long or int, as given by the methods return type.
+
+**Syntax**
+This method has the following variants −
+
+```java
+long round(double d)
+int round(float f)
+```
+
+**Parameters**
+Here is the detail of parameters −
+
+- **d** − A double or float primitive data type.
+
+- **f** − A float primitive data type.
+
+**Return Value**
+This method returns the closest long or int, as indicated by the method's return type, to the argument.
+
+Example
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      double d = 100.675;
+      double e = 100.500;
+      float f = 100;
+      float g = 90f;
+
+      System.out.println(Math.round(d));
+      System.out.println(Math.round(e));
+      System.out.println(Math.round(f));
+      System.out.println(Math.round(g));
+   }
+}
+```
+
+This will produce the following result −
+
+Output
+
+```bash
+101
+101
+100
+90
+```
 
 ### min() Method
 
