@@ -630,31 +630,308 @@ Output
 
 ### min() Method
 
-...
+**Description**
+The method gives the smaller of the two arguments. The argument can be int, float, long, double.
+
+**Syntax**
+This method has the following variants −
+
+```java
+double min(double arg1, double arg2)
+float min(float arg1, float arg2)
+int min(int arg1, int arg2)
+long min(long arg1, long arg2)
+```
+
+**Parameters**
+Here is the detail of parameters −
+
+This method accepts any primitive data type as a parameter.
+
+**Return Value**
+This method returns the smaller of the two arguments.
+
+Example
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      System.out.println(Math.min(12.123, 12.456));
+      System.out.println(Math.min(23.12, 23.0));  
+   }
+}
+```
+
+This will produce the following result −
+
+Output
+
+```bash
+12.123
+23.0
+```
 
 ### max() Method
 
-...
+**Description**
+This method gives the maximum of the two arguments. The argument can be int, float, long, double.
+
+**Syntax**
+This method has the following variants −
+
+```java
+double max(double arg1, double arg2)
+float max(float arg1, float arg2)
+int max(int arg1, int arg2)
+long max(long arg1, long arg2)
+```
+
+**Parameters**
+Here is the detail of parameters −
+
+This method accepts any primitive data type as a parameter.
+
+**Return Value**
+This method returns the maximum of the two arguments.
+
+Example
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      System.out.println(Math.max(12.123, 12.456));
+      System.out.println(Math.max(23.12, 23.0));  
+   }
+}
+```
+
+This will produce the following result −
+
+Output
+
+```bash
+12.456
+23.12
+```
 
 ### exp() Method
 
-...
+**Description**
+The method returns the base of the natural logarithms, e, to the power of the argument.
+
+**Syntax** :
+
+```java
+double exp(double d)
+```
+
+**Parameters**
+Here is the detail of parameters −
+
+- **d** − Any primitive data type.
+
+**Return Value**
+This method returns the base of the natural logarithms, e, to the power of the argument.
+
+Example
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      double x = 11.635;
+      double y = 2.76;
+
+      System.out.printf("The value of e is %.4f%n", Math.E);
+      System.out.printf("exp(%.3f) is %.3f%n", x, Math.exp(x));  
+   }
+}
+```
+
+This will produce the following result −
+
+Output
+
+```bash
+The value of e is 2.7183
+exp(11.635) is 112983.831
+```
 
 ### log() Method
 
-...
+**Description**
+The method returns the natural logarithm of the argument.
+
+**Syntax**:
+
+```java
+double log(double d)
+```
+
+**Parameters**
+Here is the detail of parameters −
+
+- **d** − Any primitive data type.
+
+**Return Value**
+This method returns the natural logarithm of the argument.
+
+Example
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      double x = 11.635;
+      double y = 2.76;
+
+      System.out.printf("The value of e is %.4f%n", Math.E);
+      System.out.printf("log(%.3f) is %.3f%n", x, Math.log(x));
+   }
+}
+```
+
+This will produce the following result −
+
+Output
+
+```bash
+The value of e is 2.7183
+log(11.635) is 2.454
+```
 
 ### pow() Method
 
-...
+**Description**
+The method returns the value of the first argument raised to the power of the second argument.
+
+**Syntax** :
+
+```java
+double pow(double base, double exponent)
+```
+
+**Parameters**
+Here is the detail of parameters −
+
+- **base** − Any primitive data type.
+
+- **exponenet** − Any primitive data type.
+
+**Return Value**
+This method returns the value of the first argument raised to the power of the second argument.
+
+Example
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      double x = 11.635;
+      double y = 2.76;
+
+      System.out.printf("The value of e is %.4f%n", Math.E);
+      System.out.printf("pow(%.3f, %.3f) is %.3f%n", x, y, Math.pow(x, y));
+   }
+}
+```
+
+This will produce the following result −
+
+Output
+
+```bash
+The value of e is 2.7183
+pow(11.635, 2.760) is 874.008
+```
 
 ### sqrt() Method
 
-...
+**Description**
+The method returns the square root of the argument.
+
+**Syntax** :
+
+```java
+double sqrt(double d)
+```
+
+**Parameters**
+Here is the detail of parameters −
+
+- **d** − Any primitive data type.
+
+**Return Value**
+This method returns the square root of the argument.
+
+Example
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      double x = 11.635;
+      double y = 2.76;
+
+      System.out.printf("The value of e is %.4f%n", Math.E);
+      System.out.printf("sqrt(%.3f) is %.3f%n", x, Math.sqrt(x));
+   }
+}
+```
+
+This will produce the following result −
+
+Output
+
+```bash
+The value of e is 2.7183
+sqrt(11.635) is 3.411
+```
 
 ### sin() Method
 
-...
+**Description**
+The method returns the sine of the specified double value.
+
+**Syntax** :
+
+```java
+double sin(double d)
+```
+
+**Parameters**
+Here is the detail of parameters −
+
+- **d** − A double data type.
+
+**Return Value**
+This method returns the sine of the specified double value.
+
+Example
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      double degrees = 45.0;
+      double radians = Math.toRadians(degrees);
+
+      System.out.format("The value of pi is %.4f%n", Math.PI);
+      System.out.format("The sine of %.1f degrees is %.4f%n", degrees, Math.sin(radians));
+   }
+}
+```
+
+This will produce the following result −
+
+Output
+
+```bash
+The value of pi is 3.1416
+The sine of 45.0 degrees is 0.7071
+```
 
 ### cos() Method
 
