@@ -1,4 +1,4 @@
-package MiBanco.MiBanco2;
+package miBanco.miBanco2;
 /**
  *
  * @author Fernando Calmet

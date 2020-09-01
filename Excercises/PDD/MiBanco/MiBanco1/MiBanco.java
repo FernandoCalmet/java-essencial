@@ -1,4 +1,4 @@
-package MiBanco.MiBanco1;
+package miBanco.miBanco1;
 
 import java.util.*;
 

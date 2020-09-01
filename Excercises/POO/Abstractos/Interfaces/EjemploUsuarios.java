@@ -1,4 +1,4 @@
-package Abstractos.Interfaces;
+package abstractos.interfaces;
 
 /**
  *
@@ -6,13 +6,16 @@ package Abstractos.Interfaces;
  * @homepage https://github.com/FernandoCalmet
  */
 public class EjemploUsuarios {
-    private static IUsuario usuario;
-
     public static void main(String[] args) {
-        usuario = new Usuario();
-        usuario.setNombre("Fernando");
-        usuario.setCorreo("fercalmet@gmail.com");
-        System.out.println(usuario.toString());
+        IUsuario usuario1 = new Usuario();
+        usuario1.setNombre("Fernando");
+        usuario1.setCorreo("fernando@test.com");
+        System.out.println(usuario1.toString());
+
+        IUsuario usuario2 = new Usuario();
+        usuario2.setNombre("Stefani");
+        usuario2.setCorreo("stefani@test.com");
+        System.out.println(usuario2.toString());
     }
 }
 
@@ -20,8 +23,8 @@ class Usuario implements IUsuario {
     private String nombre;
     private String correo;
 
-    public Usuario() {
-
+    public Usuario(){
+        
     }
 
     public Usuario(String nombre, String correo) {
@@ -47,7 +50,7 @@ class Usuario implements IUsuario {
 
     @Override
     public String toString() {
-        return "\nUSUARIO: \nNombre: " + getNombre() + "\nCorreo: " + getCorreo();
+        return "\n[USUARIO]: \nNombre: " + getNombre() + "\nCorreo: " + getCorreo();
     }
 }
 

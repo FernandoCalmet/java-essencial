@@ -1,4 +1,4 @@
-package MiBanco.MiBanco4;
+package miBanco.miBanco4;
 
 /**
  *

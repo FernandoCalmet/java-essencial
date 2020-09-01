@@ -1,4 +1,4 @@
-package MiBanco.MiBanco3;
+package miBanco.miBanco3;
 
 import java.util.Scanner;
 

@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - EjemploUsuarios",
+            "request": "launch",
+            "mainClass": "abstractos.interfaces.EjemploUsuarios",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EjemploEmpleados",
+            "request": "launch",
+            "mainClass": "abstractos.abstracts.EjemploEmpleados",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MiBanco",
+            "request": "launch",
+            "mainClass": "miBanco.miBanco1.MiBanco",
+            "projectName": "Java_47a9e3b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PizzaFactoryMethod",
             "request": "launch",
             "mainClass": "Pizzeria.Examen.PizzaFactoryMethod",
