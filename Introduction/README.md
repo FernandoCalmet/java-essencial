@@ -84,6 +84,22 @@ This tutorial will provide the necessary skills to create GUI, networking, and w
 
 📗 [Strings Class](StringsClass.md)
 
+📗 [Arrays](Arrays.md)
+
+📗 Date & Time
+
+📗 Regular Expressions
+
+📗 Methods
+
+📗 File and I/O
+
+📗 Exceptions
+
+📗 Inner Classes
+
+---
+
 :octocat: [Check more about Java in my repository.](https://github.com/FernandoCalmet/Java)
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T41JKMI)
