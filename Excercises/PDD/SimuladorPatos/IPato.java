@@ -6,6 +6,8 @@ package SimuladorPatos;
  * @homepage https://github.com/FernandoCalmet
  */
 public interface IPato {
+    public String descripcion();
+    
     public String cuaquear();
 
     public String nadar();

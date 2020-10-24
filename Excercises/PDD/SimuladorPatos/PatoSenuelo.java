@@ -7,15 +7,23 @@ package SimuladorPatos;
  */
 public class PatoSenuelo implements IPato {
 
+    @Override
+    public String descripcion() {
+        return "Yo soy Pato señuelo";
+    }
+
+    @Override
     public String cuaquear() {
         return "<<silencio>>";
     }
 
+    @Override
     public String nadar() {
-        return "Yo no puedo volar";
+        return "INCAPAZ DE VOLAR";
     }
 
+    @Override
     public String mostrar() {
-        return "Todos los patos pueden flotar, aun los de goma son un señuelo.";
+        return "TODOS LOS PATOS NADAN";
     }
 }

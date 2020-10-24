@@ -7,15 +7,23 @@ package SimuladorPatos;
  */
 public class PatoCabezaRoja implements IPato {
 
+    @Override
+    public String descripcion() {
+        return "Yo soy un real PATO CABEZA ROJA";
+    }
+
+    @Override
     public String cuaquear() {
-        return "Cuac Cuac";
+        return "Soy un verdadero pato por eso hago CUAC CUAC";
     }
 
+    @Override
     public String nadar() {
-        return "Puedo  volar con mis alas";
+        return "Puedo volar con mis alas";
     }
 
+    @Override
     public String mostrar() {
-        return "Todos los patos pueden flotar, aun los de goma son un señuelo.";
+        return "TODOS LOS PATOS NADAN";
     }
 }

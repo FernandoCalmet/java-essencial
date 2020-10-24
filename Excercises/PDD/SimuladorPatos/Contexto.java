@@ -12,6 +12,10 @@ public class Contexto {
         this.pato = pato;
     }
 
+    public String descripcion() {
+        return this.pato.descripcion();
+    }
+
     public String cuaquear() {
         return this.pato.cuaquear();
     }
