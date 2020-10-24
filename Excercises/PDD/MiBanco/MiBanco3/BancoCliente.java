@@ -8,49 +8,91 @@ import java.util.Scanner;
  * @homepage https://github.com/FernandoCalmet
  */
 public class BancoCliente {
-    private static Banco banco = new Banco();
-    private static Scanner scanner = new Scanner(System.in);
-    private static int opcion;
-    private static int accountNumber;
+    private int current;
+    private Scanner scanner;
+    private int done;
+    private Banco banco;
 
-    public static void main(String[] args) {
+    public BancoCliente(Scanner scanner, Banco banco) {
+        this.banco = banco;
+        this.scanner = scanner;
+    }
+
+    public void run() {
         do {
-            System.out.print("\n" + "\n0 = Salir del programa" + "\n1 = Crear cuenta" + "\n2 = Seleccionar cuenta"
-                    + "\n3 = Deposito de cuenta" + "\n4 = Prestamo de cuenta" + "\n5 = Mostrar estado de una cuenta"
-                    + "\n6 = Ver interes de cuenta\n" + "Ingresa una opcion del menu:");
-            opcion = scanner.nextInt();
-            switch (opcion) {
-                case 0:
-                    System.out.println("Hasta luego!");
-                    System.exit(0);
-                    break;
-                case 1:
-                    banco.crearCuenta();
-                    break;
-                case 2:
-                    System.out.println("\nIngresar el numero de cuenta que desea seleccionar: ");
-                    accountNumber = scanner.nextInt();
-                    banco.seleccionarCuenta(accountNumber);
-                    break;
-                case 3:
-                    System.out.println("\nIngrese la cantidad a depositar: ");
-                    int amount = scanner.nextInt();
-                    banco.depositoCuenta(amount);
-                    break;
-                case 4:
-                    System.out.println("\nIngresa la cantidad a prestar: ");
-                    int loanamount = scanner.nextInt();
-                    banco.prestamoCuenta(loanamount);
-                    break;
-                case 5:
-                    banco.mostrarEstadosCuentas();
-                    break;
-                case 6:
-                    banco.interesCuenta();
-                    break;
-                default:
-                    System.out.println("\nComando ilegal!");
-            }
-        } while (opcion < 8);
+            System.out.println("\n0 = Salir del programa\n1 = Crear cuenta\n2 = Seleccionar cuenta"
+                    + "\n3 = Deposito a cuenta\n4 = Verificar solicitud de prestamo\n5 = Mostrar balance de cuentas"
+                    + "\n6 = Agregar interes\nINGRESA UNA OPCIÓN DEL MENÚ: ");
+            done = scanner.nextInt();
+            procesarComando(done);
+        } while (done < 8);
+    }
+
+    private void procesarComando(int cnum) {
+        switch (cnum) {
+            case 0:
+                salir();
+                break;
+            case 1:
+                nuevaCuenta();
+                break;
+            case 2:
+                seleccionar();
+                break;
+            case 3:
+                depositar();
+                break;
+            case 4:
+                autorizarPrestamo();
+                break;
+            case 5:
+                mostrar();
+                break;
+            case 6:
+                agregarInteres();
+                break;
+            default:
+                System.out.println("\nComando ilegal!");
+        }
+    }
+
+    private void salir() {
+        System.out.println("\nGracias por su preferencia, hasta luego!");
+        System.exit(0);
+    }
+
+    private void nuevaCuenta() {
+        banco.nuevaCuenta();
+    }
+
+    private void seleccionar() {
+        System.out.print("Ingresa el numero de cuenta: ");
+        this.current = scanner.nextInt();
+        double balance = banco.getBalance(this.current);
+        System.out.println("\nEl balance de la cuenta " + this.current + " es " + balance);
+    }
+
+    private void depositar() {
+        System.out.print("Ingresa la cantidad a depositar: ");
+        int monto = scanner.nextInt();
+        banco.depositar(this.current, monto);
+    }
+
+    private void autorizarPrestamo() {
+        System.out.print("Ingresa la cantidad a prestar: ");
+        int montoPrestamo = scanner.nextInt();
+        if (banco.autorizarPrestamo(this.current, montoPrestamo)) {
+            System.out.println("Tu prestamo ha sido aprobado.");
+        } else {
+            System.out.println("Tu prestamo ha sido denegado.");
+        }
+    }
+
+    private void mostrar() {
+        System.out.println(banco.toString());
+    }
+
+    private void agregarInteres() {
+        banco.agregarInteres();
     }
 }

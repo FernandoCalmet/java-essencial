@@ -9,7 +9,7 @@ import java.util.*;
  */
 public class ConcretaRopa implements IProductoRopa {
 
-    private List<String> producto = new ArrayList<String>();
+    private List<String> producto = new ArrayList<>();
 
     public List<String> getPantalon() {
         this.producto.add("Pierre Cardin");

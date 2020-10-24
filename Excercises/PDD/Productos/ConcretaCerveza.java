@@ -9,7 +9,7 @@ import java.util.*;
  */
 public class ConcretaCerveza implements IProductoCerveza {
 
-    private List<String> producto = new ArrayList<String>();
+    private List<String> producto = new ArrayList<>();
 
     public List<String> getNegra() {
         this.producto.add("Stella Aris");
