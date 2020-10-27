@@ -6,11 +6,12 @@ package FonoCamaraApp;
  * @homepage https://github.com/FernandoCalmet
  */
 public interface IFonoCamara {
-    public String compartirPorSMS();
 
-    public String compartirPorEmail();
+    public String tomar();
 
-    public String compartirPorRedSocial();
+    public String compartir(String opcion);
 
     public String editar();
+
+    public String guardar();
 }

@@ -5,28 +5,31 @@ package FonoCamaraApp;
  * @author Fernando Calmet
  * @homepage https://github.com/FernandoCalmet
  */
-public class FonoCamaraApp {
-    public static void main(String[] args) {
+public abstract class FonoCamaraApp {
 
-        ConcretCamaraSimple camaraA = new ConcretCamaraSimple();
-        ConcretCamaraPro camaraB = new ConcretCamaraPro();
+    public String tomar() {
+        return "Se tomo la foto exitosamente.";
+    }
 
-        ContextFonoCamara strategyA = new ContextFonoCamara();
-        strategyA.setStrategy(camaraA);
-        System.out.println(strategyA.editar());
-        System.out.println(strategyA.tomar());
-        System.out.println(strategyA.compartir("sms"));
-        System.out.println(strategyA.compartir("email"));
-        System.out.println(strategyA.compartir("redsocial"));
-        System.out.println(strategyA.guardar());
+    public abstract String editar();
 
-        ContextFonoCamara strategyB = new ContextFonoCamara();
-        strategyB.setStrategy(camaraB);
-        System.out.println(strategyB.editar());
-        System.out.println(strategyB.tomar());
-        System.out.println(strategyB.compartir("sms"));
-        System.out.println(strategyB.compartir("email"));
-        System.out.println(strategyB.compartir("redsocial"));
-        System.out.println(strategyB.guardar());
+    public String compartir(String opcion) {
+        String tipo = null;
+        switch (opcion.toLowerCase()) {
+            case "sms":
+                tipo = "Se compartio la foto por SMS.";
+                break;
+            case "email":
+                tipo = "Se compartio la foto por Email.";
+                break;
+            case "redsocial":
+                tipo = "Se compartio la foto por Red Social.";
+                break;
+        }
+        return tipo;
+    }
+
+    public String guardar() {
+        return "Se guardo la foto exitosamente.";
     }
 }
