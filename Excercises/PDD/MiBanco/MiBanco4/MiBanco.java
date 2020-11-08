@@ -7,6 +7,7 @@ import java.util.Scanner;
  * @homepage https://github.com/FernandoCalmet
  */
 public class MiBanco {
+
     private static Scanner scanner = new Scanner(System.in);
     private static Banco banco = new Banco();
 

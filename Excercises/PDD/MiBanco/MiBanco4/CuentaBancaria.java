@@ -5,7 +5,8 @@ package miBanco.miBanco4;
  * @author Fernando Calmet
  * @homepage https://github.com/FernandoCalmet
  */
-public interface ICuentaBancaria {
+public interface CuentaBancaria {
+
     public int getNumeroCuenta();
 
     public int getBalance();
@@ -14,5 +15,6 @@ public interface ICuentaBancaria {
 
     public boolean tieneFondosSuficientes(int montoPrestamo);
 
+    @Override
     public String toString();
 }

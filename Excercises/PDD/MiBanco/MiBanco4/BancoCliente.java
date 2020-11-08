@@ -8,9 +8,10 @@ import java.util.Scanner;
  * @homepage https://github.com/FernandoCalmet
  */
 public class BancoCliente {
-    private int numeroCuenta;
-    private int opcion;
+
+    private int current;
     private Scanner scanner;
+    private int done;
     private Banco banco;
 
     public BancoCliente(Scanner scanner, Banco banco) {
@@ -23,9 +24,9 @@ public class BancoCliente {
             System.out.println("\n0 = Salir del programa\n1 = Crear cuenta\n2 = Seleccionar cuenta"
                     + "\n3 = Deposito a cuenta\n4 = Verificar solicitud de prestamo\n5 = Mostrar balance de cuentas"
                     + "\n6 = Agregar interes\nINGRESA UNA OPCIÓN DEL MENÚ: ");
-            opcion = scanner.nextInt();
-            procesarComando(opcion);
-        } while (opcion < 8);
+            done = scanner.nextInt();
+            procesarComando(done);
+        } while (done < 8);
     }
 
     private void procesarComando(int cnum) {
@@ -75,24 +76,25 @@ public class BancoCliente {
 
     private void seleccionar() {
         System.out.print("Ingresa el numero de cuenta: ");
-        this.numeroCuenta = scanner.nextInt();
-        int balance = banco.getBalance(this.numeroCuenta);
-        System.out.println("\nEl balance de la cuenta " + this.numeroCuenta + " es " + balance);
+        this.current = scanner.nextInt();
+        double balance = banco.getBalance(this.current);
+        System.out.println("\nEl balance de la cuenta " + this.current + " es " + balance);
     }
 
     private void depositar() {
         System.out.print("Ingresa la cantidad a depositar: ");
         int monto = scanner.nextInt();
-        banco.depositar(monto);
+        banco.depositar(this.current, monto);
     }
 
     private void autorizarPrestamo() {
         System.out.print("Ingresa la cantidad a prestar: ");
         int montoPrestamo = scanner.nextInt();
-        if (banco.autorizarPrestamo(this.numeroCuenta, montoPrestamo))
+        if (banco.autorizarPrestamo(this.current, montoPrestamo)) {
             System.out.println("Tu prestamo ha sido aprobado.");
-        else
+        } else {
             System.out.println("Tu prestamo ha sido denegado.");
+        }
     }
 
     private void mostrar() {
