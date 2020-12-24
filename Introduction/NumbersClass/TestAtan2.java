@@ -1,4 +1,4 @@
-package NumbersClass;
+package Introduction. NumbersClass;
 
 public class TestAtan2 {
     public static void main(String args[]) {

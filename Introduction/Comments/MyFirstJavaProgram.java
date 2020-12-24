@@ -1,4 +1,4 @@
-package Comments;
+package Introduction. Comments;
 
 public class MyFirstJavaProgram {
 

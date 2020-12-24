@@ -1,4 +1,4 @@
-package AccessingInstance;
+package Introduction.AccessingInstance;
 
 public class Puppy {
     int puppyAge;

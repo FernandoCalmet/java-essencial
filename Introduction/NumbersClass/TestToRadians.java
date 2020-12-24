@@ -1,4 +1,4 @@
-package NumbersClass;
+package Introduction. NumbersClass;
 
 public class TestToRadians {
     public static void main(String args[]) {

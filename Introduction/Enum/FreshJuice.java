@@ -1,4 +1,4 @@
-package Enum;
+package Introduction. Enum;
 
 class FreshJuice {
     enum FreshJuiceSize {

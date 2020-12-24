@@ -1,4 +1,4 @@
-package Classes;
+package Introduction. Classes;
 
 public class Dog {
     String breed;

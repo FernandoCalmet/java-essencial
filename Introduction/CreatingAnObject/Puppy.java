@@ -1,4 +1,4 @@
-package CreatingAnObject;
+package Introduction. CreatingAnObject;
 
 public class Puppy {
     public Puppy(String name) {

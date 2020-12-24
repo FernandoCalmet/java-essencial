@@ -1,4 +1,4 @@
-package VariableTypes;
+package Introduction. VariableTypes;
 
 public class Test1 {
     public void pupAge() {

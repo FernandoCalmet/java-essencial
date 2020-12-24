@@ -1,4 +1,4 @@
-package LoopControl;
+package Introduction. LoopControl;
 
 public class TestWhile {
     public static void main(String args[]) {

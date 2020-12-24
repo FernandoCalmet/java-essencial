@@ -1,4 +1,4 @@
-package VariableTypes;
+package Introduction. VariableTypes;
 
 public class Employee1 {
     // this instance variable is visible for any child class.

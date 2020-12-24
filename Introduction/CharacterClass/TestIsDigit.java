@@ -1,4 +1,4 @@
-package CharacterClass;
+package Introduction. CharacterClass;
 
 public class TestIsDigit {
     public static void main(String args[]) {

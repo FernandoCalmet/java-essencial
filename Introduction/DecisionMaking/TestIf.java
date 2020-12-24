@@ -1,4 +1,4 @@
-package DecisionMaking;
+package Introduction. DecisionMaking;
 
 public class TestIf {
     public static void main(String args[]) {

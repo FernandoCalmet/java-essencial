@@ -195,7 +195,7 @@ Variable Value :2
 
 ## Source File Declaration Rules
 
-As the last part of this section, let's now look into the source file declaration rules. These rules are essential when declaring classes, import statements and package statements in a source file.
+As the last part of this section, let's now look into the source file declaration rules. These rules are essential when declaring classes, import statements and package Introduction. statements in a source file.
 
 - There can be only one public class per source file.
 
@@ -203,23 +203,23 @@ As the last part of this section, let's now look into the source file declaratio
 
 - The public class name should be the name of the source file as well which should be appended by .java at the end. For example: the class name is public class Employee{} then the source file should be as Employee.java.
 
-- If the class is defined inside a package, then the package statement should be the first statement in the source file.
+- If the class is defined inside a package Introduction., then the package Introduction. statement should be the first statement in the source file.
 
-- If import statements are present, then they must be written between the package statement and the class declaration. If there are no package statements, then the import statement should be the first line in the source file.
+- If import statements are present, then they must be written between the package Introduction. statement and the class declaration. If there are no package Introduction. statements, then the import statement should be the first line in the source file.
 
-- Import and package statements will imply to all the classes present in the source file. It is not possible to declare different import and/or package statements to different classes in the source file.
+- Import and package Introduction. statements will imply to all the classes present in the source file. It is not possible to declare different import and/or package Introduction. statements to different classes in the source file.
 
 Classes have several access levels and there are different types of classes; abstract classes, final classes, etc. We will be explaining about all these in the access modifiers chapter.
 
 Apart from the above mentioned types of classes, Java also has some special classes called Inner classes and Anonymous classes.
 
-## Java Package
+## Java package Introduction.
 
 In simple words, it is a way of categorizing the classes and interfaces. When developing applications in Java, hundreds of classes and interfaces will be written, therefore categorizing these classes is a must as well as makes life much easier.
 
 ## Import Statements
 
-In Java if a fully qualified name, which includes the package and the class name is given, then the compiler can easily locate the source code or classes. Import statement is a way of giving the proper location for the compiler to find that particular class.
+In Java if a fully qualified name, which includes the package Introduction. and the class name is given, then the compiler can easily locate the source code or classes. Import statement is a way of giving the proper location for the compiler to find that particular class.
 
 For example, the following line would ask the compiler to load all the classes available in directory java_installation/java/io −
 
