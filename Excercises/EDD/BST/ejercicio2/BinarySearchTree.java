@@ -1,4 +1,4 @@
-package BST.ejercicio2;
+package Excercises.EDD.BST.ejercicio2;
 
 public class BinarySearchTree {
     public static Node root;

@@ -1,4 +1,4 @@
-package BST.ejercicio1;
+package Excercises.EDD.BST.ejercicio1;
 
 public class BST {
     private BSTNode root;

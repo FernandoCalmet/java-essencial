@@ -1,4 +1,4 @@
-package BST.ejercicio3;
+package Excercises.EDD.BST.ejercicio3;
 
 public class Tree {
     public static void main(String args[]) {
