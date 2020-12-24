@@ -1,4 +1,4 @@
-package ManipulacionCadenas.BasicStrings;
+package Excercises.Introduction.ManipulacionCadenas.BasicStrings;
 
 /**
  *

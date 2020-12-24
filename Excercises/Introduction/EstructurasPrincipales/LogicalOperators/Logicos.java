@@ -1,4 +1,4 @@
-package EstructurasPrincipales.LogicalOperators;
+package Excercises.Introduction.EstructurasPrincipales.LogicalOperators;
 
 /**
  *

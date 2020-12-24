@@ -1,4 +1,4 @@
-package Practica;
+package Excercises.Introduction.Practica;
 /**
  *
  * @author Fernando Calmet

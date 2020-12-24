@@ -1,4 +1,4 @@
-package EntradasSalidasDatos.ScannerClass;
+package Excercises.Introduction.EntradasSalidasDatos.ScannerClass;
 
 /**
  *

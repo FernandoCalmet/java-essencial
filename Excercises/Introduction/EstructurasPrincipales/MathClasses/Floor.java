@@ -1,4 +1,4 @@
-package EstructurasPrincipales.MathClasses;
+package Excercises.Introduction.EstructurasPrincipales.MathClasses;
 
 /**
  *

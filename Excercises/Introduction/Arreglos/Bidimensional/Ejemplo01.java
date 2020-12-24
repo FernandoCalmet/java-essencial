@@ -1,4 +1,4 @@
-package Arreglos.Bidimensional;
+package Excercises.Introduction.Arreglos.Bidimensional;
 
 /**
  *

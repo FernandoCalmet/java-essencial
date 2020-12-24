@@ -1,4 +1,4 @@
-package FlujoControl.BasicSwitch;
+package Excercises.Introduction.FlujoControl.BasicSwitch;
 
 /**
  *

@@ -1,4 +1,4 @@
-package EntradasSalidasDatos.JOptionPaneClass;
+package Excercises.Introduction.EntradasSalidasDatos.JOptionPaneClass;
 
 /**
  *

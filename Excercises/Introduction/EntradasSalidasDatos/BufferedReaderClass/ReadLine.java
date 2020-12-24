@@ -1,4 +1,4 @@
-package EntradasSalidasDatos.BufferedReaderClass;
+package Excercises.Introduction.EntradasSalidasDatos.BufferedReaderClass;
 
 /**
  *

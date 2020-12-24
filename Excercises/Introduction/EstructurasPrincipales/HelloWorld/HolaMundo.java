@@ -1,4 +1,4 @@
-package EstructurasPrincipales.HelloWorld;
+package Excercises.Introduction.EstructurasPrincipales.HelloWorld;
 
 /**
  *

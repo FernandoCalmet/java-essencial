@@ -1,4 +1,4 @@
-package EstructurasPrincipales.DataTypes;
+package Excercises.Introduction.EstructurasPrincipales.DataTypes;
 
 /**
  *
