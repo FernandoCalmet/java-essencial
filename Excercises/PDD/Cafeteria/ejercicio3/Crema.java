@@ -1,4 +1,4 @@
-package Cafeteria.ejercicio3;
+package Excercises.PDD.Cafeteria.ejercicio3;
 
 /**
  *

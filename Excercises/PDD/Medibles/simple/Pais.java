@@ -1,4 +1,4 @@
-package Medibles.simple;
+package Excercises.PDD.Medibles.simple;
 
 /**
  *

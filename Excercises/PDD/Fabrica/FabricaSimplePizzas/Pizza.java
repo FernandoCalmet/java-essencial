@@ -1,4 +1,4 @@
-package Fabrica.FabricaSimplePizzas;
+package Excercises.PDD.Fabrica.FabricaSimplePizzas;
 
 import java.util.ArrayList;
 

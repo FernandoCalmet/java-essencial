@@ -1,4 +1,4 @@
-package SimuladorPatos;
+package Excercises.PDD.SimuladorPatos;
 
 /**
  *

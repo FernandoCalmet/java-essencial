@@ -1,4 +1,4 @@
-package miBanco.miBanco2;
+package Excercises.PDD.MiBanco.MiBanco2;
 
 import java.util.*;
 

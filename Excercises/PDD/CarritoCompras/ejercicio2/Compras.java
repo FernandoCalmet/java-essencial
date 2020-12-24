@@ -1,4 +1,4 @@
-package CarritoCompras.ejercicio2;
+package Excercises.PDD.CarritoCompras.ejercicio2;
 
 import java.util.ArrayList;
 

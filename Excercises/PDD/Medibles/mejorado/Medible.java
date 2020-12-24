@@ -1,4 +1,4 @@
-package Medibles.mejorado;
+package Excercises.PDD.Medibles.mejorado;
 
 /**
  *

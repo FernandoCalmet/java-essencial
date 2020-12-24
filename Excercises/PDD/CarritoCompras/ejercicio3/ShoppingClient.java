@@ -1,4 +1,4 @@
-package CarritoCompras.ejercicio3;
+package Excercises.PDD.CarritoCompras.ejercicio3;
 
 /**
  *

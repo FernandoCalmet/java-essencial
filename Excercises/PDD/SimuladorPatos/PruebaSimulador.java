@@ -1,4 +1,4 @@
-package SimuladorPatos;
+package Excercises.PDD.SimuladorPatos;
 
 /**
  *
@@ -13,7 +13,7 @@ public class PruebaSimulador {
         IPato patoSenuelo = new PatoSenuelo();
         IPato patoCabezaRoja = new PatoCabezaRoja();
         //Crear objeto de simulación
-        Contexto simulador = new Simulador();
+        Contexto simulador = new Contexto();
         //Simular patos
         mostrarSimulacion(simulador, patoReal);
         mostrarSimulacion(simulador, patoDeGoma);

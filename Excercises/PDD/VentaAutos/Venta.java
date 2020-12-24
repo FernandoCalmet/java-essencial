@@ -1,4 +1,4 @@
-package VentaAutos;
+package Excercises.PDD.VentaAutos;
 
 /**
  *

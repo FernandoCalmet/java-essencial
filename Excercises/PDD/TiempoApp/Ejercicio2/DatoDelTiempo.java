@@ -1,4 +1,4 @@
-package TiempoApp.Ejercicio2;
+package Excercises.PDD.TiempoApp.Ejercicio2;
 
 /**
  *

@@ -1,4 +1,4 @@
-package miBanco.miBanco5;
+package Excercises.PDD.MiBanco.MiBanco5;
 
 /**
  *

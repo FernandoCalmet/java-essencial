@@ -1,4 +1,4 @@
-package miBanco.miBanco4;
+package Excercises.PDD.MiBanco.MiBanco4;
 
 import java.util.Scanner;
 
