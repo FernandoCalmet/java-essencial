@@ -1,4 +1,4 @@
-package inheritance;
+package Object_Oriented.inheritance;
 
 public class MyCalculation extends Calculation {
     public void multiplication(int x, int y) {

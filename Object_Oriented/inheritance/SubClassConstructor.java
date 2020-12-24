@@ -1,4 +1,4 @@
-package inheritance;
+package Object_Oriented.inheritance;
 
 public class SubClassConstructor extends SuperClassConstructor {
     SubClassConstructor(int age) {

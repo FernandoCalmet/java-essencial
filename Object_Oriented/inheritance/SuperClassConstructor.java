@@ -1,4 +1,4 @@
-package inheritance;
+package Object_Oriented.inheritance;
 
 public class SuperClassConstructor {
     int age;
