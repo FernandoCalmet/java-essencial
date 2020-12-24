@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch PruebaBST",
             "request": "launch",
+            "mainClass": "Excercises.EDA.BST.ejercicio4.PruebaBST",
+            "projectName": "Java_50246cbe"
+        },
+        {
+            "type": "java",
+            "name": "Launch PruebaBST",
+            "request": "launch",
             "mainClass": "Excercises.EDD.BST.ejercicio4.PruebaBST",
             "projectName": "Java_50246cbe"
         },
