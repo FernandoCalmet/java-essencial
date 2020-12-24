@@ -1,12 +1,12 @@
-package AccesoDatosEstudiante.presentacion;
+package Excercises.POO.AccesoDatosEstudiante.presentacion;
 
 /**
  *
  * @author Fernando Calmet
  * @homepage https://github.com/FernandoCalmet
  */
-import AccesoDatosEstudiante.accesoDatos.*;
-import AccesoDatosEstudiante.entidades.*;
+import Excercises.POO.AccesoDatosEstudiante.accesoDatos.*;
+import Excercises.POO.AccesoDatosEstudiante.entidades.*;
 import java.io.*;
 
 public class PruebaEstudiante {

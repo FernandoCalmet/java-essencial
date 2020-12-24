@@ -1,4 +1,4 @@
-package Polimorfismo.PrincipioSustitucion;
+package Excercises.POO.Polimorfismo.PrincipioSustitucion;
 
 import javax.swing.JOptionPane;
 

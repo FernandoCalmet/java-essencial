@@ -1,4 +1,4 @@
-package ClasesObjetos;
+package Excercises.POO.ClasesObjetos;
 
 import javax.swing.JOptionPane;
 

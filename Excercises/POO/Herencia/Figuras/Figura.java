@@ -1,4 +1,4 @@
-package Herencia.Figuras;
+package Excercises.POO.Herencia.Figuras;
 
 /**
  *

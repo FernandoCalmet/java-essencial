@@ -1,4 +1,4 @@
-package abstractos.interfaces;
+package Excercises.POO.Abstractos.Interfaces;
 
 /**
  *

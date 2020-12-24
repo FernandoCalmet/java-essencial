@@ -1,4 +1,4 @@
-package abstractos.abstracts;
+package Excercises.POO.Abstractos.Abstracts;
 
 /**
  *

@@ -1,4 +1,4 @@
-package Encapsulamiento;
+package Excercises.POO.Encapsulamiento;
 
 /**
  *

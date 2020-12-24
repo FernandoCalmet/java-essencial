@@ -1,4 +1,4 @@
-package AccesoDatosEstudiante.accesoDatos;
+package Excercises.POO.AccesoDatosEstudiante.accesoDatos;
 
 import java.sql.*; //Importa clases e interfaces para la conexion a BD
 

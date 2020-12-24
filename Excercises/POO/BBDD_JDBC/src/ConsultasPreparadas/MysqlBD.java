@@ -1,4 +1,4 @@
-package BBDD_JDBC.src.ConsultasPreparadas;
+package Excercises.POO.BBDD_JDBC.src.ConsultasPreparadas;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

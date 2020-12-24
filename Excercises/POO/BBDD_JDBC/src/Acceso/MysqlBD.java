@@ -1,4 +1,4 @@
-package BBDD_JDBC.src.Acceso;
+package Excercises.POO.BBDD_JDBC.src.Acceso;
 
 import java.sql.*;
 

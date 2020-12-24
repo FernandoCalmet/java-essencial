@@ -1,4 +1,4 @@
-package CastingObjetos.DownCasting;
+package Excercises.POO.CastingObjetos.DownCasting;
 
 /**
  *

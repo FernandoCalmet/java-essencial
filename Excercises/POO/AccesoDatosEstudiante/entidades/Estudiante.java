@@ -1,4 +1,4 @@
-package AccesoDatosEstudiante.entidades;
+package Excercises.POO.AccesoDatosEstudiante.entidades;
 
 /**
  *

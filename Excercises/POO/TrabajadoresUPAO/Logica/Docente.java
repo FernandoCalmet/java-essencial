@@ -1,4 +1,4 @@
-package TrabajadoresUPAO.Logica;
+package Excercises.POO.TrabajadoresUPAO.Logica;
 
 /**
  *

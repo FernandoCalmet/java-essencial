@@ -1,6 +1,6 @@
-package TrabajadoresUPAO.Presentacion;
+package Excercises.POO.TrabajadoresUPAO.Presentacion;
 
-import TrabajadoresUPAO.Logica.*;
+import Excercises.POO.TrabajadoresUPAO.Logica.*;
 
 /**
  *

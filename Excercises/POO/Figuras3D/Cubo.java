@@ -1,4 +1,4 @@
-package Figuras3D;
+package Excercises.POO.Figuras3D;
 
 /**
  *

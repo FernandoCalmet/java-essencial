@@ -1,4 +1,4 @@
-package Inmobiliaria1;
+package Excercises.POO.Inmobiliaria1;
 
 /**
  *

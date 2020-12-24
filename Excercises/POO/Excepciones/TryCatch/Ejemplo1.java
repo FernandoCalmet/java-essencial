@@ -1,4 +1,4 @@
-package Excepciones.TryCatch;
+package Excercises.POO.Excepciones.TryCatch;
 
 /**
  *

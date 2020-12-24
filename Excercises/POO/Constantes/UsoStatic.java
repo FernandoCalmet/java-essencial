@@ -1,4 +1,4 @@
-package Constantes;
+package Excercises.POO.Constantes;
 
 /**
  *

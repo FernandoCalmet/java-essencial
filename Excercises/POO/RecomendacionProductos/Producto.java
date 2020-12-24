@@ -1,4 +1,4 @@
-package RecomendacionProductos;
+package Excercises.POO.RecomendacionProductos;
 
 import java.util.*;
 

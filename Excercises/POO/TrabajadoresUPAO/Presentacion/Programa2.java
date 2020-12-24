@@ -1,7 +1,7 @@
-package TrabajadoresUPAO.Presentacion;
+package Excercises.POO.TrabajadoresUPAO.Presentacion;
 
 import java.io.IOException;
-import TrabajadoresUPAO.Logica.*;
+import Excercises.POO.TrabajadoresUPAO.Logica.*;
 
 /**
  *

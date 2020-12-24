@@ -1,4 +1,4 @@
-package Excepciones.Throws;
+package Excercises.POO.Excepciones.Throws;
 
 import java.io.BufferedReader;
 import java.io.IOException;

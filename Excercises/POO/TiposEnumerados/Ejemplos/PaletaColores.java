@@ -1,4 +1,4 @@
-package TiposEnumerados.Ejemplos;
+package Excercises.POO.TiposEnumerados.Ejemplos;
 
 /**
  *

@@ -1,4 +1,4 @@
-package EjerciciosLaboratorio.src.Ejercicio15;
+package Excercises.POO.EjerciciosLaboratorio.src.Ejercicio15;
 
 import java.util.ArrayList;
 

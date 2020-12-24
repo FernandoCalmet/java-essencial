@@ -1,7 +1,7 @@
-package AccesoDatosEstudiante.accesoDatos;
+package Excercises.POO.AccesoDatosEstudiante.accesoDatos;
 
-import AccesoDatosEstudiante.entidades.Carrera;
-import AccesoDatosEstudiante.entidades.Estudiante;
+import Excercises.POO.AccesoDatosEstudiante.entidades.Carrera;
+import Excercises.POO.AccesoDatosEstudiante.entidades.Estudiante;
 import java.sql.*; //Importa clases e interfaces para la conexion a la BD
 import java.util.*; //Para usar la Colleccion arraylist
 
