@@ -1,4 +1,4 @@
-package Excercises.POO.Figuras3D;
+package Excercises.POO.Figuras3D.Ejercicio1;
 
 import java.util.Scanner;
 
