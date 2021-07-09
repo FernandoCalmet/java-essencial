@@ -5,36 +5,56 @@ package Excercises.POO.UPAO.Figuras.Ejercicio5;
  * @author Fernando Calmet
  * @homepage https://github.com/FernandoCalmet
  */
-public class Cono extends Figura3D {
+public class Cono extends Figuras {
 
-    private double h;
-    private double a;
+    private double generatriz;
 
-    public Cono(String tipo, int x, int y, int z, double h) {
-        super(tipo, x, y, z, h);
-        this.h = h;
+    public Cono(double r, double h, double g) {
+        if (r > 0) {
+            this.radio = r;
+        } else {
+            this.radio = 0.0;
+        }
+        if (h > 0) {
+            this.altura = h;
+        } else {
+            this.altura = 0.0;
+        }
+        if (g > 0) {
+            this.generatriz = h;
+        } else {
+            this.generatriz = 0.0;
+        }
     }
 
-    protected double getH() {
-        return this.h;
+    protected double getGeneratriz() {
+        return this.generatriz;
     }
 
-    protected void setH(double h) {
-        this.h = h;
+    protected void setGeneratriz(double g) {
+        this.generatriz = g;
+    }
+
+    protected double getAltura() {
+        return this.altura;
+    }
+
+    protected void setAltura(double h) {
+        this.altura = h;
     }
 
     @Override
-    protected double calcularArea() {
-        return Math.PI * getRadio() * getZ();
+    protected double getArea() {
+        return Math.PI * getRadio() * getGeneratriz();
     }
 
     @Override
-    protected double calcularVolumen() {
-        return (Math.PI * Math.pow(getRadio(), 2) * getH()) / 3;
+    protected double getVolumen() {
+        return (Math.PI * Math.pow(getRadio(), 2) * getAltura()) / 3;
     }
 
     @Override
     public String toString() {
-        return "\n" + getTipo() + " \nArea: " + calcularArea() + "\nVolumen: " + calcularVolumen();
+        return "CONO: \nArea: " + getArea() + "\nVolumen: " + getVolumen();
     }
 }

@@ -1,4 +1,4 @@
-package Excercises.POO.UPAO.EjerciciosLaboratorio.src.Ejercicio10;
+package Excercises.POO.UPAO.Taxis;
 
 import java.io.BufferedReader;
 import java.io.IOException;

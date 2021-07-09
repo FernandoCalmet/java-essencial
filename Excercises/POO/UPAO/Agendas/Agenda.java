@@ -1,4 +1,4 @@
-package Excercises.POO.UPAO.EjerciciosLaboratorio.src.Ejercicio12;
+package Excercises.POO.UPAO.Agendas;
 
 import java.util.ArrayList;
 

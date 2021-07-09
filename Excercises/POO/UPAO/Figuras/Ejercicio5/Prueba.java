@@ -1,4 +1,4 @@
-package Excercises.POO.UPAO.Figuras.Ejercicio4;
+package Excercises.POO.UPAO.Figuras.Ejercicio5;
 
 import java.util.Scanner;
 

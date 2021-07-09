@@ -5,10 +5,14 @@ package Excercises.POO.UPAO.Figuras.Ejercicio5;
  * @author Fernando Calmet
  * @homepage https://github.com/FernandoCalmet
  */
-public class Esfera extends Figura3D {
+public class Esfera extends Figuras {
 
-    public Esfera(String tipo, int x, int y, int z, double h) {
-        super(tipo, x, y, z, h);
+    public Esfera(double r) {
+        if (r > 0) {
+            this.radio = r;
+        } else {
+            this.radio = 0.0;
+        }
     }
 
     protected double getCircunferencia() {
@@ -16,22 +20,22 @@ public class Esfera extends Figura3D {
     }
 
     protected double getDiametro() {
-        return (getRadio() * 2);
+        return (this.radio * 2);
     }
 
     @Override
-    protected double calcularArea() {
+    protected double getArea() {
         return (4 * Math.PI * Math.pow(getRadio(), 2));
     }
 
     @Override
-    protected double calcularVolumen() {
+    protected double getVolumen() {
         return (4 * Math.PI * Math.pow(getRadio(), 3) / 3);
     }
 
     @Override
     public String toString() {
-        return "\n" + getTipo() + " \nCircunferencia: " + getCircunferencia() + "\nDiametro: " + getDiametro()
-                + "\nArea: " + calcularArea() + "\nVolumen: " + calcularVolumen();
+        return "ESFERA: \nCircunferencia: " + getCircunferencia() + "\nDiametro: " + getDiametro() + "\nArea: "
+                + getArea() + "\nVolumen: " + getVolumen();
     }
 }
