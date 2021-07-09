@@ -1,4 +1,4 @@
-package Excercises.POO.UPAO.Inmobiliaria2;
+package Excercises.POO.UPAO.Inmobiliaria.ejercicio1;
 
 /**
  *
@@ -9,5 +9,9 @@ public class Casa extends Inmueble {
     public Casa(String tipo, double precio) {
         this.tipoInmueble = tipo;
         this.precio = precio;
+    }
+
+    public Casa(String tipo) {
+        this.tipoInmueble = tipo;
     }
 }

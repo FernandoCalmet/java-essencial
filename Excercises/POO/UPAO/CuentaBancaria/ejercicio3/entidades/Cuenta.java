@@ -1,4 +1,4 @@
-package Excercises.POO.UPAO.CuentaBancaria.ejercicio2.entidades;
+package Excercises.POO.UPAO.CuentaBancaria.ejercicio3.entidades;
 
 /**
  *

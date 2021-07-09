@@ -1,4 +1,4 @@
-package Excercises.POO.UPAO.EjerciciosLaboratorio.src.Ejercicio4;
+package Excercises.POO.UPAO.CuentaBancaria.ejercicio2;
 
 /**
  *

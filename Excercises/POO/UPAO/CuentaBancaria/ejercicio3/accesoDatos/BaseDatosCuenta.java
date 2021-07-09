@@ -1,7 +1,8 @@
-package Excercises.POO.UPAO.CuentaBancaria.ejercicio2.accesoDatos;
+package Excercises.POO.UPAO.CuentaBancaria.ejercicio3.accesoDatos;
 
 import java.util.ArrayList;
-import Excercises.POO.UPAO.CuentaBancaria.ejercicio2.entidades.Cuenta;
+
+import Excercises.POO.UPAO.CuentaBancaria.ejercicio3.entidades.Cuenta;
 
 /**
  *

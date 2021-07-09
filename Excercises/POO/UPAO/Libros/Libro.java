@@ -1,4 +1,4 @@
-package Excercises.POO.UPAO.EjerciciosLaboratorio.src.Ejercicio2;
+package Excercises.POO.UPAO.Libros;
 
 /**
  *

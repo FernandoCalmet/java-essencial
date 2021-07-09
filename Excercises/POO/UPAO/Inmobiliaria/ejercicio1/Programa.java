@@ -1,4 +1,4 @@
-package Excercises.POO.UPAO.Inmobiliaria1;
+package Excercises.POO.UPAO.Inmobiliaria.ejercicio1;
 
 import java.util.ArrayList;
 

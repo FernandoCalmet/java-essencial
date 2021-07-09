@@ -1,9 +1,10 @@
-package Excercises.POO.UPAO.CuentaBancaria.ejercicio2.presentacion;
+package Excercises.POO.UPAO.CuentaBancaria.ejercicio3.presentacion;
 
-import Excercises.POO.UPAO.CuentaBancaria.ejercicio2.accesoDatos.BaseDatosCuenta;
-import Excercises.POO.UPAO.CuentaBancaria.ejercicio2.entidades.Cuenta;
-import Excercises.POO.UPAO.CuentaBancaria.ejercicio2.entidades.Cliente;
 import java.io.*;
+
+import Excercises.POO.UPAO.CuentaBancaria.ejercicio3.accesoDatos.BaseDatosCuenta;
+import Excercises.POO.UPAO.CuentaBancaria.ejercicio3.entidades.Cliente;
+import Excercises.POO.UPAO.CuentaBancaria.ejercicio3.entidades.Cuenta;
 
 /**
  *

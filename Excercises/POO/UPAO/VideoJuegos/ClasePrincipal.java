@@ -1,4 +1,4 @@
-package Excercises.POO.UPAO.EjerciciosLaboratorio.src.Ejercicio3;
+package Excercises.POO.UPAO.VideoJuegos;
 
 import java.io.BufferedReader;
 import java.io.IOException;
