@@ -1,5 +1,10 @@
-package Excercises.POO.UPAO.EjerciciosLaboratorio.src.Ejercicio16;
+package Excercises.POO.UPAO.Ejemplares;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Ejemplar {
 
     private int codigo;
@@ -32,7 +37,8 @@ public class Ejemplar {
     }
 
     public String MostrarDatos() {
-        return "Ejemplar " + this.codigo + "{" + "titulo=" + titulo + ", nroPag=" + nroPag + ", autor=" + autor + ", estado=" + estado + '}';
+        return "Ejemplar " + this.codigo + "{" + "titulo=" + titulo + ", nroPag=" + nroPag + ", autor=" + autor
+                + ", estado=" + estado + '}';
     }
 
     public void ModificarPaginas(int nroPag) {
@@ -44,6 +50,7 @@ public class Ejemplar {
     }
 
     public String MostrarEjemplar(Ejemplar ejemplar) {
-        return "Ejemplar " + ejemplar.codigo + "{" + "titulo=" + ejemplar.titulo + ", nroPag=" + ejemplar.nroPag + ", autor=" + ejemplar.autor + ", estado=" + ejemplar.estado + '}';
+        return "Ejemplar " + ejemplar.codigo + "{" + "titulo=" + ejemplar.titulo + ", nroPag=" + ejemplar.nroPag
+                + ", autor=" + ejemplar.autor + ", estado=" + ejemplar.estado + '}';
     }
 }

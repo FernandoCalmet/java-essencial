@@ -1,16 +1,18 @@
-package Excercises.POO.UPAO.EjerciciosLaboratorio.src.Ejercicio15;
+package Excercises.POO.UPAO.Alumnos;
 
 /**
  *
  * @author Fernando Calmet
  * @homepage https://github.com/FernandoCalmet
  */
-public class Alumno {
+public class Profesor {
 
     private String nombres;
+    private String dni;
 
-    public Alumno(String nombres) {
+    public Profesor(String nombres, String dni) {
         this.nombres = nombres;
+        this.dni = dni;
     }
 
     public String getNombres() {
@@ -21,8 +23,16 @@ public class Alumno {
         this.nombres = nombres;
     }
 
+    public String getDni() {
+        return dni;
+    }
+
+    public void setDni(String dni) {
+        this.dni = dni;
+    }
+
     @Override
     public String toString() {
-        return "\nNombre: " + getNombres();
+        return "\nNombres: " + getNombres() + "\nDNI: " + getDni();
     }
 }

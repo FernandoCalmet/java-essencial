@@ -1,9 +1,14 @@
-package Excercises.POO.UPAO.EjerciciosLaboratorio.src.Ejercicio16;
+package Excercises.POO.UPAO.Ejemplares;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class PruebaEjemplar {
 
     public static void main(String[] args) throws IOException {
