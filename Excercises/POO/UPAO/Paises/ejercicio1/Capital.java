@@ -1,4 +1,4 @@
-package Excercises.POO.UPAO.Paises;
+package Excercises.POO.UPAO.Paises.ejercicio1;
 
 /**
  *
