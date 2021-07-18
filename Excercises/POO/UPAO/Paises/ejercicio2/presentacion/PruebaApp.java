@@ -126,11 +126,6 @@ public class PruebaApp {
         }
     }
 
-    private static void finalizarPrograma() {
-        System.out.println("Fin de la aplicación de almacen.");
-        System.exit(0);
-    }
-
     private static void buscarProvincia() throws IOException {
         System.out.println("***BUSCAR PROVINCIA***");
         System.out.println("Ingrese el nombre de la provincia a buscar: ");
@@ -155,5 +150,10 @@ public class PruebaApp {
     private static void consultarPais() throws IOException {
         System.out.println("***CONSULTAR PAIS***");
         System.out.println(baseDatos.mostrarPais());
+    }
+
+    private static void finalizarPrograma() {
+        System.out.println("Fin de la aplicación de paises.");
+        System.exit(0);
     }
 }
