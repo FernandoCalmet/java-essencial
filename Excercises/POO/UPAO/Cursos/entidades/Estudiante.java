@@ -1,5 +1,10 @@
 package Excercises.POO.UPAO.Cursos.entidades;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Estudiante {
     private int id;
     private String nombres;

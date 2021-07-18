@@ -6,6 +6,11 @@ import java.io.InputStreamReader;
 
 import Excercises.POO.UPAO.Cursos.accesoDatos.BaseDatos;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class PruebaApp {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static BaseDatos baseDatos = new BaseDatos();

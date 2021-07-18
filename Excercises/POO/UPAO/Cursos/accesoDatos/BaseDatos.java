@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import Excercises.POO.UPAO.Cursos.entidades.Curso;
 import Excercises.POO.UPAO.Cursos.entidades.Estudiante;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class BaseDatos {
     // Atributos
     static Curso entidadCurso;

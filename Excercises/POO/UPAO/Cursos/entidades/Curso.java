@@ -2,6 +2,11 @@ package Excercises.POO.UPAO.Cursos.entidades;
 
 import java.util.ArrayList;
 
+/**
+ *
+ * @author Fernando Calmet
+ * @homepage https://github.com/FernandoCalmet
+ */
 public class Curso {
     private String codigo;
     private String nombre;
