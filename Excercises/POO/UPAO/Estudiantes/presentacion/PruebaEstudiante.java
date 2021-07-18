@@ -1,13 +1,9 @@
-package Excercises.POO.UPAO.AccesoDatosEstudiante.presentacion;
+package Excercises.POO.UPAO.Estudiantes.presentacion;
 
-/**
- *
- * @author Fernando Calmet
- * @homepage https://github.com/FernandoCalmet
- */
-import Excercises.POO.UPAO.AccesoDatosEstudiante.accesoDatos.*;
-import Excercises.POO.UPAO.AccesoDatosEstudiante.entidades.*;
 import java.io.*;
+
+import Excercises.POO.UPAO.Estudiantes.accesoDatos.*;
+import Excercises.POO.UPAO.Estudiantes.entidades.*;
 
 public class PruebaEstudiante {
 

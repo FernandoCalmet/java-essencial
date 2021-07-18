@@ -1,9 +1,10 @@
-package Excercises.POO.UPAO.AccesoDatosEstudiante.accesoDatos;
+package Excercises.POO.UPAO.Estudiantes.accesoDatos;
 
-import Excercises.POO.UPAO.AccesoDatosEstudiante.entidades.Carrera;
-import Excercises.POO.UPAO.AccesoDatosEstudiante.entidades.Estudiante;
 import java.sql.*; //Importa clases e interfaces para la conexion a la BD
 import java.util.*; //Para usar la Colleccion arraylist
+
+import Excercises.POO.UPAO.Estudiantes.entidades.Carrera;
+import Excercises.POO.UPAO.Estudiantes.entidades.Estudiante;
 
 /**
  *
