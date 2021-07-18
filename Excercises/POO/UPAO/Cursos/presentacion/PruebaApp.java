@@ -22,29 +22,22 @@ public class PruebaApp {
             opc = menu();
             switch (opc) {
                 case 1:
-                    // a) Crear un Curso.
                     crearCurso();
                     break;
                 case 2:
-                    // b) Se requiere crear N estudiantes para el curso y almacenarlos en una
-                    // colección.
                     n = leerN();
                     crearEstudiantes();
                     break;
-                case 3:
-                    // c) Buscar a un estudiante por su id y mostrar todos sus datos.
+                case 3:                   
                     buscarEstudiante();
                     break;
                 case 4:
-                    // d) Modificar la edad de un estudiante.
                     modificarEdadEstudiante();
                     break;
                 case 5:
-                    // e) Eliminar un estudiante de la colección.
                     eliminarEstudiante();
                     break;
-                case 6:
-                    // f) Mostrar la información de un Curso con todos sus estudiantes.
+                case 6:                  
                     reporteEstudiantesPorCurso();
                     break;
                 case 7:
