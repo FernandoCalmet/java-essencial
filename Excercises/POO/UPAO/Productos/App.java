@@ -1,4 +1,4 @@
-package Excercises.POO.UPAO.RecomendacionProductos;
+package Excercises.POO.UPAO.Productos;
 
 import java.util.Scanner;
 
