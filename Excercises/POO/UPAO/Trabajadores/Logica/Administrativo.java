@@ -1,22 +1,24 @@
-package Excercises.POO.UPAO.TrabajadoresUPAO.Logica;
+package Excercises.POO.UPAO.Trabajadores.Logica;
 
 /**
  *
  * @author Fernando Calmet
  * @homepage https://github.com/FernandoCalmet
  */
-public class Servicio extends Trabajador {
+public class Administrativo extends Trabajador {
     private String tipo;
     private String nombre;
     private String dni;
     private String oficina;
+    private String cargo;
     private double sueldoBasico;
 
-    public Servicio(String tipo, String nombre, String dni, String oficina, double sueldoBasico) {
+    public Administrativo(String tipo, String nombre, String dni, String oficina, String cargo, double sueldoBasico) {
         this.tipo = tipo;
         this.nombre = nombre;
         this.dni = dni;
         this.oficina = oficina;
+        this.cargo = cargo;
         this.sueldoBasico = sueldoBasico;
     }
 
@@ -58,6 +60,14 @@ public class Servicio extends Trabajador {
         this.oficina = oficina;
     }
 
+    public String getCargo() {
+        return cargo;
+    }
+
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
+    }
+
     public double getSueldoBasico() {
         return sueldoBasico;
     }
@@ -68,12 +78,12 @@ public class Servicio extends Trabajador {
 
     @Override
     public double getSalario() {
-        return this.sueldoBasico;
+        return getSueldoBasico() - ((getSueldoBasico() * 12) / 100);
     }
 
     @Override
     public String toString() {
         return "\nTipo: " + getTipo() + "\nNombre: " + getNombre() + "\nDNI: " + getDni() + "\nOficina: " + getOficina()
-                + "\nSalario: " + getSalario();
+                + "\nCargo: " + getCargo() + "\nSalario: " + getSalario();
     }
 }
