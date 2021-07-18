@@ -21,6 +21,7 @@ public class ContactoEstudio extends Contacto {
         this.direccion = direccion;
     }
 
+    @Override
     public String getNombres() {
         return nombres;
     }
@@ -41,6 +42,7 @@ public class ContactoEstudio extends Contacto {
         return telefono;
     }
 
+    @Override
     public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
