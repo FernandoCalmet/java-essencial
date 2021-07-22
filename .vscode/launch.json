@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "Excercises.POO.UPAO.Matrices.ejercicio1.App",
+            "projectName": "Java_26d4883d"
+        },
+        {
+            "type": "java",
             "name": "Launch PruebaBST",
             "request": "launch",
             "mainClass": "Excercises.EDA.BST.ejercicio4.PruebaBST",
