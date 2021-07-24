@@ -127,59 +127,117 @@ public class MatricesApp {
     // Metodo de suma de matrices
     private static void sumaMatrices() throws NumberFormatException, IOException {
         System.out.println("*** Suma de matrices ***");
+        // Definir variables para la matriz A y B
         double[][] matriz1 = new double[3][3];
         double[][] matriz2 = new double[3][3];
-        System.out.println("Ingresar valores para la Matriz 1: ");
+        // Leer valores de la matriz A
+        System.out.println("Ingresar valores para la Matriz A: ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 matriz1[i][j] = Double.parseDouble(br.readLine());
             }
         }
-        System.out.println("Ingresar valores para la Matriz 2: ");
+        // Mostrar los valores de la matriz A
+        System.out.println("A = ");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print("|" + matriz1[i][j] + "|");
+            }
+            System.out.println();
+        }
+        // Leer valores de la matriz B
+        System.out.println("Ingresar valores para la Matriz B: ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 matriz2[i][j] = Double.parseDouble(br.readLine());
             }
         }
+        // Mostrar los valores de la matriz B
+        System.out.println("B = ");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print("|" + matriz2[i][j] + "|");
+            }
+            System.out.println();
+        }
+        // Definir variables para el calculo de las matrices
         int filas1 = matriz1.length;
         int columnas1 = matriz1[0].length;
         int filas2 = matriz2.length;
         int columnas2 = matriz2[0].length;
         int i, j;
+        // Asignar filas y columnas a la matriz resultado
         double[][] resultado = new double[filas1][columnas1];
         for (i = 0; i < filas1; i++) {
             for (j = 0; j < columnas1; j++) {
-                System.out.println(resultado[i][j] = matriz1[i][j] + matriz2[i][j]);
+                resultado[i][j] = matriz1[i][j] + matriz2[i][j];
             }
+        }
+        // Mostrar los valores de la matriz resultado
+        System.out.println("A + B = ");
+        for (i = 0; i < filas1; i++) {
+            for (j = 0; j < columnas1; j++) {
+                System.out.print("|" + resultado[i][j] + "|");
+            }
+            System.out.println();
         }
     }
 
     // Metodo de resta de matrices
     private static void restaMatrices() throws NumberFormatException, IOException {
         System.out.println("*** Resta de matrices ***");
+        // Definir variables para la matriz A y B
         double[][] matriz1 = new double[3][3];
         double[][] matriz2 = new double[3][3];
-        System.out.println("Ingresar valores: ");
+        // Leer valores de la matriz A
+        System.out.println("Ingresar valores para la Matriz A: ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 matriz1[i][j] = Double.parseDouble(br.readLine());
             }
         }
+        // Mostrar los valores de la matriz A
+        System.out.println("A = ");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print("|" + matriz1[i][j] + "|");
+            }
+            System.out.println();
+        }
+        // Leer valores de la matriz B
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 matriz2[i][j] = Double.parseDouble(br.readLine());
             }
         }
+        // Mostrar los valores de la matriz B
+        System.out.println("B = ");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print("|" + matriz2[i][j] + "|");
+            }
+            System.out.println();
+        }
+        // Definir variables para el calculo de las matrices
         int filas1 = matriz1.length;
         int columnas1 = matriz1[0].length;
         int filas2 = matriz2.length;
         int columnas2 = matriz2[0].length;
         int i, j;
+        // Asignar filas y columnas a la matriz resultado
         double[][] resultado = new double[filas1][columnas1];
         for (i = 0; i < filas1; i++) {
             for (j = 0; j < columnas1; j++) {
-                System.out.println(resultado[i][j] = matriz1[i][j] - matriz2[i][j]);
+                resultado[i][j] = matriz1[i][j] - matriz2[i][j];
             }
+        }
+        // Mostrar los valores de la matriz resultado
+        System.out.println("A - B = ");
+        for (i = 0; i < filas1; i++) {
+            for (j = 0; j < columnas1; j++) {
+                System.out.print("|" + resultado[i][j] + "|");
+            }
+            System.out.println();
         }
     }
 
