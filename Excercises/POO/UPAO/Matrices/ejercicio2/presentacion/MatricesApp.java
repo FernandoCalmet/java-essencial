@@ -61,19 +61,17 @@ public class MatricesApp {
         // Definir variables para la matriz A
         double[][] matriz = new double[3][3];
         // Leer valores de la matriz A
-        System.out.println("Ingresar valores para la Matriz A: ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                matriz[i][j] = Double.parseDouble(
-                        JOptionPane.showInputDialog("Ingrese el valor de la posicion " + (i + 1) + "," + (j + 1)));
+                matriz[i][j] = Double.parseDouble(JOptionPane
+                        .showInputDialog("Matriz A: Ingrese el valor de la posicion " + (i + 1) + "," + (j + 1)));
             }
         }
         // Mostrar matriz A
-        System.out.println("Matriz A:");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                JOptionPane.showMessageDialog(null, " | " + matriz[i][j] + " | ", "Matriz A",
-                        JOptionPane.PLAIN_MESSAGE);
+                JOptionPane.showMessageDialog(null, " | " + matriz[i][j] + " | ",
+                        "Matriz A [" + (i + 1) + "," + (j + 1) + "]", JOptionPane.PLAIN_MESSAGE);
             }
         }
         // Realizar el calculo de la matriz A
@@ -84,8 +82,8 @@ public class MatricesApp {
         // Mostrar matriz resultado
         for (i = 0; i < filas; i++) {
             for (j = 0; j < columnas; j++) {
-                JOptionPane.showMessageDialog(null, " | " + matriz[i][j] + " | ", "Matriz resultado",
-                        JOptionPane.PLAIN_MESSAGE);
+                JOptionPane.showMessageDialog(null, " | " + matriz[i][j] + " | ",
+                        "Matriz resultado [" + (i + 1) + "," + (j + 1) + "]", JOptionPane.PLAIN_MESSAGE);
             }
         }
     }
@@ -96,36 +94,32 @@ public class MatricesApp {
         double[][] matriz1 = new double[3][3];
         double[][] matriz2 = new double[3][3];
         // Leer valores de la matriz A
-        System.out.println("Ingresar valores para la Matriz A: ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                matriz1[i][j] = Double.parseDouble(
-                        JOptionPane.showInputDialog("Ingrese el valor de la posicion " + (i + 1) + "," + (j + 1)));
+                matriz1[i][j] = Double.parseDouble(JOptionPane
+                        .showInputDialog("Matriz A: Ingrese el valor de la posicion " + (i + 1) + "," + (j + 1)));
             }
         }
         // Mostrar los valores de la matriz A
-        System.out.println("A = ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                JOptionPane.showMessageDialog(null, " | " + matriz1[i][j] + " | ", "Matriz A",
-                        JOptionPane.PLAIN_MESSAGE);
+                JOptionPane.showMessageDialog(null, " | " + matriz1[i][j] + " | ",
+                        "Matriz A [" + (i + 1) + "," + (j + 1) + "]", JOptionPane.PLAIN_MESSAGE);
             }
         }
         // Leer valores de la matriz B
-        System.out.println("Ingresar valores para la Matriz B: ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                matriz2[i][j] = Double.parseDouble(
-                        JOptionPane.showInputDialog("Ingrese el valor de la posicion " + (i + 1) + "," + (j + 1)));
+                matriz2[i][j] = Double.parseDouble(JOptionPane
+                        .showInputDialog("Matriz B: Ingrese el valor de la posicion " + (i + 1) + "," + (j + 1)));
             }
         }
         // Mostrar los valores de la matriz B
-        System.out.println("B = ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                System.out.print(" | " + matriz2[i][j] + " | ");
+                JOptionPane.showMessageDialog(null, " | " + matriz2[i][j] + " | ",
+                        "Matriz B [" + (i + 1) + "," + (j + 1) + "]", JOptionPane.PLAIN_MESSAGE);
             }
-            System.out.println();
         }
         // // Realizar el calculo de la matriz A
         double[][] matriz = new double[3][3];
@@ -136,10 +130,9 @@ public class MatricesApp {
         // Mostrar los valores de la matriz resultado
         for (i = 0; i < filas1; i++) {
             for (j = 0; j < columnas1; j++) {
-                JOptionPane.showMessageDialog(null, " | " + matriz[i][j] + " | ", "Matriz resultado (A + B)",
-                        JOptionPane.PLAIN_MESSAGE);
+                JOptionPane.showMessageDialog(null, " | " + matriz[i][j] + " | ",
+                        "Matriz resultado (A + B) [" + (i + 1) + "," + (j + 1) + "]", JOptionPane.PLAIN_MESSAGE);
             }
-            System.out.println();
         }
     }
 
@@ -156,7 +149,6 @@ public class MatricesApp {
             }
         }
         // Mostrar los valores de la matriz A
-        System.out.println("A = ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 JOptionPane.showMessageDialog(null, " | " + matriz1[i][j] + " | ", "Matriz A",
@@ -171,11 +163,10 @@ public class MatricesApp {
             }
         }
         // Mostrar los valores de la matriz B
-        System.out.println("B = ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                JOptionPane.showMessageDialog(null, " | " + matriz2[i][j] + " | ", "Matriz B",
-                        JOptionPane.PLAIN_MESSAGE);
+                JOptionPane.showMessageDialog(null, " | " + matriz2[i][j] + " | ",
+                        "Matriz B [" + (i + 1) + "," + (j + 1) + "]", JOptionPane.PLAIN_MESSAGE);
             }
         }
         // Definir variables para el calculo de las matrices
@@ -187,8 +178,8 @@ public class MatricesApp {
         // Mostrar los valores de la matriz resultado
         for (i = 0; i < filas1; i++) {
             for (j = 0; j < columnas1; j++) {
-                JOptionPane.showMessageDialog(null, " | " + matriz[i][j] + " | ", "Matriz resultado (A - B)",
-                        JOptionPane.PLAIN_MESSAGE);
+                JOptionPane.showMessageDialog(null, " | " + matriz[i][j] + " | [" + (i + 1) + "," + (j + 1) + "]",
+                        "Matriz resultado (A - B) [" + (i + 1) + "," + (j + 1) + "]", JOptionPane.PLAIN_MESSAGE);
             }
         }
     }
@@ -206,11 +197,10 @@ public class MatricesApp {
             }
         }
         // Mostrar los valores de la matriz A
-        System.out.println("A = ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                JOptionPane.showMessageDialog(null, " | " + matriz1[i][j] + " | ", "Matriz A",
-                        JOptionPane.PLAIN_MESSAGE);
+                JOptionPane.showMessageDialog(null, " | " + matriz1[i][j] + " | ",
+                        "Matriz A [" + (i + 1) + "," + (j + 1) + "]", JOptionPane.PLAIN_MESSAGE);
             }
         }
         // Leer valores de la matriz B
@@ -221,11 +211,10 @@ public class MatricesApp {
             }
         }
         // Mostrar los valores de la matriz B
-        System.out.println("B = ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                JOptionPane.showMessageDialog(null, " | " + matriz2[i][j] + " | ", "Matriz B",
-                        JOptionPane.PLAIN_MESSAGE);
+                JOptionPane.showMessageDialog(null, " | " + matriz2[i][j] + " | ",
+                        "Matriz B [" + (i + 1) + "," + (j + 1) + "]", JOptionPane.PLAIN_MESSAGE);
             }
         }
         // Definir variables para el calculo de las matrices
@@ -240,8 +229,8 @@ public class MatricesApp {
         for (i = 0; i < filas1; i++) {
             for (j = 0; j < columnas2; j++) {
                 for (k = 0; k < columnas1; k++) {
-                    JOptionPane.showMessageDialog(null, " | " + matriz[i][j] + " | ", "Matriz resultado (A * B)",
-                            JOptionPane.PLAIN_MESSAGE);
+                    JOptionPane.showMessageDialog(null, " | " + matriz[i][j] + " | ",
+                            "Matriz resultado (A * B) [" + (i + 1) + "," + (j + 1) + "]", JOptionPane.PLAIN_MESSAGE);
                 }
             }
         }
@@ -252,19 +241,17 @@ public class MatricesApp {
         // Definir variables para la matriz A
         double[][] matriz = new double[3][3];
         // Leer valores de la matriz A
-        System.out.println("Ingresar valores para la Matriz A: ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                matriz[i][j] = Double.parseDouble(
-                        JOptionPane.showInputDialog("Ingrese el valor de la posicion " + (i + 1) + "," + (j + 1)));
+                matriz[i][j] = Double.parseDouble(JOptionPane
+                        .showInputDialog("Matriz A: Ingrese el valor de la posicion " + (i + 1) + "," + (j + 1)));
             }
         }
         // Mostrar los valores de la matriz A
-        System.out.println("A = ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                JOptionPane.showMessageDialog(null, " | " + matriz[i][j] + " | ", "Matriz A",
-                        JOptionPane.PLAIN_MESSAGE);
+                JOptionPane.showMessageDialog(null, " | " + matriz[i][j] + " | ",
+                        "Matriz A [" + (i + 1) + "," + (j + 1) + "]", JOptionPane.PLAIN_MESSAGE);
             }
         }
         // Verificar si la matriz es una matriz de identidad
@@ -290,11 +277,10 @@ public class MatricesApp {
             }
         }
         // Mostrar los valores de la matriz A
-        System.out.println("A = ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                JOptionPane.showMessageDialog(null, " | " + matriz[i][j] + " | ", "Matriz A",
-                        JOptionPane.PLAIN_MESSAGE);
+                JOptionPane.showMessageDialog(null, " | " + matriz[i][j] + " | ",
+                        "Matriz A [" + (i + 1) + "," + (j + 1) + "]", JOptionPane.PLAIN_MESSAGE);
             }
         }
         // Definir variables para el calculo de la matriz
@@ -307,7 +293,8 @@ public class MatricesApp {
         for (i = 0; i < filas; i++) {
             for (j = 0; j < columnas; j++) {
                 for (k = 0; k < columnas; k++) {
-                    JOptionPane.showMessageDialog(null, " | " + matrizResultado[i][j] + " | ",
+                    JOptionPane.showMessageDialog(null,
+                            " | " + matrizResultado[i][j] + " |  [" + (i + 1) + "," + (j + 1) + "]",
                             "Matriz resultado (A * A^-1)", JOptionPane.PLAIN_MESSAGE);
                 }
             }
@@ -328,8 +315,8 @@ public class MatricesApp {
         // Mostrar los valores de la matriz A
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                JOptionPane.showMessageDialog(null, " | " + matriz[i][j] + " | ", "Matriz A",
-                        JOptionPane.PLAIN_MESSAGE);
+                JOptionPane.showMessageDialog(null, " | " + matriz[i][j] + " | ",
+                        "Matriz A [" + (i + 1) + "," + (j + 1) + "]", JOptionPane.PLAIN_MESSAGE);
             }
         }
         // Definir variables para el calculo de la matriz
@@ -339,11 +326,10 @@ public class MatricesApp {
         int columnas = matrizResultado[0].length;
         int i, j;
         // Mostrar los valores de la matriz resultado
-        System.out.println("A^T = ");
         for (i = 0; i < columnas; i++) {
             for (j = 0; j < filas; j++) {
-                JOptionPane.showMessageDialog(null, " | " + matrizResultado[i][j] + " | ", "Matriz resultado (A^T)",
-                        JOptionPane.PLAIN_MESSAGE);
+                JOptionPane.showMessageDialog(null, " | " + matrizResultado[i][j] + " | ",
+                        "Matriz resultado (A^T) [" + (i + 1) + "," + (j + 1) + "]", JOptionPane.PLAIN_MESSAGE);
             }
         }
     }
@@ -362,8 +348,8 @@ public class MatricesApp {
         // Mostrar los valores de la matriz A
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                JOptionPane.showMessageDialog(null, " | " + matriz[i][j] + " | ", "Matriz A",
-                        JOptionPane.PLAIN_MESSAGE);
+                JOptionPane.showMessageDialog(null, " | " + matriz[i][j] + " | ",
+                        "Matriz A [" + (i + 1) + "," + (j + 1) + "]", JOptionPane.PLAIN_MESSAGE);
             }
         }
         // Definir variables para el calculo de la matriz
@@ -378,7 +364,7 @@ public class MatricesApp {
     }
 
     private static void finPrograma() {
-        System.out.println("Gracias por usar el programa de matrices.");
+        JOptionPane.showMessageDialog(null, "Programa finalizado.", "Programa finalizado", JOptionPane.PLAIN_MESSAGE);
         System.exit(0);
     }
 }
