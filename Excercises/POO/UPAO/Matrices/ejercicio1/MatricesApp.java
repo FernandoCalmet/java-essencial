@@ -80,13 +80,24 @@ public class MatricesApp {
     // Metodo eliminacion gausiana
     private static void eliminacionGaussiana() throws NumberFormatException, IOException {
         System.out.println("*** Eliminación Guassiana ***");
+        // Definir variables para la matriz A
         double[][] matriz = new double[3][3];
-        System.out.println("Ingresar valores: ");
+        // Leer valores de la matriz A
+        System.out.println("Ingresar valores para la Matriz A: ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 matriz[i][j] = Double.parseDouble(br.readLine());
             }
         }
+        // Mostrar matriz A
+        System.out.println("Matriz A:");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(matriz[i][j] + " ");
+            }
+            System.out.println();
+        }
+        // Definir variables para el calculo de la eliminación gaussiana
         int filas = matriz.length;
         int columnas = matriz[0].length;
         int i, j, k;
@@ -94,6 +105,7 @@ public class MatricesApp {
         double[][] resultado = new double[filas][columnas];
         double[] vector = new double[columnas];
         double suma;
+        // Calcular la matriz auxiliar
         double[][] matrizTranspuesta = new double[columnas][filas];
         for (i = 0; i < filas; i++) {
             for (j = 0; j < columnas; j++) {
@@ -119,8 +131,16 @@ public class MatricesApp {
         }
         for (i = 0; i < filas; i++) {
             for (j = 0; j < columnas; j++) {
-                System.out.println(matriz[i][j] = resultado[i][j]);
+                matriz[i][j] = resultado[i][j];
             }
+        }
+        // Mostrar matriz resultado
+        System.out.println("Matriz resultado:");
+        for (i = 0; i < filas; i++) {
+            for (j = 0; j < columnas; j++) {
+                System.out.print(matriz[i][j] + " ");
+            }
+            System.out.println();
         }
     }
 
@@ -244,24 +264,45 @@ public class MatricesApp {
     // Metodo de multiplicacion de matrices
     private static void multiplicacionMatrices() throws NumberFormatException, IOException {
         System.out.println("*** Multiplicacion de matrices ***");
+        // Definir variables para la matriz A y B
         double[][] matriz1 = new double[3][3];
         double[][] matriz2 = new double[3][3];
-        System.out.println("Ingresar valores: ");
+        // Leer valores de la matriz A
+        System.out.println("Ingresar valores para la Matriz A: ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 matriz1[i][j] = Double.parseDouble(br.readLine());
             }
         }
+        // Mostrar los valores de la matriz A
+        System.out.println("A = ");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print("|" + matriz1[i][j] + "|");
+            }
+            System.out.println();
+        }
+        // Leer valores de la matriz B
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 matriz2[i][j] = Double.parseDouble(br.readLine());
             }
         }
+        // Mostrar los valores de la matriz B
+        System.out.println("B = ");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print("|" + matriz2[i][j] + "|");
+            }
+            System.out.println();
+        }
+        // Definir variables para el calculo de las matrices
         int filas1 = matriz1.length;
         int columnas1 = matriz1[0].length;
         int filas2 = matriz2.length;
         int columnas2 = matriz2[0].length;
         int i, j, k;
+        // Asignar filas y columnas a la matriz resultado
         double[][] resultado = new double[filas1][columnas2];
         for (i = 0; i < filas1; i++) {
             for (j = 0; j < columnas2; j++) {
@@ -271,18 +312,37 @@ public class MatricesApp {
                 }
             }
         }
+        // Mostrar los valores de la matriz resultado
+        System.out.println("A * B = ");
+        for (i = 0; i < filas1; i++) {
+            for (j = 0; j < columnas2; j++) {
+                System.out.print("|" + resultado[i][j] + "|");
+            }
+            System.out.println();
+        }
     }
 
     // Metodo para definir si una matriz es una matriz de identidad
     private static boolean esMatrizIdentidad() throws NumberFormatException, IOException {
         System.out.println("*** Identidad de matrices ***");
+        // Definir variables para la matriz A
         double[][] matriz = new double[3][3];
-        System.out.println("Ingresar valores: ");
+        // Leer valores de la matriz A
+        System.out.println("Ingresar valores para la Matriz A: ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 matriz[i][j] = Double.parseDouble(br.readLine());
             }
         }
+        // Mostrar los valores de la matriz A
+        System.out.println("A = ");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print("|" + matriz[i][j] + "|");
+            }
+            System.out.println();
+        }
+        // Definir variables para el calculo de la matriz
         int filas = matriz.length;
         int columnas = matriz[0].length;
         int i, j;
@@ -302,61 +362,113 @@ public class MatricesApp {
     // Metodo para multiplicacion por una matriz identidad
     private static void multiplicacionMatrizIdentidad() throws NumberFormatException, IOException {
         System.out.println("*** Multiplicacion por matriz identidad ***");
+        // Definir variables para la matriz A
         double[][] matriz = new double[3][3];
-        System.out.println("Ingresar valores: ");
+        // Leer valores de la matriz A
+        System.out.println("Ingresar valores para la Matriz A: ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 matriz[i][j] = Double.parseDouble(br.readLine());
             }
         }
+        // Mostrar los valores de la matriz A
+        System.out.println("A = ");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print("|" + matriz[i][j] + "|");
+            }
+            System.out.println();
+        }
+        // Definir variables para el calculo de la matriz
         int filas = matriz.length;
         int columnas = matriz[0].length;
         int i, j, k;
+        // Asignar filas y columnas a la matriz resultado
         double[][] resultado = new double[filas][columnas];
         for (i = 0; i < filas; i++) {
             for (j = 0; j < columnas; j++) {
                 resultado[i][j] = 0;
                 for (k = 0; k < columnas; k++) {
-                    System.out.println(resultado[i][j] += matriz[i][k] * resultado[k][j]);
+                    resultado[i][j] += matriz[i][k] * resultado[k][j];
                 }
             }
+        }
+        // Mostrar los valores de la matriz resultado
+        System.out.println("A * A^-1 = ");
+        for (i = 0; i < filas; i++) {
+            for (j = 0; j < columnas; j++) {
+                System.out.print("|" + resultado[i][j] + "|");
+            }
+            System.out.println();
         }
     }
 
     // Metodo para calcular la transpuesta de una matriz
     private static void MatrizTranspuesta() throws NumberFormatException, IOException {
         System.out.println("*** Transpuesta de matrices ***");
+        // Definir variables para la matriz A
         double[][] matriz = new double[3][3];
-        System.out.println("Ingresar valores: ");
+        // Leer valores de la matriz A
+        System.out.println("Ingresar valores para la Matriz A: ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 matriz[i][j] = Double.parseDouble(br.readLine());
             }
         }
+        // Mostrar los valores de la matriz A
+        System.out.println("A = ");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print("|" + matriz[i][j] + "|");
+            }
+            System.out.println();
+        }
+        // Definir variables para el calculo de la matriz
         int filas = matriz.length;
         int columnas = matriz[0].length;
         int i, j;
+        // Asignar filas y columnas a la matriz resultado
         double[][] resultado = new double[columnas][filas];
         for (i = 0; i < columnas; i++) {
             for (j = 0; j < filas; j++) {
-                System.out.println(resultado[i][j] = matriz[j][i]);
+                resultado[i][j] = matriz[j][i];
             }
+        }
+        // Mostrar los valores de la matriz resultado
+        System.out.println("A^T = ");
+        for (i = 0; i < columnas; i++) {
+            for (j = 0; j < filas; j++) {
+                System.out.print("|" + resultado[i][j] + "|");
+            }
+            System.out.println();
         }
     }
 
     // Metodo para calcular si una matriz es simetrica o no
     private static boolean matrizEsSimetrica() throws NumberFormatException, IOException {
         System.out.println("*** Matriz simetrica ***");
+        // Definir variables para la matriz A
         double[][] matriz = new double[3][3];
-        System.out.println("Ingresar valores: ");
+        // Leer valores de la matriz A
+        System.out.println("Ingresar valores para la Matriz A: ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 matriz[i][j] = Double.parseDouble(br.readLine());
             }
         }
+        // Mostrar los valores de la matriz A
+        System.out.println("A = ");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print("|" + matriz[i][j] + "|");
+            }
+            System.out.println();
+        }
+        // Definir variables para el calculo de la matriz
         int filas = matriz.length;
         int columnas = matriz[0].length;
         int i, j;
+        // Asignar filas y columnas a la matriz resultado
         for (i = 0; i < filas; i++) {
             for (j = 0; j < columnas; j++) {
                 if (matriz[i][j] != matriz[j][i]) {
