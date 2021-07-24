@@ -83,7 +83,6 @@ public class Matrices {
     public double[][] CalcularMultiplicacionMatrices(double[][] matrizA, double[][] matrizB) {
         int filas1 = matrizA.length;
         int columnas1 = matrizA[0].length;
-        int filas2 = matrizB.length;
         int columnas2 = matrizB[0].length;
         int i, j, k;
 

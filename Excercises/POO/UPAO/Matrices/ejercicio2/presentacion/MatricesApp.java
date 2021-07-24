@@ -286,15 +286,13 @@ public class MatricesApp {
         matrizResultado = logica.CalcularMultiplicacionMatrizIdentidad(matriz);
         int filas = matrizResultado.length;
         int columnas = matrizResultado[0].length;
-        int i, j, k;
+        int i, j;
         // Mostrar los valores de la matriz resultado
         for (i = 0; i < filas; i++) {
             for (j = 0; j < columnas; j++) {
-                for (k = 0; k < columnas; k++) {
-                    JOptionPane.showMessageDialog(null,
-                            " | " + matrizResultado[i][j] + " |  [" + (i + 1) + "," + (j + 1) + "]",
-                            "Matriz resultado (A * A^-1)", JOptionPane.PLAIN_MESSAGE);
-                }
+                JOptionPane.showMessageDialog(null,
+                        " | " + matrizResultado[i][j] + " |  [" + (i + 1) + "," + (j + 1) + "]",
+                        "Matriz resultado (A * A^-1)", JOptionPane.PLAIN_MESSAGE);
             }
         }
     }
