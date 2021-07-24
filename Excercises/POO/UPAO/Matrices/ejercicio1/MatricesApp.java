@@ -93,7 +93,7 @@ public class MatricesApp {
         System.out.println("Matriz A:");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                System.out.print(matriz[i][j] + " ");
+                System.out.print(" | " + matriz[i][j] + " | ");
             }
             System.out.println();
         }
@@ -138,7 +138,7 @@ public class MatricesApp {
         System.out.println("Matriz resultado:");
         for (i = 0; i < filas; i++) {
             for (j = 0; j < columnas; j++) {
-                System.out.print(matriz[i][j] + " ");
+                System.out.print(" | " + matriz[i][j] + " | ");
             }
             System.out.println();
         }
@@ -176,7 +176,7 @@ public class MatricesApp {
         System.out.println("B = ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                System.out.print("|" + matriz2[i][j] + "|");
+                System.out.print(" | " + matriz2[i][j] + " | ");
             }
             System.out.println();
         }
@@ -197,7 +197,7 @@ public class MatricesApp {
         System.out.println("A + B = ");
         for (i = 0; i < filas1; i++) {
             for (j = 0; j < columnas1; j++) {
-                System.out.print("|" + resultado[i][j] + "|");
+                System.out.print(" | " + resultado[i][j] + " | ");
             }
             System.out.println();
         }
@@ -234,7 +234,7 @@ public class MatricesApp {
         System.out.println("B = ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                System.out.print("|" + matriz2[i][j] + "|");
+                System.out.print(" | " + matriz2[i][j] + " | ");
             }
             System.out.println();
         }
@@ -255,7 +255,7 @@ public class MatricesApp {
         System.out.println("A - B = ");
         for (i = 0; i < filas1; i++) {
             for (j = 0; j < columnas1; j++) {
-                System.out.print("|" + resultado[i][j] + "|");
+                System.out.print(" | " + resultado[i][j] + " | ");
             }
             System.out.println();
         }
@@ -292,7 +292,7 @@ public class MatricesApp {
         System.out.println("B = ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                System.out.print("|" + matriz2[i][j] + "|");
+                System.out.print(" | " + matriz2[i][j] + " | ");
             }
             System.out.println();
         }
@@ -316,7 +316,7 @@ public class MatricesApp {
         System.out.println("A * B = ");
         for (i = 0; i < filas1; i++) {
             for (j = 0; j < columnas2; j++) {
-                System.out.print("|" + resultado[i][j] + "|");
+                System.out.print(" | " + resultado[i][j] + " | ");
             }
             System.out.println();
         }
@@ -338,7 +338,7 @@ public class MatricesApp {
         System.out.println("A = ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                System.out.print("|" + matriz[i][j] + "|");
+                System.out.print(" | " + matriz[i][j] + " | ");
             }
             System.out.println();
         }
@@ -375,7 +375,7 @@ public class MatricesApp {
         System.out.println("A = ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                System.out.print("|" + matriz[i][j] + "|");
+                System.out.print(" | " + matriz[i][j] + " | ");
             }
             System.out.println();
         }
@@ -397,7 +397,7 @@ public class MatricesApp {
         System.out.println("A * A^-1 = ");
         for (i = 0; i < filas; i++) {
             for (j = 0; j < columnas; j++) {
-                System.out.print("|" + resultado[i][j] + "|");
+                System.out.print(" | " + resultado[i][j] + " | ");
             }
             System.out.println();
         }
@@ -419,7 +419,7 @@ public class MatricesApp {
         System.out.println("A = ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                System.out.print("|" + matriz[i][j] + "|");
+                System.out.print(" | " + matriz[i][j] + " | ");
             }
             System.out.println();
         }
@@ -438,7 +438,7 @@ public class MatricesApp {
         System.out.println("A^T = ");
         for (i = 0; i < columnas; i++) {
             for (j = 0; j < filas; j++) {
-                System.out.print("|" + resultado[i][j] + "|");
+                System.out.print(" | " + resultado[i][j] + " | ");
             }
             System.out.println();
         }
@@ -460,7 +460,7 @@ public class MatricesApp {
         System.out.println("A = ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                System.out.print("|" + matriz[i][j] + "|");
+                System.out.print(" | " + matriz[i][j] + " | ");
             }
             System.out.println();
         }
