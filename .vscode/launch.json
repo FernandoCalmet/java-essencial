@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MatricesApp",
+            "request": "launch",
+            "mainClass": "Excercises.POO.UPAO.Matrices.ejercicio1.MatricesApp",
+            "projectName": "Java_26d4883d"
+        },
+        {
+            "type": "java",
             "name": "Launch App",
             "request": "launch",
             "mainClass": "Excercises.POO.UPAO.Matrices.ejercicio1.App",

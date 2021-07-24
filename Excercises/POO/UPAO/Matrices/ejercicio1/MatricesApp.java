@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Fernando Calmet
@@ -61,7 +63,7 @@ public class MatricesApp {
     private static int menu() throws IOException {
         int opcion;
         do {
-            System.out.println("*** PROGRAMA DE MATRICES ***");
+            System.out.println("*** PROGRAMA DE MATRICES [3x3] ***");
             System.out.println("1. Eliminacion gausiana.");
             System.out.println("2. Suma de matrices.");
             System.out.println("3. Resta de matrices.");
@@ -129,12 +131,13 @@ public class MatricesApp {
         System.out.println("*** Suma de matrices ***");
         double[][] matriz1 = new double[3][3];
         double[][] matriz2 = new double[3][3];
-        System.out.println("Ingresar valores: ");
+        System.out.println("Ingresar valores para la Matriz 1: ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 matriz1[i][j] = Double.parseDouble(br.readLine());
             }
         }
+        System.out.println("Ingresar valores para la Matriz 2: ");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 matriz2[i][j] = Double.parseDouble(br.readLine());
