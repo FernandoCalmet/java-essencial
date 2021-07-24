@@ -206,8 +206,8 @@ public class MatricesApp {
         // Leer valores de la matriz B
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                matriz2[i][j] = Double.parseDouble(
-                        JOptionPane.showInputDialog("Ingrese el valor de la posicion " + (i + 1) + "," + (j + 1)));
+                matriz2[i][j] = Double.parseDouble(JOptionPane
+                        .showInputDialog("Matriz B: Ingrese el valor de la posicion " + (i + 1) + "," + (j + 1)));
             }
         }
         // Mostrar los valores de la matriz B
@@ -224,14 +224,12 @@ public class MatricesApp {
         int columnas1 = matriz1[0].length;
         int filas2 = matriz2.length;
         int columnas2 = matriz2[0].length;
-        int i, j, k;
+        int i, j;
         // Mostrar los valores de la matriz resultado
         for (i = 0; i < filas1; i++) {
             for (j = 0; j < columnas2; j++) {
-                for (k = 0; k < columnas1; k++) {
-                    JOptionPane.showMessageDialog(null, " | " + matriz[i][j] + " | ",
-                            "Matriz resultado (A * B) [" + (i + 1) + "," + (j + 1) + "]", JOptionPane.PLAIN_MESSAGE);
-                }
+                JOptionPane.showMessageDialog(null, " | " + matriz[i][j] + " | ",
+                        "Matriz resultado (A * B) [" + (i + 1) + "," + (j + 1) + "]", JOptionPane.PLAIN_MESSAGE);
             }
         }
     }
