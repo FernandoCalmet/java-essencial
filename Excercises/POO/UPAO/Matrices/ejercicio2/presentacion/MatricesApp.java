@@ -221,8 +221,6 @@ public class MatricesApp {
         double[][] matriz = new double[3][3];
         matriz = logica.CalcularMultiplicacionMatrices(matriz1, matriz2);
         int filas1 = matriz1.length;
-        int columnas1 = matriz1[0].length;
-        int filas2 = matriz2.length;
         int columnas2 = matriz2[0].length;
         int i, j;
         // Mostrar los valores de la matriz resultado
