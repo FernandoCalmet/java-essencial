@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Determinante",
+            "request": "launch",
+            "mainClass": "Excercises.POO.UPAO.Matrices.ejercicio2.logica.Determinante",
+            "projectName": "Java_26d4883d"
+        },
+        {
+            "type": "java",
+            "name": "Launch VistaPrincipal",
+            "request": "launch",
+            "mainClass": "Excercises.POO.UPAO.Matrices.ejercicio2.ui.VistaPrincipal",
+            "projectName": "Java_26d4883d"
+        },
+        {
+            "type": "java",
             "name": "Launch MatricesApp",
             "request": "launch",
             "mainClass": "Excercises.POO.UPAO.Matrices.ejercicio1.MatricesApp",
