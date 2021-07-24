@@ -1,4 +1,4 @@
-package Excercises.POO.UPAO.Matrices.ejercicio2.ui;
+package Excercises.POO.UPAO.Matrices.ejercicio3.ui;
 
 public class VistaPrincipal extends javax.swing.JFrame {
 

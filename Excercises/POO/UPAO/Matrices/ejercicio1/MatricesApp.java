@@ -13,9 +13,24 @@ public class MatricesApp {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {
+        menu();
+    }
+
+    private static void menu() throws IOException {
         int opcion;
         do {
-            opcion = menu();
+            System.out.println("*** PROGRAMA DE MATRICES [3x3] ***");
+            System.out.println("1. Eliminacion gausiana.");
+            System.out.println("2. Suma de matrices.");
+            System.out.println("3. Resta de matrices.");
+            System.out.println("4. Multiplicacion de matrices");
+            System.out.println("5. Definir si es una matriz identidad");
+            System.out.println("6. Multiplicar una matriz identidad");
+            System.out.println("7. Calcular la transpuesta de una matriz");
+            System.out.println("8. Calcular si una matriz es simetrica");
+            System.out.println("9. Fin del programa");
+            opcion = Integer.parseInt(br.readLine());
+
             switch (opcion) {
                 case 1:
                     eliminacionGaussiana();
@@ -55,26 +70,7 @@ public class MatricesApp {
                     finPrograma();
                     break;
             }
-        } while (opcion != 9);
-    }
-
-    private static int menu() throws IOException {
-        int opcion;
-        do {
-            System.out.println("*** PROGRAMA DE MATRICES [3x3] ***");
-            System.out.println("1. Eliminacion gausiana.");
-            System.out.println("2. Suma de matrices.");
-            System.out.println("3. Resta de matrices.");
-            System.out.println("4. Multiplicacion de matrices");
-            System.out.println("5. Definir si es una matriz identidad");
-            System.out.println("6. Multiplicar una matriz identidad");
-            System.out.println("7. Calcular la transpuesta de una matriz");
-            System.out.println("8. Calcular si una matriz es simetrica");
-            System.out.println("9. Fin del programa");
-            opcion = Integer.parseInt(br.readLine());
         } while (opcion < 1 || opcion > 9);
-
-        return opcion;
     }
 
     // Metodo eliminacion gausiana

@@ -1,4 +1,4 @@
-package Excercises.POO.UPAO.Matrices.ejercicio2.logica;
+package Excercises.POO.UPAO.Matrices.ejercicio3.logica;
 
 import java.util.Scanner;
 

@@ -1,8 +1,9 @@
-package Excercises.POO.UPAO.Matrices.ejercicio2.ui;
+package Excercises.POO.UPAO.Matrices.ejercicio3.ui;
 
 import javax.swing.JOptionPane;
-import Excercises.POO.UPAO.Matrices.ejercicio2.logica.Matriz;
-import Excercises.POO.UPAO.Matrices.ejercicio2.logica.Operacion;
+
+import Excercises.POO.UPAO.Matrices.ejercicio3.logica.Matriz;
+import Excercises.POO.UPAO.Matrices.ejercicio3.logica.Operacion;
 
 public class VistaMatrizAleatoria extends javax.swing.JFrame {
 
