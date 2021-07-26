@@ -1,7 +1,5 @@
 package Excercises.PDD.MiBanco.MiBanco3;
 
-import java.util.*;
-
 /**
  *
  * @author Fernando Calmet
