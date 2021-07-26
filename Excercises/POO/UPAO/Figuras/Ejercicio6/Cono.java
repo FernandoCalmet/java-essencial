@@ -8,7 +8,6 @@ package Excercises.POO.UPAO.Figuras.Ejercicio6;
 public class Cono extends Figura3D {
 
     private double h;
-    private double a;
 
     public Cono(String tipo, int x, int y, int z, double h) {
         super(tipo, x, y, z, h);
