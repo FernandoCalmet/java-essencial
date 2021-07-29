@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PruebaMain",
+            "request": "launch",
+            "mainClass": "Excercises.POO.UPAO.PatronesCreacionales.Singleton.Conexion.PruebaMain",
+            "projectName": "Java_26d4883d"
+        },
+        {
+            "type": "java",
+            "name": "Launch PruebaMain",
+            "request": "launch",
+            "mainClass": "Excercises.POO.UPAO.PatronesCreacionales.Singleton.Coche.singleton1.PruebaMain",
+            "projectName": "Java_26d4883d"
+        },
+        {
+            "type": "java",
+            "name": "Launch PruebaMain",
+            "request": "launch",
+            "mainClass": "Excercises.POO.UPAO.PatronesCreacionales.FactoryMethod.GestorArchivos.PruebaMain",
+            "projectName": "Java_26d4883d"
+        },
+        {
+            "type": "java",
             "name": "Launch MatricesApp",
             "request": "launch",
             "mainClass": "Excercises.POO.UPAO.Matrices.ejercicio2.presentacion.MatricesApp",
