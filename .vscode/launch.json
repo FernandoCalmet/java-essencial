@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PruebaMedible",
+            "request": "launch",
+            "mainClass": "Excercises.PDD.Medibles.ejercicio3.PruebaMedible",
+            "projectName": "Java_26d4883d"
+        },
+        {
+            "type": "java",
             "name": "Launch PruebaMain",
             "request": "launch",
             "mainClass": "Excercises.POO.UPAO.PatronesCreacionales.Singleton.Conexion.PruebaMain",
