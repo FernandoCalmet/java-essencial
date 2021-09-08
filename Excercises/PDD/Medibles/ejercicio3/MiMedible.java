@@ -19,7 +19,7 @@ public class MiMedible {
         this.medibles.add(medible);
     }
 
-    public double promedio() {
+    public double calcularPromedio() {
         double suma = 0;
         for (Medible item : medibles) {
             suma = suma + item.obtenerMedida();
@@ -28,9 +28,8 @@ public class MiMedible {
         return suma / medibles.size();
     }
 
-    public double maximo() {
+    public double calcularMaximo() {
         double max = 0;
-
         for (Medible item : medibles) {
             if (item.obtenerMedida() > max) {
                 max = item.obtenerMedida();

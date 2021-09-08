@@ -12,8 +12,8 @@ public class PruebaMedible {
         medibleCuentas.agregarMedibles(new CuentaBancaria("Julio", 150.50));
         medibleCuentas.agregarMedibles(new CuentaBancaria("Fernando", 210.30));
         System.out.println("CUENTAS");
-        System.out.println("El promedio de los saldos: " + medibleCuentas.toString() + "es: " + medibleCuentas.promedio());
-        System.out.println("El maximo valor entre los saldos: " + medibleCuentas.toString() + "es: " + medibleCuentas.maximo());
+        System.out.println("El promedio de los saldos: " + medibleCuentas.toString() + "es: " + medibleCuentas.calcularPromedio());
+        System.out.println("El maximo valor entre los saldos: " + medibleCuentas.toString() + "es: " + medibleCuentas.calcularMaximo());
 
         System.out.println("");
         MiMedible mediblePaises = new MiMedible();
@@ -21,8 +21,8 @@ public class PruebaMedible {
         mediblePaises.agregarMedibles(new Pais("Chile", 3500.80));
         mediblePaises.agregarMedibles(new Pais("Bolivia", 4000.10));
         System.out.println("PAISES");
-        System.out.println("El promedio de las superficies: " + mediblePaises.toString() + "es: " + mediblePaises.promedio());
-        System.out.println("El maximo valor de las superficies: " + mediblePaises.toString() + "es: " + mediblePaises.maximo());
+        System.out.println("El promedio de las superficies: " + mediblePaises.toString() + "es: " + mediblePaises.calcularPromedio());
+        System.out.println("El maximo valor de las superficies: " + mediblePaises.toString() + "es: " + mediblePaises.calcularMaximo());
 
         System.out.println("");
         MiMedible medibleObreros = new MiMedible();
@@ -30,7 +30,7 @@ public class PruebaMedible {
         medibleObreros.agregarMedibles(new Obrero("Fiorela", 70.00));
         medibleObreros.agregarMedibles(new Obrero("Victor", 85.68));
         System.out.println("OBREROS");
-        System.out.println("Peso promedio de los obreros: " + medibleObreros.toString() + "es: " + medibleObreros.promedio());
-        System.out.println("El peso maxima es: " + medibleObreros.toString() + "es: " + medibleObreros.maximo());
+        System.out.println("El promedio de peso: " + medibleObreros.toString() + "es: " + medibleObreros.calcularPromedio());
+        System.out.println("El maximo valor de los pesos: " + medibleObreros.toString() + "es: " + medibleObreros.calcularMaximo());
     }
 }
