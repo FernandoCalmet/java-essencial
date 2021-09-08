@@ -21,8 +21,8 @@ public class MiMedible {
 
     public double calcularPromedio() {
         double suma = 0;
-        for (Medible item : medibles) {
-            suma = suma + item.obtenerMedida();
+        for (Medible medible : medibles) {
+            suma = suma + medible.obtenerMedida();
         }
 
         return suma / medibles.size();
@@ -30,9 +30,9 @@ public class MiMedible {
 
     public double calcularMaximo() {
         double max = 0;
-        for (Medible item : medibles) {
-            if (item.obtenerMedida() > max) {
-                max = item.obtenerMedida();
+        for (Medible medible : medibles) {
+            if (medible.obtenerMedida() > max) {
+                max = medible.obtenerMedida();
             }
         }
         return max;
