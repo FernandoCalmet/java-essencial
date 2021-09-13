@@ -19,4 +19,9 @@ public class Pais implements Medible {
     public double obtenerMedida() {
         return this.superficie;
     }
+
+    @Override
+    public String obtenerReporte() {
+        return "Pais: " + this.nombre + " - Superficie: " + this.superficie;
+    }
 }

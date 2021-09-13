@@ -42,7 +42,7 @@ public class MiMedible {
     public String toString() {
         StringBuffer display = new StringBuffer();
         for (Medible medible : this.medibles) {
-            display.append(medible.obtenerMedida() + ", ");
+            display.append((String)medible.obtenerReporte() + "\n");
         }
         return display.toString();
     }

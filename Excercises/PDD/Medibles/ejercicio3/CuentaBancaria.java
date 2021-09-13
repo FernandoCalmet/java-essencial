@@ -19,4 +19,9 @@ public class CuentaBancaria implements Medible {
     public double obtenerMedida() {
         return this.saldo;
     }
+
+    @Override
+    public String obtenerReporte() {
+        return "Nombre: " + this.nombre + "\nSaldo: " + this.saldo;
+    }
 }

@@ -19,4 +19,9 @@ public class Obrero implements Medible {
     public double obtenerMedida() {
         return this.peso;
     }
+
+    @Override
+    public String obtenerReporte() {
+        return "Nombre: " + this.nombre + "\nPeso: " + this.peso;
+    }
 }

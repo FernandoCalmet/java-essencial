@@ -8,4 +8,5 @@ package Excercises.PDD.Medibles.ejercicio3;
 public interface Medible {
 
     public double obtenerMedida();
+    public String obtenerReporte();
 }
