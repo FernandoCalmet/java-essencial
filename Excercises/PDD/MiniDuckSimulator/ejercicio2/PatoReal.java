@@ -1,4 +1,4 @@
-package Excercises.PDD.MiniDuckSimulator;
+package Excercises.PDD.MiniDuckSimulator.ejercicio2;
 
 /**
  *
@@ -8,8 +8,8 @@ package Excercises.PDD.MiniDuckSimulator;
 public class PatoReal extends Pato {
 
     public PatoReal() {
-        volable = new VuelaConAlas();
-        cuaqueable = new Cuaqueo();
+        vuelo = new VueloConAlas();
+        sonido = new Cuaqueo();
     }
 
     @Override

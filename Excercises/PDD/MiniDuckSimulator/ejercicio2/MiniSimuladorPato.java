@@ -1,34 +1,34 @@
-package Excercises.PDD.MiniDuckSimulator;
+package Excercises.PDD.MiniDuckSimulator.ejercicio2;
 
 /**
  *
  * @author Fernando Calmet
  * @homepage https://github.com/FernandoCalmet
  */
-public class MiniDuckSimulator {
+public class MiniSimuladorPato {
 
     public static void main(String[] args) {
         Pato patoReal = new PatoReal();
         patoReal.mostrar();
-        patoReal.realizarCuaqueo();
+        patoReal.realizarSonido();
         patoReal.realizarVuelo();
         patoReal.nadar();
 
         Pato patoDeGoma = new PatoDeGoma();
         patoDeGoma.mostrar();
-        patoDeGoma.realizarCuaqueo();
+        patoDeGoma.realizarSonido();
         patoDeGoma.realizarVuelo();
         patoDeGoma.nadar();
 
         Pato patoSenuelo = new PatoSenuelo();
         patoSenuelo.mostrar();
-        patoSenuelo.realizarCuaqueo();
+        patoSenuelo.realizarSonido();
         patoSenuelo.realizarVuelo();
         patoSenuelo.nadar();
 
         Pato patoCabezaRoja = new PatoCabezaRoja();
         patoCabezaRoja.mostrar();
-        patoCabezaRoja.realizarCuaqueo();
+        patoCabezaRoja.realizarSonido();
         patoCabezaRoja.realizarVuelo();
         patoCabezaRoja.nadar();
     }

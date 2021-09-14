@@ -1,4 +1,4 @@
-package Excercises.PDD.MiniDuckSimulator;
+package Excercises.PDD.MiniDuckSimulator.ejercicio1;
 
 /**
  *

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MiniSimuladorPato",
+            "request": "launch",
+            "mainClass": "Excercises.PDD.MiniDuckSimulator.ejercicio2.MiniSimuladorPato",
+            "projectName": "Java_26d4883d"
+        },
+        {
+            "type": "java",
+            "name": "Launch MiniDuckSimulator",
+            "request": "launch",
+            "mainClass": "Excercises.PDD.MiniDuckSimulator.MiniDuckSimulator",
+            "projectName": "Java_26d4883d"
+        },
+        {
+            "type": "java",
             "name": "Launch PruebaMedible",
             "request": "launch",
             "mainClass": "Excercises.PDD.Medibles.ejercicio3.PruebaMedible",

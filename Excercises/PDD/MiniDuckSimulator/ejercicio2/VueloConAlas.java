@@ -1,15 +1,14 @@
-package Excercises.PDD.MiniDuckSimulator;
+package Excercises.PDD.MiniDuckSimulator.ejercicio2;
 
 /**
  *
  * @author Fernando Calmet
  * @homepage https://github.com/FernandoCalmet
  */
-public class VuelaConAlas implements Volable {
+public class VueloConAlas implements IVuelo {
 
     @Override
-    public void volar() {
+    public void obtenerVuelo() {
         System.out.println("Puedo volar con mis alas");
     }
-
 }
