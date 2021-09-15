@@ -22,7 +22,7 @@ public class MiMedible {
     public double calcularPromedio() {
         double suma = 0;
         for (Medible medible : this.medibles) {
-            suma = suma + medible.obtenerMedida();
+            suma = +medible.obtenerMedida();
         }
 
         return suma / medibles.size();
@@ -42,7 +42,7 @@ public class MiMedible {
     public String toString() {
         StringBuffer display = new StringBuffer();
         for (Medible medible : this.medibles) {
-            display.append((String)medible.obtenerReporte() + "\n");
+            display.append((String) medible.obtenerReporte() + "\n");
         }
         return display.toString();
     }
