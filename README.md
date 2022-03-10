@@ -1,5 +1,10 @@
 # JAVA ♨️
 
+[![Github][github-shield]][github-url]
+[![Kofi][kofi-shield]][kofi-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Khanakat][khanakat-shield]][khanakat-url]
+
 Java es un lenguaje de programación de alto nivel desarrollado originalmente por Sun Microsystems y lanzado en 1995. Java se ejecuta en una variedad de plataformas, como Windows, Mac OS y las distintas versiones de UNIX. Este tutorial proporciona una comprensión completa de Java. Esta referencia lo llevará a través de enfoques simples y prácticos mientras aprende el lenguaje de programación Java.
 
 ## ¿Por qué aprender a programar en Java`?`
@@ -69,8 +74,12 @@ Antes de comenzar a practicar varios tipos de ejemplos que se dan en esta refere
 
 📚 [Avanzado]](Advanced/)
 
----
-
-:octocat: [Check more about Java in my repository.](https://github.com/FernandoCalmet/Java)
-
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T41JKMI)
+<!--- reference style links --->
+[github-shield]: https://img.shields.io/badge/-@fernandocalmet-%23181717?style=flat-square&logo=github
+[github-url]: https://github.com/fernandocalmet
+[kofi-shield]: https://img.shields.io/badge/-@fernandocalmet-%231DA1F2?style=flat-square&logo=kofi&logoColor=ff5f5f
+[kofi-url]: https://ko-fi.com/fernandocalmet
+[linkedin-shield]: https://img.shields.io/badge/-fernandocalmet-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fernandocalmet
+[linkedin-url]: https://www.linkedin.com/in/fernandocalmet
+[khanakat-shield]: https://img.shields.io/badge/khanakat.com-brightgreen?style=flat-square
+[khanakat-url]: https://khanakat.com
